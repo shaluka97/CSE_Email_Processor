@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coverage
+
+# MyPy
+.mypy_cache/
+
+# Environment / Secrets — NEVER commit these
+.env
+credentials.json
+token.json
+
+# Data — store PDFs locally, not in git
+data/raw/*.pdf
+data/checkpoints/*.json
+logs/*.log
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Docker
+.docker/
+
+# AWS / Terraform state — contains secrets
+infrastructure/terraform/.terraform/
+infrastructure/terraform/*.tfstate
+infrastructure/terraform/*.tfstate.backup
+infrastructure/terraform/*.tfvars
+# Keep tfvars.example files
+!infrastructure/terraform/environments/*.tfvars.example

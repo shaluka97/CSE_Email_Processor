@@ -1,0 +1,61 @@
+# ─── Deploy Workflow (Week 5) ─────────────────────────────────────────────────
+# This workflow is a stub — fully wired in Week 5 (AWS deployment phase).
+# It will: build Docker → push to ECR → update Lambda function.
+
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy to AWS (Week 5)
+    runs-on: ubuntu-latest
+    # TODO (Week 5): Remove this condition and configure AWS credentials
+    if: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build, tag, and push image to ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: cse-pipeline
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          docker build --target production -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+
+      - name: Update Lambda function
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: cse-pipeline
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          aws lambda update-function-code \
+            --function-name cse-pipeline \
+            --image-uri $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+
+      - name: Wait for Lambda update
+        run: |
+          aws lambda wait function-updated --function-name cse-pipeline
+
+      - name: Smoke test (invoke Lambda)
+        run: |
+          aws lambda invoke \
+            --function-name cse-pipeline \
+            --payload '{"mode": "smoke_test"}' \
+            --cli-binary-format raw-in-base64-out \
+            response.json
+          cat response.json
