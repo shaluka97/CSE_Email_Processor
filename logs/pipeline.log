@@ -1,0 +1,1430 @@
+2026-02-21 21:34:03,782 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 21:34:03,783 [INFO] __main__: Resuming from checkpoint: 105 emails already processed.
+2026-02-21 21:34:03,783 [INFO] __main__: Starting backlog processor. Already processed: 105. dry_run=False
+2026-02-21 21:34:06,081 [INFO] src.email_scanner: Message 1990f3d91fd2e274 has direct PDF attachment: Comps - 03 September 2025.pdf
+2026-02-21 21:34:07,128 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-03_comps.pdf (119086 bytes)
+2026-02-21 21:34:07,129 [INFO] __main__: ✓ 1990f3d91fd2e274 → data/raw/2025-09-03_comps.pdf
+2026-02-21 21:34:07,921 [INFO] src.email_scanner: Message 1990a58f23ce3b95 has direct PDF attachment: Comps - 02 September 2025.pdf
+2026-02-21 21:34:08,448 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-02_comps.pdf (118695 bytes)
+2026-02-21 21:34:08,449 [INFO] __main__: ✓ 1990a58f23ce3b95 → data/raw/2025-09-02_comps.pdf
+2026-02-21 21:34:09,237 [INFO] src.email_scanner: Message 199058327556e8ba has direct PDF attachment: Comps - 01 September 2025.pdf
+2026-02-21 21:34:09,777 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-01_comps.pdf (119061 bytes)
+2026-02-21 21:34:09,778 [INFO] __main__: ✓ 199058327556e8ba → data/raw/2025-09-01_comps.pdf
+2026-02-21 21:34:10,558 [INFO] src.email_scanner: Message 198f596eeb55620d has direct PDF attachment: Comps - 29 August 2025.pdf
+2026-02-21 21:34:11,099 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-29_comps.pdf (119593 bytes)
+2026-02-21 21:34:11,099 [INFO] __main__: ✓ 198f596eeb55620d → data/raw/2025-08-29_comps.pdf
+2026-02-21 21:34:11,565 [WARNING] __main__: Interrupted by user. Progress saved to checkpoint.
+2026-02-21 21:34:11,566 [INFO] __main__: Backlog complete. downloaded=4 skipped=105 failed=0 total=109
+2026-02-21 21:34:58,321 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 21:34:58,321 [INFO] __main__: Starting backlog processor. Already processed: 0. dry_run=False
+2026-02-21 21:34:59,681 [INFO] src.email_scanner: Message 19c7b8ccb73b3dd7 has direct PDF attachment: Comps - 20 February 2026.pdf
+2026-02-21 21:35:00,670 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-20_comps.pdf (129329 bytes)
+2026-02-21 21:35:00,671 [INFO] __main__: ✓ 19c7b8ccb73b3dd7 → data/raw/2026-02-20_comps.pdf
+2026-02-21 21:35:01,984 [INFO] src.email_scanner: Message 19c758e70cb5e7df has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>​
+2026-02-21 21:35:02,780 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>​
+2026-02-21 21:35:03,674 [INFO] src.email_scanner: Message 19c707ff9b7eff56 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>​
+2026-02-21 21:35:04,396 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>​
+2026-02-21 21:35:05,206 [INFO] src.email_scanner: Message 19c6b51d10808aad has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>​
+2026-02-21 21:35:05,867 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>​
+2026-02-21 21:35:06,746 [INFO] src.email_scanner: Message 19c6618dcc252411 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>​
+2026-02-21 21:35:07,417 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>​
+2026-02-21 21:35:08,209 [INFO] src.email_scanner: Message 19c56bec06731233 has direct PDF attachment: Comps - 13 February 2026.pdf
+2026-02-21 21:35:08,700 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-13_comps.pdf (130516 bytes)
+2026-02-21 21:35:08,701 [INFO] __main__: ✓ 19c56bec06731233 → data/raw/2026-02-13_comps.pdf
+2026-02-21 21:35:09,613 [INFO] src.email_scanner: Message 19c51874b1725354 has direct PDF attachment: Comps - 12 February 2026.pdf
+2026-02-21 21:35:10,109 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-12_comps.pdf (129730 bytes)
+2026-02-21 21:35:10,109 [INFO] __main__: ✓ 19c51874b1725354 → data/raw/2026-02-12_comps.pdf
+2026-02-21 21:35:11,456 [INFO] src.email_scanner: Message 19c4c66d436aaad7 has direct PDF attachment: Comps - 11 February 2026.pdf
+2026-02-21 21:35:12,046 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-11_comps.pdf (129698 bytes)
+2026-02-21 21:35:12,046 [INFO] __main__: ✓ 19c4c66d436aaad7 → data/raw/2026-02-11_comps.pdf
+2026-02-21 21:35:12,890 [INFO] src.email_scanner: Message 19c47352dac39b4a has direct PDF attachment: Comps - 10 February 2026.pdf
+2026-02-21 21:35:13,393 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-10_comps.pdf (129664 bytes)
+2026-02-21 21:35:13,393 [INFO] __main__: ✓ 19c47352dac39b4a → data/raw/2026-02-10_comps.pdf
+2026-02-21 21:35:14,222 [INFO] src.email_scanner: Message 19c422a02a2b3cbf has direct PDF attachment: Comps - 9 February 2026.pdf
+2026-02-21 21:35:14,715 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-09_comps.pdf (129798 bytes)
+2026-02-21 21:35:14,715 [INFO] __main__: ✓ 19c422a02a2b3cbf → data/raw/2026-02-09_comps.pdf
+2026-02-21 21:35:15,558 [WARNING] __main__: Interrupted by user. Progress saved to checkpoint.
+2026-02-21 21:35:15,561 [INFO] __main__: Backlog complete. downloaded=6 skipped=0 failed=4 total=10
+2026-02-21 21:37:54,466 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 21:37:54,467 [INFO] __main__: Starting backlog processor. Already processed: 0. dry_run=False
+2026-02-21 21:37:56,331 [INFO] src.email_scanner: Message 19c7b8ccb73b3dd7 has direct PDF attachment: Comps - 20 February 2026.pdf
+2026-02-21 21:37:56,331 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-20_comps.pdf
+2026-02-21 21:37:56,332 [INFO] __main__: ✓ 19c7b8ccb73b3dd7 → data/raw/2026-02-20_comps.pdf
+2026-02-21 21:37:57,661 [INFO] src.email_scanner: Message 19c758e70cb5e7df has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>​
+2026-02-21 21:37:57,663 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44
+2026-02-21 21:37:58,425 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>
+2026-02-21 21:37:59,246 [INFO] src.email_scanner: Message 19c707ff9b7eff56 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>​
+2026-02-21 21:37:59,246 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo
+2026-02-21 21:37:59,918 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>
+2026-02-21 21:38:00,738 [INFO] src.email_scanner: Message 19c6b51d10808aad has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>​
+2026-02-21 21:38:00,739 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI
+2026-02-21 21:38:01,449 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>
+2026-02-21 21:38:02,274 [INFO] src.email_scanner: Message 19c6618dcc252411 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>​
+2026-02-21 21:38:02,274 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8
+2026-02-21 21:38:02,966 [ERROR] src.pdf_downloader: Response is not a PDF (Content-Type: text/html; charset=utf-8, first bytes: b'\r\n<!DOCT'). URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>
+2026-02-21 21:38:03,805 [INFO] src.email_scanner: Message 19c56bec06731233 has direct PDF attachment: Comps - 13 February 2026.pdf
+2026-02-21 21:38:03,805 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-13_comps.pdf
+2026-02-21 21:38:03,805 [INFO] __main__: ✓ 19c56bec06731233 → data/raw/2026-02-13_comps.pdf
+2026-02-21 21:38:04,631 [INFO] src.email_scanner: Message 19c51874b1725354 has direct PDF attachment: Comps - 12 February 2026.pdf
+2026-02-21 21:38:04,632 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-12_comps.pdf
+2026-02-21 21:38:04,632 [INFO] __main__: ✓ 19c51874b1725354 → data/raw/2026-02-12_comps.pdf
+2026-02-21 21:38:04,720 [WARNING] __main__: Interrupted by user. Progress saved to checkpoint.
+2026-02-21 21:38:04,723 [INFO] __main__: Backlog complete. downloaded=3 skipped=0 failed=4 total=7
+2026-02-21 22:05:16,683 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 22:05:16,684 [INFO] __main__: Starting backlog processor. Already processed: 0. dry_run=False
+2026-02-21 22:05:18,640 [INFO] src.email_scanner: Message 19c7b8ccb73b3dd7 has direct PDF attachment: Comps - 20 February 2026.pdf
+2026-02-21 22:05:18,640 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-20_comps.pdf
+2026-02-21 22:05:18,640 [INFO] __main__: ✓ 19c7b8ccb73b3dd7 → data/raw/2026-02-20_comps.pdf
+2026-02-21 22:05:19,923 [INFO] src.email_scanner: Message 19c758e70cb5e7df has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>​
+2026-02-21 22:05:19,924 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44
+2026-02-21 22:05:20,735 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:05:21,290 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:05:21,310 [INFO] src.browser_downloader: Launching browser for SharePoint download...
+2026-02-21 22:05:25,376 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:05:33,422 [ERROR] src.browser_downloader: Browser download failed: Page.evaluate: Target page, context or browser has been closed
+2026-02-21 22:05:33,422 [ERROR] src.pdf_downloader: Both anonymous and authenticated downloads failed for: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>
+2026-02-21 22:05:34,259 [INFO] src.email_scanner: Message 19c707ff9b7eff56 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>​
+2026-02-21 22:05:34,260 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo> → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo
+2026-02-21 22:05:35,041 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:05:35,041 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:05:35,135 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:05:58,941 [WARNING] __main__: Interrupted by user. Progress saved to checkpoint.
+2026-02-21 22:05:58,942 [INFO] __main__: Backlog complete. downloaded=1 skipped=0 failed=1 total=2
+2026-02-21 22:05:58,962 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-25' coro=<Page.close() running at /Users/shalukakalpajith/PycharmProjects/StockDetailAutomation/.venv/lib/python3.14/site-packages/playwright/_impl/_page.py:826> cb=[SyncBase._sync.<locals>.<lambda>() at /Users/shalukakalpajith/PycharmProjects/StockDetailAutomation/.venv/lib/python3.14/site-packages/playwright/_impl/_sync_base.py:111]>
+2026-02-21 22:05:58,963 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Waiter.reject_on_timeout.<locals>.reject() running at /Users/shalukakalpajith/PycharmProjects/StockDetailAutomation/.venv/lib/python3.14/site-packages/playwright/_impl/_waiter.py:86> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-21 22:09:01,292 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 22:09:01,293 [INFO] __main__: Starting backlog processor. Already processed: 0. dry_run=False
+2026-02-21 22:09:03,523 [INFO] src.email_scanner: Message 19c7b8ccb73b3dd7 has direct PDF attachment: Comps - 20 February 2026.pdf
+2026-02-21 22:09:03,524 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-20_comps.pdf
+2026-02-21 22:09:03,524 [INFO] __main__: ✓ 19c7b8ccb73b3dd7 → data/raw/2026-02-20_comps.pdf
+2026-02-21 22:09:04,333 [INFO] src.email_scanner: Message 19c758e70cb5e7df has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>​
+2026-02-21 22:09:04,334 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44 → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44
+2026-02-21 22:09:05,225 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:09:05,747 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:09:05,780 [INFO] src.browser_downloader: Launching browser for SharePoint download...
+2026-02-21 22:09:08,099 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:09:39,948 [ERROR] src.browser_downloader: Could not find a way to download the file
+2026-02-21 22:09:39,960 [ERROR] src.pdf_downloader: Both anonymous and authenticated downloads failed for: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44
+2026-02-21 22:09:40,759 [INFO] src.email_scanner: Message 19c707ff9b7eff56 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>​
+2026-02-21 22:09:40,760 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo
+2026-02-21 22:09:41,301 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:09:41,301 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:09:41,369 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:10:14,234 [INFO] src.pdf_downloader: Successfully downloaded via browser automation
+2026-02-21 22:10:14,235 [INFO] src.pdf_downloader: Saved OneDrive download → data/raw/2026-02-18_comps.pdf (3889536 bytes)
+2026-02-21 22:10:14,235 [INFO] __main__: ✓ 19c707ff9b7eff56 → data/raw/2026-02-18_comps.pdf
+2026-02-21 22:10:15,049 [INFO] src.email_scanner: Message 19c6b51d10808aad has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>​
+2026-02-21 22:10:15,049 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI
+2026-02-21 22:10:15,799 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:10:15,800 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:10:15,881 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:10:49,745 [INFO] src.pdf_downloader: Successfully downloaded via browser automation
+2026-02-21 22:10:49,746 [INFO] src.pdf_downloader: Saved OneDrive download → data/raw/2026-02-17_comps.pdf (3888735 bytes)
+2026-02-21 22:10:49,746 [INFO] __main__: ✓ 19c6b51d10808aad → data/raw/2026-02-17_comps.pdf
+2026-02-21 22:10:50,557 [INFO] src.email_scanner: Message 19c6618dcc252411 has OneDrive link: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>​
+2026-02-21 22:10:50,557 [INFO] src.pdf_downloader: Converted OneDrive URL: https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8 → https://lolcgroup-my.sharepoint.com/personal/dimagis_lolcsecurities_com/_layouts/15/download.aspx?share=IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8
+2026-02-21 22:10:51,362 [WARNING] src.pdf_downloader: Anonymous download returned non-PDF (Content-Type: text/html; charset=utf-8). Trying Microsoft Graph API with authentication...
+2026-02-21 22:10:51,363 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:10:51,416 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:11:24,492 [INFO] src.pdf_downloader: Successfully downloaded via browser automation
+2026-02-21 22:11:24,494 [INFO] src.pdf_downloader: Saved OneDrive download → data/raw/2026-02-16_comps.pdf (3889332 bytes)
+2026-02-21 22:11:24,494 [INFO] __main__: ✓ 19c6618dcc252411 → data/raw/2026-02-16_comps.pdf
+2026-02-21 22:11:25,325 [INFO] src.email_scanner: Message 19c56bec06731233 has direct PDF attachment: Comps - 13 February 2026.pdf
+2026-02-21 22:11:25,326 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-13_comps.pdf
+2026-02-21 22:11:25,326 [INFO] __main__: ✓ 19c56bec06731233 → data/raw/2026-02-13_comps.pdf
+2026-02-21 22:11:26,227 [INFO] src.email_scanner: Message 19c51874b1725354 has direct PDF attachment: Comps - 12 February 2026.pdf
+2026-02-21 22:11:26,228 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-12_comps.pdf
+2026-02-21 22:11:26,228 [INFO] __main__: ✓ 19c51874b1725354 → data/raw/2026-02-12_comps.pdf
+2026-02-21 22:11:27,054 [INFO] src.email_scanner: Message 19c4c66d436aaad7 has direct PDF attachment: Comps - 11 February 2026.pdf
+2026-02-21 22:11:27,054 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-11_comps.pdf
+2026-02-21 22:11:27,055 [INFO] __main__: ✓ 19c4c66d436aaad7 → data/raw/2026-02-11_comps.pdf
+2026-02-21 22:11:27,870 [INFO] src.email_scanner: Message 19c47352dac39b4a has direct PDF attachment: Comps - 10 February 2026.pdf
+2026-02-21 22:11:27,870 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-10_comps.pdf
+2026-02-21 22:11:27,870 [INFO] __main__: ✓ 19c47352dac39b4a → data/raw/2026-02-10_comps.pdf
+2026-02-21 22:11:28,737 [INFO] src.email_scanner: Message 19c422a02a2b3cbf has direct PDF attachment: Comps - 9 February 2026.pdf
+2026-02-21 22:11:28,737 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-09_comps.pdf
+2026-02-21 22:11:28,737 [INFO] __main__: ✓ 19c422a02a2b3cbf → data/raw/2026-02-09_comps.pdf
+2026-02-21 22:11:29,609 [INFO] src.email_scanner: Message 19c33282c6d44169 has direct PDF attachment: Comps - 6 February 2026.pdf
+2026-02-21 22:11:30,161 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-06_comps.pdf (129510 bytes)
+2026-02-21 22:11:30,162 [INFO] __main__: ✓ 19c33282c6d44169 → data/raw/2026-02-06_comps.pdf
+2026-02-21 22:11:30,388 [WARNING] __main__: Interrupted by user. Progress saved to checkpoint.
+2026-02-21 22:11:30,391 [INFO] __main__: Backlog complete. downloaded=10 skipped=0 failed=1 total=11
+2026-02-21 22:16:21,594 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 22:16:21,595 [INFO] __main__: Starting backlog processor. Already processed: 0. dry_run=False
+2026-02-21 22:16:23,967 [INFO] src.email_scanner: Message 19c7b8ccb73b3dd7 has direct PDF attachment: Comps - 20 February 2026.pdf
+2026-02-21 22:16:23,967 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-20_comps.pdf
+2026-02-21 22:16:23,967 [INFO] __main__: ✓ 19c7b8ccb73b3dd7 → data/raw/2026-02-20_comps.pdf
+2026-02-21 22:16:24,742 [INFO] src.email_scanner: Message 19c758e70cb5e7df has 2 OneDrive link(s): https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>
+2026-02-21 22:16:24,742 [INFO] __main__: Found 2 OneDrive URLs, will search for Comps file...
+2026-02-21 22:16:24,742 [INFO] src.pdf_downloader: Trying OneDrive URL 1/2...
+2026-02-21 22:16:24,745 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:16:24,763 [INFO] src.browser_downloader: Launching browser for SharePoint download...
+2026-02-21 22:16:26,417 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:16:59,285 [INFO] src.pdf_downloader: Downloaded file 'unknown.pdf' is not a Comps file, skipping...
+2026-02-21 22:16:59,286 [INFO] src.pdf_downloader: Trying OneDrive URL 2/2...
+2026-02-21 22:16:59,286 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:16:59,355 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:17:34,354 [INFO] src.pdf_downloader: Downloaded file 'unknown.pdf' is not a Comps file, skipping...
+2026-02-21 22:17:34,354 [ERROR] src.pdf_downloader: No Comps PDF found in any of the 2 OneDrive URLs
+2026-02-21 22:17:35,624 [INFO] src.email_scanner: Message 19c707ff9b7eff56 has 2 OneDrive link(s): https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDe40sxXM2TSLp4RNhC3uYGAeXjTU7W6Hkkmt3Tilu0oKo>
+2026-02-21 22:17:35,624 [INFO] __main__: Found 2 OneDrive URLs, will search for Comps file...
+2026-02-21 22:17:35,624 [INFO] src.pdf_downloader: Skipping duplicate (OneDrive): data/raw/2026-02-18_comps.pdf
+2026-02-21 22:17:35,624 [INFO] __main__: ✓ 19c707ff9b7eff56 → data/raw/2026-02-18_comps.pdf
+2026-02-21 22:17:36,903 [INFO] src.email_scanner: Message 19c6b51d10808aad has 2 OneDrive link(s): https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBrLrnt2gwzQL2Vuy4xf4P9AXEajU4R_Vwr0-0XsHWjkRI>
+2026-02-21 22:17:36,904 [INFO] __main__: Found 2 OneDrive URLs, will search for Comps file...
+2026-02-21 22:17:36,904 [INFO] src.pdf_downloader: Skipping duplicate (OneDrive): data/raw/2026-02-17_comps.pdf
+2026-02-21 22:17:36,904 [INFO] __main__: ✓ 19c6b51d10808aad → data/raw/2026-02-17_comps.pdf
+2026-02-21 22:17:37,719 [INFO] src.email_scanner: Message 19c6618dcc252411 has 2 OneDrive link(s): https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQDIPX_u6A7aRZzrrvg-idkcAbYupS-rdB2Ywn-ZNl6MzT8>
+2026-02-21 22:17:37,719 [INFO] __main__: Found 2 OneDrive URLs, will search for Comps file...
+2026-02-21 22:17:37,719 [INFO] src.pdf_downloader: Skipping duplicate (OneDrive): data/raw/2026-02-16_comps.pdf
+2026-02-21 22:17:37,719 [INFO] __main__: ✓ 19c6618dcc252411 → data/raw/2026-02-16_comps.pdf
+2026-02-21 22:17:38,525 [INFO] src.email_scanner: Message 19c56bec06731233 has direct PDF attachment: Comps - 13 February 2026.pdf
+2026-02-21 22:17:38,525 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-13_comps.pdf
+2026-02-21 22:17:38,525 [INFO] __main__: ✓ 19c56bec06731233 → data/raw/2026-02-13_comps.pdf
+2026-02-21 22:17:39,325 [INFO] src.email_scanner: Message 19c51874b1725354 has direct PDF attachment: Comps - 12 February 2026.pdf
+2026-02-21 22:17:39,325 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-12_comps.pdf
+2026-02-21 22:17:39,325 [INFO] __main__: ✓ 19c51874b1725354 → data/raw/2026-02-12_comps.pdf
+2026-02-21 22:17:40,125 [INFO] src.email_scanner: Message 19c4c66d436aaad7 has direct PDF attachment: Comps - 11 February 2026.pdf
+2026-02-21 22:17:40,125 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-11_comps.pdf
+2026-02-21 22:17:40,125 [INFO] __main__: ✓ 19c4c66d436aaad7 → data/raw/2026-02-11_comps.pdf
+2026-02-21 22:17:40,925 [INFO] src.email_scanner: Message 19c47352dac39b4a has direct PDF attachment: Comps - 10 February 2026.pdf
+2026-02-21 22:17:40,925 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-10_comps.pdf
+2026-02-21 22:17:40,925 [INFO] __main__: ✓ 19c47352dac39b4a → data/raw/2026-02-10_comps.pdf
+2026-02-21 22:17:41,735 [INFO] src.email_scanner: Message 19c422a02a2b3cbf has direct PDF attachment: Comps - 9 February 2026.pdf
+2026-02-21 22:17:41,735 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-09_comps.pdf
+2026-02-21 22:17:41,735 [INFO] __main__: ✓ 19c422a02a2b3cbf → data/raw/2026-02-09_comps.pdf
+2026-02-21 22:17:42,542 [INFO] src.email_scanner: Message 19c33282c6d44169 has direct PDF attachment: Comps - 6 February 2026.pdf
+2026-02-21 22:17:42,542 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2026-02-06_comps.pdf
+2026-02-21 22:17:42,542 [INFO] __main__: ✓ 19c33282c6d44169 → data/raw/2026-02-06_comps.pdf
+2026-02-21 22:17:43,353 [INFO] src.email_scanner: Message 19c2d822b341259e has direct PDF attachment: Comps - 5 February 2026.pdf
+2026-02-21 22:17:43,873 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-05_comps.pdf (129791 bytes)
+2026-02-21 22:17:43,873 [INFO] __main__: ✓ 19c2d822b341259e → data/raw/2026-02-05_comps.pdf
+2026-02-21 22:17:45,136 [INFO] src.email_scanner: Message 19c232b7fddf5188 has direct PDF attachment: Comps - 3 February 2026.pdf
+2026-02-21 22:17:45,673 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-03_comps.pdf (129749 bytes)
+2026-02-21 22:17:45,673 [INFO] __main__: ✓ 19c232b7fddf5188 → data/raw/2026-02-03_comps.pdf
+2026-02-21 22:17:46,464 [INFO] src.email_scanner: Message 19c1ebb1d3480b64 has direct PDF attachment: Comps - 2 February 2026.pdf
+2026-02-21 22:17:47,473 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-02-02_comps.pdf (129257 bytes)
+2026-02-21 22:17:47,473 [INFO] __main__: ✓ 19c1ebb1d3480b64 → data/raw/2026-02-02_comps.pdf
+2026-02-21 22:17:48,736 [INFO] src.email_scanner: Message 19c0eacbd1c43d34 has direct PDF attachment: Comps - 30 January 2026.pdf
+2026-02-21 22:17:49,697 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-30_comps.pdf (129561 bytes)
+2026-02-21 22:17:49,697 [INFO] __main__: ✓ 19c0eacbd1c43d34 → data/raw/2026-01-30_comps.pdf
+2026-02-21 22:17:50,496 [INFO] src.email_scanner: Message 19c097d44821f8ba has direct PDF attachment: Comps - 29 January 2026.pdf
+2026-02-21 22:17:50,932 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-29_comps.pdf (129687 bytes)
+2026-02-21 22:17:50,932 [INFO] __main__: ✓ 19c097d44821f8ba → data/raw/2026-01-29_comps.pdf
+2026-02-21 22:17:52,192 [INFO] src.email_scanner: Message 19c051bf71871b2c has direct PDF attachment: Comps - 28 January 2026.pdf
+2026-02-21 22:17:52,683 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-28_comps.pdf (129804 bytes)
+2026-02-21 22:17:52,683 [INFO] __main__: ✓ 19c051bf71871b2c → data/raw/2026-01-28_comps.pdf
+2026-02-21 22:17:53,971 [INFO] src.email_scanner: Message 19bff582c04f6e55 has direct PDF attachment: Comps - 27 January 2026.pdf
+2026-02-21 22:17:54,425 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-27_comps.pdf (129734 bytes)
+2026-02-21 22:17:54,425 [INFO] __main__: ✓ 19bff582c04f6e55 → data/raw/2026-01-27_comps.pdf
+2026-02-21 22:17:55,205 [INFO] src.email_scanner: Message 19bfa14893a08964 has direct PDF attachment: Comps - 26 January 2026.pdf
+2026-02-21 22:17:56,375 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-26_comps.pdf (129430 bytes)
+2026-02-21 22:17:56,375 [INFO] __main__: ✓ 19bfa14893a08964 → data/raw/2026-01-26_comps.pdf
+2026-02-21 22:17:57,496 [INFO] src.email_scanner: Message 19beac5268d40280 has direct PDF attachment: Comps - 23 January 2026.pdf
+2026-02-21 22:17:57,956 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-23_comps.pdf (129771 bytes)
+2026-02-21 22:17:57,956 [INFO] __main__: ✓ 19beac5268d40280 → data/raw/2026-01-23_comps.pdf
+2026-02-21 22:17:58,765 [INFO] src.email_scanner: Message 19be5730e1fce145 has direct PDF attachment: Comps - 22 January 2026.pdf
+2026-02-21 22:17:59,257 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-22_comps.pdf (129443 bytes)
+2026-02-21 22:17:59,257 [INFO] __main__: ✓ 19be5730e1fce145 → data/raw/2026-01-22_comps.pdf
+2026-02-21 22:18:00,577 [INFO] src.email_scanner: Message 19bdb56e4f1fe5ff has direct PDF attachment: Comps - 20 January 2026.pdf
+2026-02-21 22:18:01,052 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-20_comps.pdf (129200 bytes)
+2026-02-21 22:18:01,052 [INFO] __main__: ✓ 19bdb56e4f1fe5ff → data/raw/2026-01-20_comps.pdf
+2026-02-21 22:18:01,837 [INFO] src.email_scanner: Message 19bd61d06c29b3b6 has direct PDF attachment: Comps - 19 January 2026.pdf
+2026-02-21 22:18:02,311 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-19_comps.pdf (129927 bytes)
+2026-02-21 22:18:02,311 [INFO] __main__: ✓ 19bd61d06c29b3b6 → data/raw/2026-01-19_comps.pdf
+2026-02-21 22:18:03,155 [INFO] src.email_scanner: Message 19bc68973274808e has direct PDF attachment: Comps - 16 January 2026.pdf
+2026-02-21 22:18:03,619 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-16_comps.pdf (129600 bytes)
+2026-02-21 22:18:03,619 [INFO] __main__: ✓ 19bc68973274808e → data/raw/2026-01-16_comps.pdf
+2026-02-21 22:18:04,414 [INFO] src.email_scanner: Message 19bbc32390397517 has direct PDF attachment: Comps - 14 January 2026.pdf
+2026-02-21 22:18:04,847 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-14_comps.pdf (130012 bytes)
+2026-02-21 22:18:04,847 [INFO] __main__: ✓ 19bbc32390397517 → data/raw/2026-01-14_comps.pdf
+2026-02-21 22:18:05,676 [INFO] src.email_scanner: Message 19bb71ec6edb1b00 has direct PDF attachment: Comps - 13 January 2026.pdf
+2026-02-21 22:18:06,047 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-13_comps.pdf (129941 bytes)
+2026-02-21 22:18:06,047 [INFO] __main__: ✓ 19bb71ec6edb1b00 → data/raw/2026-01-13_comps.pdf
+2026-02-21 22:18:06,827 [INFO] src.email_scanner: Message 19bb1f5d6126c789 has direct PDF attachment: Comps - 12 January 2026.pdf
+2026-02-21 22:18:07,848 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-12_comps.pdf (123680 bytes)
+2026-02-21 22:18:07,848 [INFO] __main__: ✓ 19bb1f5d6126c789 → data/raw/2026-01-12_comps.pdf
+2026-02-21 22:18:09,102 [INFO] src.email_scanner: Message 19ba2abeeb464818 has direct PDF attachment: Comps - 09 January 2026.pdf
+2026-02-21 22:18:10,137 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-09_comps.pdf (123744 bytes)
+2026-02-21 22:18:10,137 [INFO] __main__: ✓ 19ba2abeeb464818 → data/raw/2026-01-09_comps.pdf
+2026-02-21 22:18:10,924 [INFO] src.email_scanner: Message 19b9e891811e4baf has direct PDF attachment: Comps - 08 January 2026.pdf
+2026-02-21 22:18:11,416 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-08_comps.pdf (130066 bytes)
+2026-02-21 22:18:11,416 [INFO] __main__: ✓ 19b9e891811e4baf → data/raw/2026-01-08_comps.pdf
+2026-02-21 22:18:12,730 [INFO] src.email_scanner: Message 19b963bef946e533 has direct PDF attachment: Comps - 06 January 2026.pdf
+2026-02-21 22:18:13,237 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-07_comps.pdf (123134 bytes)
+2026-02-21 22:18:13,237 [INFO] __main__: ✓ 19b963bef946e533 → data/raw/2026-01-07_comps.pdf
+2026-02-21 22:18:14,482 [INFO] src.email_scanner: Message 19b916fdd6720b50 has direct PDF attachment: Comps - 05 January 2026.pdf
+2026-02-21 22:18:14,895 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-06_comps.pdf (123640 bytes)
+2026-02-21 22:18:14,895 [INFO] __main__: ✓ 19b916fdd6720b50 → data/raw/2026-01-06_comps.pdf
+2026-02-21 22:18:15,669 [INFO] src.email_scanner: Message 19b7f8677e867a2b has direct PDF attachment: Comps - 02 January 2026.pdf
+2026-02-21 22:18:16,146 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2026-01-02_comps.pdf (123271 bytes)
+2026-02-21 22:18:16,146 [INFO] __main__: ✓ 19b7f8677e867a2b → data/raw/2026-01-02_comps.pdf
+2026-02-21 22:18:16,918 [INFO] src.email_scanner: Message 19b74641acfb0d19 has direct PDF attachment: Comps - 31 December 2025.pdf
+2026-02-21 22:18:17,362 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-31_comps.pdf (123598 bytes)
+2026-02-21 22:18:17,362 [INFO] __main__: ✓ 19b74641acfb0d19 → data/raw/2025-12-31_comps.pdf
+2026-02-21 22:18:18,629 [INFO] src.email_scanner: Message 19b6ee81d9d9fb07 has direct PDF attachment: Comps - 30 December 2025.pdf
+2026-02-21 22:18:19,054 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-30_comps.pdf (123308 bytes)
+2026-02-21 22:18:19,054 [INFO] __main__: ✓ 19b6ee81d9d9fb07 → data/raw/2025-12-30_comps.pdf
+2026-02-21 22:18:19,820 [INFO] src.email_scanner: Message 19b69c1dce409509 has direct PDF attachment: Comps - 29 December 2025.pdf
+2026-02-21 22:18:20,277 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-29_comps.pdf (123287 bytes)
+2026-02-21 22:18:20,277 [INFO] __main__: ✓ 19b69c1dce409509 → data/raw/2025-12-29_comps.pdf
+2026-02-21 22:18:21,515 [INFO] src.email_scanner: Message 19b5ab7c5d1f29ac has direct PDF attachment: Comps - 26 December 2025.pdf
+2026-02-21 22:18:21,925 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-26_comps.pdf (123024 bytes)
+2026-02-21 22:18:21,925 [INFO] __main__: ✓ 19b5ab7c5d1f29ac → data/raw/2025-12-26_comps.pdf
+2026-02-21 22:18:22,693 [INFO] src.email_scanner: Message 19b504dc02466dab has direct PDF attachment: Comps - 24 December 2025.pdf
+2026-02-21 22:18:23,170 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-24_comps.pdf (122969 bytes)
+2026-02-21 22:18:23,171 [INFO] __main__: ✓ 19b504dc02466dab → data/raw/2025-12-24_comps.pdf
+2026-02-21 22:18:24,012 [INFO] src.email_scanner: Message 19b4b0c4e042959b has direct PDF attachment: Comps - 23 December 2025.pdf
+2026-02-21 22:18:24,477 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-23_comps.pdf (123149 bytes)
+2026-02-21 22:18:24,477 [INFO] __main__: ✓ 19b4b0c4e042959b → data/raw/2025-12-23_comps.pdf
+2026-02-21 22:18:25,726 [INFO] src.email_scanner: Message 19b45d422eae426f has direct PDF attachment: Comps - 22 December 2025.pdf
+2026-02-21 22:18:26,173 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-22_comps.pdf (122834 bytes)
+2026-02-21 22:18:26,173 [INFO] __main__: ✓ 19b45d422eae426f → data/raw/2025-12-22_comps.pdf
+2026-02-21 22:18:26,938 [INFO] src.email_scanner: Message 19b365fa2159bb2c has direct PDF attachment: Comps - 19 December 2025.pdf
+2026-02-21 22:18:27,486 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-19_comps.pdf (123458 bytes)
+2026-02-21 22:18:27,487 [INFO] __main__: ✓ 19b365fa2159bb2c → data/raw/2025-12-19_comps.pdf
+2026-02-21 22:18:28,270 [INFO] src.email_scanner: Message 19b3135e8658161c has direct PDF attachment: Comps - 18  December 2025.pdf
+2026-02-21 22:18:28,727 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-18_comps.pdf (123454 bytes)
+2026-02-21 22:18:28,727 [INFO] __main__: ✓ 19b3135e8658161c → data/raw/2025-12-18_comps.pdf
+2026-02-21 22:18:29,512 [INFO] src.email_scanner: Message 19b2c02124ff2f69 has direct PDF attachment: Comps - 17 December 2025.pdf
+2026-02-21 22:18:30,539 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-17_comps.pdf (123311 bytes)
+2026-02-21 22:18:30,540 [INFO] __main__: ✓ 19b2c02124ff2f69 → data/raw/2025-12-17_comps.pdf
+2026-02-21 22:18:31,785 [INFO] src.email_scanner: Message 19b1251610c39910 has direct PDF attachment: Comps - 12 December 2025.pdf
+2026-02-21 22:18:32,197 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-12_comps.pdf (123044 bytes)
+2026-02-21 22:18:32,197 [INFO] __main__: ✓ 19b1251610c39910 → data/raw/2025-12-12_comps.pdf
+2026-02-21 22:18:32,984 [INFO] src.email_scanner: Message 19b0d59b681c6548 has direct PDF attachment: Comps - 11 December 2025.pdf
+2026-02-21 22:18:33,511 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-11_comps.pdf (123323 bytes)
+2026-02-21 22:18:33,512 [INFO] __main__: ✓ 19b0d59b681c6548 → data/raw/2025-12-11_comps.pdf
+2026-02-21 22:18:34,287 [INFO] src.email_scanner: Message 19b0832eb15736cd has direct PDF attachment: Comps - 10 December 2025.pdf
+2026-02-21 22:18:34,783 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-10_comps.pdf (123298 bytes)
+2026-02-21 22:18:34,783 [INFO] __main__: ✓ 19b0832eb15736cd → data/raw/2025-12-10_comps.pdf
+2026-02-21 22:18:36,035 [INFO] src.email_scanner: Message 19b02db28223faed has direct PDF attachment: Comps - 09 December 2025.pdf
+2026-02-21 22:18:36,496 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-09_comps.pdf (123667 bytes)
+2026-02-21 22:18:36,496 [INFO] __main__: ✓ 19b02db28223faed → data/raw/2025-12-09_comps.pdf
+2026-02-21 22:18:37,294 [INFO] src.email_scanner: Message 19afda7058e51e53 has direct PDF attachment: Comps - 08 December 2025.pdf
+2026-02-21 22:18:37,719 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-08_comps.pdf (123531 bytes)
+2026-02-21 22:18:37,719 [INFO] __main__: ✓ 19afda7058e51e53 → data/raw/2025-12-08_comps.pdf
+2026-02-21 22:18:38,504 [INFO] src.email_scanner: Message 19aee615686c2b4c has direct PDF attachment: Comps - 05 December 2025.pdf
+2026-02-21 22:18:39,044 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-05_comps.pdf (123336 bytes)
+2026-02-21 22:18:39,045 [INFO] __main__: ✓ 19aee615686c2b4c → data/raw/2025-12-05_comps.pdf
+2026-02-21 22:18:39,850 [INFO] src.email_scanner: Message 19ae3ef36e50b3ea has direct PDF attachment: Comps - 03 December 2025.pdf
+2026-02-21 22:18:40,301 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-03_comps.pdf (123538 bytes)
+2026-02-21 22:18:40,301 [INFO] __main__: ✓ 19ae3ef36e50b3ea → data/raw/2025-12-03_comps.pdf
+2026-02-21 22:18:41,100 [INFO] src.email_scanner: Message 19ad9ab72b776c77 has direct PDF attachment: Comps- 01 December 2025.pdf
+2026-02-21 22:18:41,609 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-12-01_comps.pdf (123451 bytes)
+2026-02-21 22:18:41,609 [INFO] __main__: ✓ 19ad9ab72b776c77 → data/raw/2025-12-01_comps.pdf
+2026-02-21 22:18:42,699 [INFO] src.email_scanner: Message 19acaddaaebfb585 has direct PDF attachment: Comps- 28 November 2025.pdf
+2026-02-21 22:18:43,194 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-28_comps.pdf (122879 bytes)
+2026-02-21 22:18:43,194 [INFO] __main__: ✓ 19acaddaaebfb585 → data/raw/2025-11-28_comps.pdf
+2026-02-21 22:18:43,991 [INFO] src.email_scanner: Message 19abff9260a55545 has direct PDF attachment: Comps- 26 November 2025.pdf
+2026-02-21 22:18:44,396 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-26_comps.pdf (123053 bytes)
+2026-02-21 22:18:44,396 [INFO] __main__: ✓ 19abff9260a55545 → data/raw/2025-11-26_comps.pdf
+2026-02-21 22:18:45,634 [INFO] src.email_scanner: Message 19abaaaa9c8210d5 has direct PDF attachment: Comps- 25 November 2025.pdf
+2026-02-21 22:18:46,097 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-25_comps.pdf (122783 bytes)
+2026-02-21 22:18:46,097 [INFO] __main__: ✓ 19abaaaa9c8210d5 → data/raw/2025-11-25_comps.pdf
+2026-02-21 22:18:46,884 [INFO] src.email_scanner: Message 19ab596679efa64f has direct PDF attachment: Comps- 24 November 2025.pdf
+2026-02-21 22:18:47,912 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-24_comps.pdf (123178 bytes)
+2026-02-21 22:18:47,912 [INFO] __main__: ✓ 19ab596679efa64f → data/raw/2025-11-24_comps.pdf
+2026-02-21 22:18:48,700 [INFO] src.email_scanner: Message 19aa6f56e33f2e96 has direct PDF attachment: Comps- 21 November 2025.pdf
+2026-02-21 22:18:49,147 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-21_comps.pdf (123167 bytes)
+2026-02-21 22:18:49,147 [INFO] __main__: ✓ 19aa6f56e33f2e96 → data/raw/2025-11-21_comps.pdf
+2026-02-21 22:18:49,926 [INFO] src.email_scanner: Message 19aa10a22c10189c has direct PDF attachment: Comps- 20 November 2025.pdf
+2026-02-21 22:18:50,395 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-20_comps.pdf (122738 bytes)
+2026-02-21 22:18:50,395 [INFO] __main__: ✓ 19aa10a22c10189c → data/raw/2025-11-20_comps.pdf
+2026-02-21 22:18:51,168 [INFO] src.email_scanner: Message 19a9bd1d08fc8345 has direct PDF attachment: Comps - 19 November 2025.pdf
+2026-02-21 22:18:51,639 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-19_comps.pdf (122734 bytes)
+2026-02-21 22:18:51,639 [INFO] __main__: ✓ 19a9bd1d08fc8345 → data/raw/2025-11-19_comps.pdf
+2026-02-21 22:18:52,418 [INFO] src.email_scanner: Message 19a9699d9849fb96 has direct PDF attachment: Comps- 18 November 2025.pdf
+2026-02-21 22:18:52,908 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-18_comps.pdf (124379 bytes)
+2026-02-21 22:18:52,908 [INFO] __main__: ✓ 19a9699d9849fb96 → data/raw/2025-11-18_comps.pdf
+2026-02-21 22:18:54,158 [INFO] src.email_scanner: Message 19a9179729e60eb1 has direct PDF attachment: Comps- 17 November 2025.pdf
+2026-02-21 22:18:54,664 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-17_comps.pdf (123903 bytes)
+2026-02-21 22:18:54,664 [INFO] __main__: ✓ 19a9179729e60eb1 → data/raw/2025-11-17_comps.pdf
+2026-02-21 22:18:55,463 [INFO] src.email_scanner: Message 19a820428795e587 has direct PDF attachment: Comps- 14 November 2025.pdf
+2026-02-21 22:18:56,523 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-14_comps.pdf (123876 bytes)
+2026-02-21 22:18:56,523 [INFO] __main__: ✓ 19a820428795e587 → data/raw/2025-11-14_comps.pdf
+2026-02-21 22:18:57,282 [INFO] src.email_scanner: Message 19a77b59e6eab1c0 has direct PDF attachment: Comps- 12 November 2025.pdf
+2026-02-21 22:18:57,806 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-12_comps.pdf (123753 bytes)
+2026-02-21 22:18:57,806 [INFO] __main__: ✓ 19a77b59e6eab1c0 → data/raw/2025-11-12_comps.pdf
+2026-02-21 22:18:58,594 [INFO] src.email_scanner: Message 19a728db313fcea2 has direct PDF attachment: Comps- 11  November 2025.pdf
+2026-02-21 22:18:59,108 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-11_comps.pdf (123825 bytes)
+2026-02-21 22:18:59,108 [INFO] __main__: ✓ 19a728db313fcea2 → data/raw/2025-11-11_comps.pdf
+2026-02-21 22:19:00,344 [INFO] src.email_scanner: Message 19a6da52b50d1f9b has direct PDF attachment: Comps - 10 November 2025.pdf
+2026-02-21 22:19:00,835 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-10_comps.pdf (123903 bytes)
+2026-02-21 22:19:00,835 [INFO] __main__: ✓ 19a6da52b50d1f9b → data/raw/2025-11-10_comps.pdf
+2026-02-21 22:19:01,630 [INFO] src.email_scanner: Message 19a5e64e420a3a26 has direct PDF attachment: Comps- 07  November 2025.pdf
+2026-02-21 22:19:02,190 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-07_comps.pdf (123575 bytes)
+2026-02-21 22:19:02,190 [INFO] __main__: ✓ 19a5e64e420a3a26 → data/raw/2025-11-07_comps.pdf
+2026-02-21 22:19:02,989 [INFO] src.email_scanner: Message 19a58d637b041a03 has direct PDF attachment: Comps- 06 November 2025.pdf
+2026-02-21 22:19:03,470 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-06_comps.pdf (123755 bytes)
+2026-02-21 22:19:03,470 [INFO] __main__: ✓ 19a58d637b041a03 → data/raw/2025-11-06_comps.pdf
+2026-02-21 22:19:04,248 [INFO] src.email_scanner: Message 19a4e863e11b0338 has direct PDF attachment: Comps- 04 November 2025.pdf
+2026-02-21 22:19:04,671 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-04_comps.pdf (123652 bytes)
+2026-02-21 22:19:04,671 [INFO] __main__: ✓ 19a4e863e11b0338 → data/raw/2025-11-04_comps.pdf
+2026-02-21 22:19:05,469 [INFO] src.email_scanner: Message 19a4965ec57cce14 has direct PDF attachment: Comps- 03 November 2025.pdf
+2026-02-21 22:19:05,886 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-11-03_comps.pdf (123646 bytes)
+2026-02-21 22:19:05,886 [INFO] __main__: ✓ 19a4965ec57cce14 → data/raw/2025-11-03_comps.pdf
+2026-02-21 22:19:06,675 [INFO] src.email_scanner: Message 19a3a8acfec35ba8 has direct PDF attachment: Comps- 31 October 2025.pdf
+2026-02-21 22:19:07,075 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-31_comps.pdf (124005 bytes)
+2026-02-21 22:19:07,076 [INFO] __main__: ✓ 19a3a8acfec35ba8 → data/raw/2025-10-31_comps.pdf
+2026-02-21 22:19:08,333 [INFO] src.email_scanner: Message 19a34c78c3b6d098 has direct PDF attachment: Comps- 30 October 2025.pdf
+2026-02-21 22:19:08,793 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-30_comps.pdf (123745 bytes)
+2026-02-21 22:19:08,793 [INFO] __main__: ✓ 19a34c78c3b6d098 → data/raw/2025-10-30_comps.pdf
+2026-02-21 22:19:09,576 [INFO] src.email_scanner: Message 19a2f958d2d4f5ea has direct PDF attachment: Comps - 29 October 2025.pdf
+2026-02-21 22:19:10,003 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-29_comps.pdf (123872 bytes)
+2026-02-21 22:19:10,003 [INFO] __main__: ✓ 19a2f958d2d4f5ea → data/raw/2025-10-29_comps.pdf
+2026-02-21 22:19:10,813 [INFO] src.email_scanner: Message 19a2a6f53f7565c4 has direct PDF attachment: Comps - 28 October 2025.pdf
+2026-02-21 22:19:11,224 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-28_comps.pdf (123817 bytes)
+2026-02-21 22:19:11,224 [INFO] __main__: ✓ 19a2a6f53f7565c4 → data/raw/2025-10-28_comps.pdf
+2026-02-21 22:19:12,023 [INFO] src.email_scanner: Message 19a2553b449f76f6 has direct PDF attachment: Comps - 27 October 2025.pdf
+2026-02-21 22:19:12,476 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-27_comps.pdf (123599 bytes)
+2026-02-21 22:19:12,476 [INFO] __main__: ✓ 19a2553b449f76f6 → data/raw/2025-10-27_comps.pdf
+2026-02-21 22:19:13,270 [INFO] src.email_scanner: Message 19a15f0caf71e595 has direct PDF attachment: Comps - 24 October 2025.pdf
+2026-02-21 22:19:14,308 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-24_comps.pdf (123827 bytes)
+2026-02-21 22:19:14,308 [INFO] __main__: ✓ 19a15f0caf71e595 → data/raw/2025-10-24_comps.pdf
+2026-02-21 22:19:15,087 [INFO] src.email_scanner: Message 19a10e11f0c15265 has direct PDF attachment: Comps - 23 October 2025.pdf
+2026-02-21 22:19:15,436 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-23_comps.pdf (123844 bytes)
+2026-02-21 22:19:15,436 [INFO] __main__: ✓ 19a10e11f0c15265 → data/raw/2025-10-23_comps.pdf
+2026-02-21 22:19:16,235 [INFO] src.email_scanner: Message 19a0b96e017903da has direct PDF attachment: Comps - 22 October 2025.pdf
+2026-02-21 22:19:16,664 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-22_comps.pdf (123506 bytes)
+2026-02-21 22:19:16,664 [INFO] __main__: ✓ 19a0b96e017903da → data/raw/2025-10-22_comps.pdf
+2026-02-21 22:19:17,467 [INFO] src.email_scanner: Message 19a066c148b89b64 has direct PDF attachment: Comps- 21 October 2025.pdf
+2026-02-21 22:19:17,915 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-21_comps.pdf (123833 bytes)
+2026-02-21 22:19:17,915 [INFO] __main__: ✓ 19a066c148b89b64 → data/raw/2025-10-21_comps.pdf
+2026-02-21 22:19:19,173 [INFO] src.email_scanner: Message 199f27e2c1c6fb16 has direct PDF attachment: Comps - 17 October 2025.pdf
+2026-02-21 22:19:19,635 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-17_comps.pdf (123818 bytes)
+2026-02-21 22:19:19,635 [INFO] __main__: ✓ 199f27e2c1c6fb16 → data/raw/2025-10-17_comps.pdf
+2026-02-21 22:19:20,431 [INFO] src.email_scanner: Message 199ed25f0fed1266 has direct PDF attachment: Comps 16 October 2025.pdf
+2026-02-21 22:19:21,004 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-16_comps.pdf (124055 bytes)
+2026-02-21 22:19:21,004 [INFO] __main__: ✓ 199ed25f0fed1266 → data/raw/2025-10-16_comps.pdf
+2026-02-21 22:19:21,803 [INFO] src.email_scanner: Message 199e782a00577b10 has direct PDF attachment: Comps- 15 October 2025.pdf
+2026-02-21 22:19:22,810 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-15_comps.pdf (123789 bytes)
+2026-02-21 22:19:22,810 [INFO] __main__: ✓ 199e782a00577b10 → data/raw/2025-10-15_comps.pdf
+2026-02-21 22:19:23,595 [INFO] src.email_scanner: Message 199e271097d92c9c has direct PDF attachment: Comps- 14 October 2025.pdf
+2026-02-21 22:19:24,028 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-14_comps.pdf (123995 bytes)
+2026-02-21 22:19:24,028 [INFO] __main__: ✓ 199e271097d92c9c → data/raw/2025-10-14_comps.pdf
+2026-02-21 22:19:24,823 [INFO] src.email_scanner: Message 199dd34790381532 has direct PDF attachment: Comps - 13 October 2025.pdf
+2026-02-21 22:19:25,204 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-13_comps.pdf (124152 bytes)
+2026-02-21 22:19:25,204 [INFO] __main__: ✓ 199dd34790381532 → data/raw/2025-10-13_comps.pdf
+2026-02-21 22:19:25,987 [INFO] src.email_scanner: Message 199ce3e23d38760b has direct PDF attachment: Comps- 10 October 2025.pdf
+2026-02-21 22:19:26,632 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-10_comps.pdf (123764 bytes)
+2026-02-21 22:19:26,632 [INFO] __main__: ✓ 199ce3e23d38760b → data/raw/2025-10-10_comps.pdf
+2026-02-21 22:19:27,408 [INFO] src.email_scanner: Message 199c8ba0c3e9a963 has direct PDF attachment: Comps- 09 October 2025.pdf
+2026-02-21 22:19:28,017 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-09_comps.pdf (123740 bytes)
+2026-02-21 22:19:28,017 [INFO] __main__: ✓ 199c8ba0c3e9a963 → data/raw/2025-10-09_comps.pdf
+2026-02-21 22:19:28,878 [INFO] src.email_scanner: Message 199c387c98423cc2 has direct PDF attachment: Comps- 08 October 2025.pdf
+2026-02-21 22:19:29,351 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-08_comps.pdf (123755 bytes)
+2026-02-21 22:19:29,351 [INFO] __main__: ✓ 199c387c98423cc2 → data/raw/2025-10-08_comps.pdf
+2026-02-21 22:19:30,139 [INFO] src.email_scanner: Message 199be5e21c27dbc5 has direct PDF attachment: Comps- 07 October 2025.pdf
+2026-02-21 22:19:31,089 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-07_comps.pdf (123850 bytes)
+2026-02-21 22:19:31,089 [INFO] __main__: ✓ 199be5e21c27dbc5 → data/raw/2025-10-07_comps.pdf
+2026-02-21 22:19:31,887 [INFO] src.email_scanner: Message 199aa1f367f7f2a0 has direct PDF attachment: Comps- 03 October 2025.pdf
+2026-02-21 22:19:32,288 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-03_comps.pdf (123993 bytes)
+2026-02-21 22:19:32,289 [INFO] __main__: ✓ 199aa1f367f7f2a0 → data/raw/2025-10-03_comps.pdf
+2026-02-21 22:19:33,536 [INFO] src.email_scanner: Message 199a4a53c325bb06 has direct PDF attachment: Comps- 02 October 2025.pdf
+2026-02-21 22:19:33,969 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-02_comps.pdf (118646 bytes)
+2026-02-21 22:19:33,969 [INFO] __main__: ✓ 199a4a53c325bb06 → data/raw/2025-10-02_comps.pdf
+2026-02-21 22:19:34,757 [INFO] src.email_scanner: Message 1999f846fd75f5bf has direct PDF attachment: Comps- 01 October 2025.pdf
+2026-02-21 22:19:35,280 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-10-01_comps.pdf (119012 bytes)
+2026-02-21 22:19:35,280 [INFO] __main__: ✓ 1999f846fd75f5bf → data/raw/2025-10-01_comps.pdf
+2026-02-21 22:19:36,070 [INFO] src.email_scanner: Message 1999f81ec4732810 has direct PDF attachment: Comps- 01 October 2025.pdf
+2026-02-21 22:19:36,070 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-10-01_comps.pdf
+2026-02-21 22:19:36,070 [INFO] __main__: ✓ 1999f81ec4732810 → data/raw/2025-10-01_comps.pdf
+2026-02-21 22:19:36,903 [INFO] src.email_scanner: Message 1999af188984cb82 has direct PDF attachment: Comps - 30 September 2025.pdf
+2026-02-21 22:19:37,504 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-30_comps.pdf (118734 bytes)
+2026-02-21 22:19:37,504 [INFO] __main__: ✓ 1999af188984cb82 → data/raw/2025-09-30_comps.pdf
+2026-02-21 22:19:38,307 [INFO] src.email_scanner: Message 199952c6673f4677 has direct PDF attachment: Comps- 29 September 2025.pdf
+2026-02-21 22:19:38,827 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-29_comps.pdf (118735 bytes)
+2026-02-21 22:19:38,827 [INFO] __main__: ✓ 199952c6673f4677 → data/raw/2025-09-29_comps.pdf
+2026-02-21 22:19:39,626 [INFO] src.email_scanner: Message 19985f312187b2f0 has direct PDF attachment: Comps - 26 September 2025.pdf
+2026-02-21 22:19:40,097 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-26_comps.pdf (119063 bytes)
+2026-02-21 22:19:40,097 [INFO] __main__: ✓ 19985f312187b2f0 → data/raw/2025-09-26_comps.pdf
+2026-02-21 22:19:40,880 [INFO] src.email_scanner: Message 19980b588106e7da has direct PDF attachment: Comps- 25 September 2025.pdf
+2026-02-21 22:19:41,275 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-25_comps.pdf (118811 bytes)
+2026-02-21 22:19:41,275 [INFO] __main__: ✓ 19980b588106e7da → data/raw/2025-09-25_comps.pdf
+2026-02-21 22:19:42,064 [INFO] src.email_scanner: Message 199777bc7b7e9053 has direct PDF attachment: Comps - 23 September 2025.pdf
+2026-02-21 22:19:42,436 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-23_comps.pdf (118947 bytes)
+2026-02-21 22:19:42,436 [INFO] __main__: ✓ 199777bc7b7e9053 → data/raw/2025-09-23_comps.pdf
+2026-02-21 22:19:43,227 [INFO] src.email_scanner: Message 199714e44d820e30 has direct PDF attachment: Comps - 22 September 2025.pdf
+2026-02-21 22:19:43,654 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-22_comps.pdf (118654 bytes)
+2026-02-21 22:19:43,654 [INFO] __main__: ✓ 199714e44d820e30 → data/raw/2025-09-22_comps.pdf
+2026-02-21 22:19:44,453 [INFO] src.email_scanner: Message 19961c79c1165d8b has direct PDF attachment: Comps - 19 September 2025.pdf
+2026-02-21 22:19:45,001 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-19_comps.pdf (119324 bytes)
+2026-02-21 22:19:45,001 [INFO] __main__: ✓ 19961c79c1165d8b → data/raw/2025-09-19_comps.pdf
+2026-02-21 22:19:45,804 [INFO] src.email_scanner: Message 1996026caf41a630 has direct PDF attachment: Comps - 18 September 2025.pdf
+2026-02-21 22:19:45,804 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-19_comps.pdf
+2026-02-21 22:19:45,804 [INFO] __main__: ✓ 1996026caf41a630 → data/raw/2025-09-19_comps.pdf
+2026-02-21 22:19:46,593 [INFO] src.email_scanner: Message 1995a78106bf21df has direct PDF attachment: Comps - 17 September 2025.pdf
+2026-02-21 22:19:46,985 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-18_comps.pdf (119330 bytes)
+2026-02-21 22:19:46,985 [INFO] __main__: ✓ 1995a78106bf21df → data/raw/2025-09-18_comps.pdf
+2026-02-21 22:19:47,775 [INFO] src.email_scanner: Message 1995248dbbab17df has direct PDF attachment: Comps - 16 September 2025.pdf
+2026-02-21 22:19:48,222 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-16_comps.pdf (119352 bytes)
+2026-02-21 22:19:48,222 [INFO] __main__: ✓ 1995248dbbab17df → data/raw/2025-09-16_comps.pdf
+2026-02-21 22:19:49,009 [INFO] src.email_scanner: Message 1994d215bcd08d03 has direct PDF attachment: Comps - 15 September 2025.pdf
+2026-02-21 22:19:50,021 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-09-15_comps.pdf (119179 bytes)
+2026-02-21 22:19:50,021 [INFO] __main__: ✓ 1994d215bcd08d03 → data/raw/2025-09-15_comps.pdf
+2026-02-21 22:19:51,150 [INFO] src.email_scanner: Message 199386f605a162da has direct PDF attachment: Comps - 11 September 2025.pdf
+2026-02-21 22:19:51,150 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-11_comps.pdf
+2026-02-21 22:19:51,150 [INFO] __main__: ✓ 199386f605a162da → data/raw/2025-09-11_comps.pdf
+2026-02-21 22:19:51,930 [INFO] src.email_scanner: Message 199337c6f95da040 has direct PDF attachment: Comps - 10 September 2025.pdf
+2026-02-21 22:19:51,930 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-10_comps.pdf
+2026-02-21 22:19:51,930 [INFO] __main__: ✓ 199337c6f95da040 → data/raw/2025-09-10_comps.pdf
+2026-02-21 22:19:52,728 [INFO] src.email_scanner: Message 199315414dc21bdb has direct PDF attachment: Comps - 09 September 2025.pdf
+2026-02-21 22:19:52,728 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-10_comps.pdf
+2026-02-21 22:19:52,728 [INFO] __main__: ✓ 199315414dc21bdb → data/raw/2025-09-10_comps.pdf
+2026-02-21 22:19:53,515 [INFO] src.email_scanner: Message 19928faf8c97b858 has direct PDF attachment: Comps - 08 September 2025.pdf
+2026-02-21 22:19:53,516 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-08_comps.pdf
+2026-02-21 22:19:53,516 [INFO] __main__: ✓ 19928faf8c97b858 → data/raw/2025-09-08_comps.pdf
+2026-02-21 22:19:54,846 [INFO] src.email_scanner: Message 199146545fcda243 has direct PDF attachment: Comps - 04 September 2025.pdf
+2026-02-21 22:19:54,846 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-04_comps.pdf
+2026-02-21 22:19:54,846 [INFO] __main__: ✓ 199146545fcda243 → data/raw/2025-09-04_comps.pdf
+2026-02-21 22:19:55,635 [INFO] src.email_scanner: Message 1990f3d91fd2e274 has direct PDF attachment: Comps - 03 September 2025.pdf
+2026-02-21 22:19:55,635 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-03_comps.pdf
+2026-02-21 22:19:55,635 [INFO] __main__: ✓ 1990f3d91fd2e274 → data/raw/2025-09-03_comps.pdf
+2026-02-21 22:19:56,453 [INFO] src.email_scanner: Message 1990a58f23ce3b95 has direct PDF attachment: Comps - 02 September 2025.pdf
+2026-02-21 22:19:56,453 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-02_comps.pdf
+2026-02-21 22:19:56,453 [INFO] __main__: ✓ 1990a58f23ce3b95 → data/raw/2025-09-02_comps.pdf
+2026-02-21 22:19:57,284 [INFO] src.email_scanner: Message 199058327556e8ba has direct PDF attachment: Comps - 01 September 2025.pdf
+2026-02-21 22:19:57,284 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-09-01_comps.pdf
+2026-02-21 22:19:57,284 [INFO] __main__: ✓ 199058327556e8ba → data/raw/2025-09-01_comps.pdf
+2026-02-21 22:19:58,072 [INFO] src.email_scanner: Message 198f596eeb55620d has direct PDF attachment: Comps - 29 August 2025.pdf
+2026-02-21 22:19:58,072 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-08-29_comps.pdf
+2026-02-21 22:19:58,072 [INFO] __main__: ✓ 198f596eeb55620d → data/raw/2025-08-29_comps.pdf
+2026-02-21 22:19:58,941 [INFO] src.email_scanner: Message 198f062ecbb29705 has direct PDF attachment: Comps - 28 August 2025.pdf
+2026-02-21 22:19:59,980 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-28_comps.pdf (119487 bytes)
+2026-02-21 22:19:59,980 [INFO] __main__: ✓ 198f062ecbb29705 → data/raw/2025-08-28_comps.pdf
+2026-02-21 22:20:00,762 [INFO] src.email_scanner: Message 198eb514e0062fd5 has direct PDF attachment: Comps - 27 August 2025.pdf
+2026-02-21 22:20:01,355 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-27_comps.pdf (119252 bytes)
+2026-02-21 22:20:01,355 [INFO] __main__: ✓ 198eb514e0062fd5 → data/raw/2025-08-27_comps.pdf
+2026-02-21 22:20:02,147 [INFO] src.email_scanner: Message 198e6322eb6f7151 has direct PDF attachment: Comps - 26 August 2025.pdf
+2026-02-21 22:20:02,758 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-26_comps.pdf (119362 bytes)
+2026-02-21 22:20:02,758 [INFO] __main__: ✓ 198e6322eb6f7151 → data/raw/2025-08-26_comps.pdf
+2026-02-21 22:20:03,654 [INFO] src.email_scanner: Message 198d28eba1800367 has direct PDF attachment: Comps - 22 August 2025.pdf
+2026-02-21 22:20:04,210 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-22_comps.pdf (116543 bytes)
+2026-02-21 22:20:04,210 [INFO] __main__: ✓ 198d28eba1800367 → data/raw/2025-08-22_comps.pdf
+2026-02-21 22:20:05,009 [INFO] src.email_scanner: Message 198cc5a99d03c504 has direct PDF attachment: Comps - 21 August 2025.pdf
+2026-02-21 22:20:05,598 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-21_comps.pdf (116625 bytes)
+2026-02-21 22:20:05,599 [INFO] __main__: ✓ 198cc5a99d03c504 → data/raw/2025-08-21_comps.pdf
+2026-02-21 22:20:06,385 [INFO] src.email_scanner: Message 198c735dcaa31f58 has direct PDF attachment: Comps - 20 August 2025.pdf
+2026-02-21 22:20:06,827 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-20_comps.pdf (116660 bytes)
+2026-02-21 22:20:06,827 [INFO] __main__: ✓ 198c735dcaa31f58 → data/raw/2025-08-20_comps.pdf
+2026-02-21 22:20:07,639 [INFO] src.email_scanner: Message 198c312a8faa5cbb has direct PDF attachment: Comps - 19 August 2025.pdf
+2026-02-21 22:20:08,077 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-19_comps.pdf (116501 bytes)
+2026-02-21 22:20:08,077 [INFO] __main__: ✓ 198c312a8faa5cbb → data/raw/2025-08-19_comps.pdf
+2026-02-21 22:20:08,976 [INFO] src.email_scanner: Message 198c04af13af6021 has direct PDF attachment: Comps - 18 August 2025.pdf
+2026-02-21 22:20:08,976 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-08-19_comps.pdf
+2026-02-21 22:20:08,976 [INFO] __main__: ✓ 198c04af13af6021 → data/raw/2025-08-19_comps.pdf
+2026-02-21 22:20:09,779 [INFO] src.email_scanner: Message 198adb3fb34918e4 has direct PDF attachment: Comps - 15 August 2025.pdf
+2026-02-21 22:20:10,288 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-15_comps.pdf (115235 bytes)
+2026-02-21 22:20:10,288 [INFO] __main__: ✓ 198adb3fb34918e4 → data/raw/2025-08-15_comps.pdf
+2026-02-21 22:20:11,074 [INFO] src.email_scanner: Message 198a8c883675ba37 has direct PDF attachment: Comps - 14 August 2025.pdf
+2026-02-21 22:20:12,136 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-14_comps.pdf (115211 bytes)
+2026-02-21 22:20:12,136 [INFO] __main__: ✓ 198a8c883675ba37 → data/raw/2025-08-14_comps.pdf
+2026-02-21 22:20:12,909 [INFO] src.email_scanner: Message 198a377b47312c54 has direct PDF attachment: Comps - 13 August 2025.pdf
+2026-02-21 22:20:13,418 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-13_comps.pdf (115080 bytes)
+2026-02-21 22:20:13,418 [INFO] __main__: ✓ 198a377b47312c54 → data/raw/2025-08-13_comps.pdf
+2026-02-21 22:20:14,212 [INFO] src.email_scanner: Message 1989dfd912292473 has direct PDF attachment: Comps - 12 August 2025.pdf
+2026-02-21 22:20:14,717 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-12_comps.pdf (115267 bytes)
+2026-02-21 22:20:14,717 [INFO] __main__: ✓ 1989dfd912292473 → data/raw/2025-08-12_comps.pdf
+2026-02-21 22:20:15,505 [INFO] src.email_scanner: Message 19898d69c4491d95 has direct PDF attachment: Comps - 11 August 2025.pdf
+2026-02-21 22:20:15,952 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-11_comps.pdf (115026 bytes)
+2026-02-21 22:20:15,952 [INFO] __main__: ✓ 19898d69c4491d95 → data/raw/2025-08-11_comps.pdf
+2026-02-21 22:20:16,748 [INFO] src.email_scanner: Message 1988485036764475 has direct PDF attachment: Comps - 07 August 2025.pdf
+2026-02-21 22:20:17,213 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-07_comps.pdf (114958 bytes)
+2026-02-21 22:20:17,213 [INFO] __main__: ✓ 1988485036764475 → data/raw/2025-08-07_comps.pdf
+2026-02-21 22:20:17,991 [INFO] src.email_scanner: Message 1987f1ba2cb0aef5 has direct PDF attachment: Comps - 06 August 2025.pdf
+2026-02-21 22:20:18,429 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-06_comps.pdf (114958 bytes)
+2026-02-21 22:20:18,429 [INFO] __main__: ✓ 1987f1ba2cb0aef5 → data/raw/2025-08-06_comps.pdf
+2026-02-21 22:20:19,254 [INFO] src.email_scanner: Message 1987a09267257be5 has direct PDF attachment: Comps - 05 August 2025.pdf
+2026-02-21 22:20:19,698 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-05_comps.pdf (115055 bytes)
+2026-02-21 22:20:19,698 [INFO] __main__: ✓ 1987a09267257be5 → data/raw/2025-08-05_comps.pdf
+2026-02-21 22:20:20,471 [INFO] src.email_scanner: Message 198750631a89b1e8 has direct PDF attachment: Comps - 4 August 2025.pdf
+2026-02-21 22:20:20,827 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-04_comps.pdf (115015 bytes)
+2026-02-21 22:20:20,827 [INFO] __main__: ✓ 198750631a89b1e8 → data/raw/2025-08-04_comps.pdf
+2026-02-21 22:20:21,673 [INFO] src.email_scanner: Message 1986598c408eec54 has direct PDF attachment: Comps - 01 August 2025.pdf
+2026-02-21 22:20:22,116 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-08-01_comps.pdf (115140 bytes)
+2026-02-21 22:20:22,116 [INFO] __main__: ✓ 1986598c408eec54 → data/raw/2025-08-01_comps.pdf
+2026-02-21 22:20:22,869 [INFO] src.email_scanner: Message 1986033cbbf57434 has direct PDF attachment: Comps - 31 July 2025.pdf
+2026-02-21 22:20:23,284 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-31_comps.pdf (114944 bytes)
+2026-02-21 22:20:23,284 [INFO] __main__: ✓ 1986033cbbf57434 → data/raw/2025-07-31_comps.pdf
+2026-02-21 22:20:24,057 [INFO] src.email_scanner: Message 1985b19ab94fe821 has direct PDF attachment: Comps - 30 July 2025.pdf
+2026-02-21 22:20:24,534 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-30_comps.pdf (115125 bytes)
+2026-02-21 22:20:24,534 [INFO] __main__: ✓ 1985b19ab94fe821 → data/raw/2025-07-30_comps.pdf
+2026-02-21 22:20:25,307 [INFO] src.email_scanner: Message 19855f757ecf5ec1 has direct PDF attachment: Comps - 29 July 2025.pdf
+2026-02-21 22:20:25,735 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-29_comps.pdf (115016 bytes)
+2026-02-21 22:20:25,735 [INFO] __main__: ✓ 19855f757ecf5ec1 → data/raw/2025-07-29_comps.pdf
+2026-02-21 22:20:26,517 [INFO] src.email_scanner: Message 1985102348f6a185 has direct PDF attachment: Comps - 28 July 2025.pdf
+2026-02-21 22:20:27,228 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-28_comps.pdf (115123 bytes)
+2026-02-21 22:20:27,228 [INFO] __main__: ✓ 1985102348f6a185 → data/raw/2025-07-28_comps.pdf
+2026-02-21 22:20:28,535 [INFO] src.email_scanner: Message 1984175def80da5f has direct PDF attachment: Comps - 25 July 2025.pdf
+2026-02-21 22:20:28,979 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-25_comps.pdf (114933 bytes)
+2026-02-21 22:20:28,979 [INFO] __main__: ✓ 1984175def80da5f → data/raw/2025-07-25_comps.pdf
+2026-02-21 22:20:29,751 [INFO] src.email_scanner: Message 1983c1c05bacd195 has direct PDF attachment: Comps - 24 July 2025.pdf
+2026-02-21 22:20:30,205 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-24_comps.pdf (115095 bytes)
+2026-02-21 22:20:30,205 [INFO] __main__: ✓ 1983c1c05bacd195 → data/raw/2025-07-24_comps.pdf
+2026-02-21 22:20:30,967 [INFO] src.email_scanner: Message 19836ecda948ede3 has direct PDF attachment: Comps - 23 July 2025.pdf
+2026-02-21 22:20:31,414 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-23_comps.pdf (115023 bytes)
+2026-02-21 22:20:31,414 [INFO] __main__: ✓ 19836ecda948ede3 → data/raw/2025-07-23_comps.pdf
+2026-02-21 22:20:32,183 [INFO] src.email_scanner: Message 19831d799b764e11 has direct PDF attachment: Comps - 22 July 2025.pdf
+2026-02-21 22:20:32,643 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-22_comps.pdf (115065 bytes)
+2026-02-21 22:20:32,643 [INFO] __main__: ✓ 19831d799b764e11 → data/raw/2025-07-22_comps.pdf
+2026-02-21 22:20:33,418 [INFO] src.email_scanner: Message 1982ca56cf421c67 has direct PDF attachment: Comps - 21 July 2025.pdf
+2026-02-21 22:20:34,416 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-21_comps.pdf (114996 bytes)
+2026-02-21 22:20:34,416 [INFO] __main__: ✓ 1982ca56cf421c67 → data/raw/2025-07-21_comps.pdf
+2026-02-21 22:20:35,253 [INFO] src.email_scanner: Message 1981d7274dd899f9 has direct PDF attachment: Comps - 18 July 2025.pdf
+2026-02-21 22:20:36,285 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-18_comps.pdf (114880 bytes)
+2026-02-21 22:20:36,285 [INFO] __main__: ✓ 1981d7274dd899f9 → data/raw/2025-07-18_comps.pdf
+2026-02-21 22:20:37,072 [INFO] src.email_scanner: Message 198181433c7b1433 has direct PDF attachment: Comps - 17 July 2025.pdf
+2026-02-21 22:20:37,531 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-17_comps.pdf (115048 bytes)
+2026-02-21 22:20:37,532 [INFO] __main__: ✓ 198181433c7b1433 → data/raw/2025-07-17_comps.pdf
+2026-02-21 22:20:38,298 [INFO] src.email_scanner: Message 19813152e372d3fe has direct PDF attachment: Comps - 16 July 2025.pdf
+2026-02-21 22:20:38,784 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-16_comps.pdf (115010 bytes)
+2026-02-21 22:20:38,784 [INFO] __main__: ✓ 19813152e372d3fe → data/raw/2025-07-16_comps.pdf
+2026-02-21 22:20:39,580 [INFO] src.email_scanner: Message 1980dc2ce3e32d28 has direct PDF attachment: Comps - 15 July 2025.pdf
+2026-02-21 22:20:40,032 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-15_comps.pdf (114958 bytes)
+2026-02-21 22:20:40,032 [INFO] __main__: ✓ 1980dc2ce3e32d28 → data/raw/2025-07-15_comps.pdf
+2026-02-21 22:20:40,805 [INFO] src.email_scanner: Message 198089bce2761132 has direct PDF attachment: Comps - 14 July 2025.pdf
+2026-02-21 22:20:41,216 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-14_comps.pdf (115127 bytes)
+2026-02-21 22:20:41,216 [INFO] __main__: ✓ 198089bce2761132 → data/raw/2025-07-14_comps.pdf
+2026-02-21 22:20:42,060 [INFO] src.email_scanner: Message 197f93da86cf086b has direct PDF attachment: Comps - 11 July 2025.pdf
+2026-02-21 22:20:42,627 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-11_comps.pdf (115062 bytes)
+2026-02-21 22:20:42,627 [INFO] __main__: ✓ 197f93da86cf086b → data/raw/2025-07-11_comps.pdf
+2026-02-21 22:20:43,441 [INFO] src.email_scanner: Message 197eedb4d569a5d4 has direct PDF attachment: Comps - 09 July 2025.pdf
+2026-02-21 22:20:44,174 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-09_comps.pdf (476201 bytes)
+2026-02-21 22:20:44,174 [INFO] __main__: ✓ 197eedb4d569a5d4 → data/raw/2025-07-09_comps.pdf
+2026-02-21 22:20:44,968 [INFO] src.email_scanner: Message 197e9ad0211b8875 has direct PDF attachment: Comps - 08 July 2025.pdf
+2026-02-21 22:20:45,631 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-08_comps.pdf (476104 bytes)
+2026-02-21 22:20:45,631 [INFO] __main__: ✓ 197e9ad0211b8875 → data/raw/2025-07-08_comps.pdf
+2026-02-21 22:20:46,396 [INFO] src.email_scanner: Message 197e4c042f9ee487 has direct PDF attachment: Comps - 07 July 2025.pdf
+2026-02-21 22:20:47,060 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-07_comps.pdf (476126 bytes)
+2026-02-21 22:20:47,060 [INFO] __main__: ✓ 197e4c042f9ee487 → data/raw/2025-07-07_comps.pdf
+2026-02-21 22:20:48,349 [INFO] src.email_scanner: Message 197d54b937e6080f has direct PDF attachment: Comps - 04 July 2025.pdf
+2026-02-21 22:20:49,007 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-04_comps.pdf (474703 bytes)
+2026-02-21 22:20:49,007 [INFO] __main__: ✓ 197d54b937e6080f → data/raw/2025-07-04_comps.pdf
+2026-02-21 22:20:49,789 [INFO] src.email_scanner: Message 197d0087b3e7c189 has direct PDF attachment: Comps - 03 July 2025.pdf
+2026-02-21 22:20:50,410 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-03_comps.pdf (474826 bytes)
+2026-02-21 22:20:50,410 [INFO] __main__: ✓ 197d0087b3e7c189 → data/raw/2025-07-03_comps.pdf
+2026-02-21 22:20:51,186 [INFO] src.email_scanner: Message 197cad5db49a21fe has direct PDF attachment: Comps - 02 July 2025.pdf
+2026-02-21 22:20:51,576 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-02_comps.pdf (114601 bytes)
+2026-02-21 22:20:51,576 [INFO] __main__: ✓ 197cad5db49a21fe → data/raw/2025-07-02_comps.pdf
+2026-02-21 22:20:52,364 [INFO] src.email_scanner: Message 197c5cc4e8cf4cc6 has direct PDF attachment: Comps 01.07.2025.pdf
+2026-02-21 22:20:52,822 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-07-01_comps.pdf (114481 bytes)
+2026-02-21 22:20:52,823 [INFO] __main__: ✓ 197c5cc4e8cf4cc6 → data/raw/2025-07-01_comps.pdf
+2026-02-21 22:20:53,596 [INFO] src.email_scanner: Message 197c09d86917b424 has direct PDF attachment: Comps - 30 June 2025.pdf
+2026-02-21 22:20:54,125 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-30_comps.pdf (114728 bytes)
+2026-02-21 22:20:54,125 [INFO] __main__: ✓ 197c09d86917b424 → data/raw/2025-06-30_comps.pdf
+2026-02-21 22:20:55,229 [INFO] src.email_scanner: Message 197b13bd96475587 has direct PDF attachment: Comps - 27 June 2025.pdf
+2026-02-21 22:20:55,678 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-27_comps.pdf (114692 bytes)
+2026-02-21 22:20:55,678 [INFO] __main__: ✓ 197b13bd96475587 → data/raw/2025-06-27_comps.pdf
+2026-02-21 22:20:56,461 [INFO] src.email_scanner: Message 197abe671a517d85 has direct PDF attachment: Comps - 26 June 2025.pdf
+2026-02-21 22:20:56,896 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-26_comps.pdf (114660 bytes)
+2026-02-21 22:20:56,896 [INFO] __main__: ✓ 197abe671a517d85 → data/raw/2025-06-26_comps.pdf
+2026-02-21 22:20:57,676 [INFO] src.email_scanner: Message 197a6c040c9c3f9d has direct PDF attachment: Comps - 25.06.2025.pdf
+2026-02-21 22:20:58,128 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-25_comps.pdf (114685 bytes)
+2026-02-21 22:20:58,128 [INFO] __main__: ✓ 197a6c040c9c3f9d → data/raw/2025-06-25_comps.pdf
+2026-02-21 22:20:58,955 [INFO] src.email_scanner: Message 197a1c6b6cb846bb has direct PDF attachment: Comps - 24.06.2025.pdf
+2026-02-21 22:20:59,395 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-24_comps.pdf (114718 bytes)
+2026-02-21 22:20:59,395 [INFO] __main__: ✓ 197a1c6b6cb846bb → data/raw/2025-06-24_comps.pdf
+2026-02-21 22:21:00,179 [INFO] src.email_scanner: Message 1979c75f69e9b567 has direct PDF attachment: Comps - 23.06.2025.pdf
+2026-02-21 22:21:00,689 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-23_comps.pdf (114549 bytes)
+2026-02-21 22:21:00,689 [INFO] __main__: ✓ 1979c75f69e9b567 → data/raw/2025-06-23_comps.pdf
+2026-02-21 22:21:01,470 [INFO] src.email_scanner: Message 1978d0f74bb5815b has direct PDF attachment: Comps - 20.06.2025.pdf
+2026-02-21 22:21:01,948 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-20_comps.pdf (114492 bytes)
+2026-02-21 22:21:01,948 [INFO] __main__: ✓ 1978d0f74bb5815b → data/raw/2025-06-20_comps.pdf
+2026-02-21 22:21:02,727 [INFO] src.email_scanner: Message 19787d9fdad2364b has direct PDF attachment: Comps - 19.06.2025.pdf
+2026-02-21 22:21:03,156 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-19_comps.pdf (114498 bytes)
+2026-02-21 22:21:03,156 [INFO] __main__: ✓ 19787d9fdad2364b → data/raw/2025-06-19_comps.pdf
+2026-02-21 22:21:04,070 [INFO] src.email_scanner: Message 1977d94efd712b1a has direct PDF attachment: Comps - 17.06.2025.pdf
+2026-02-21 22:21:04,484 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-17_comps.pdf (114476 bytes)
+2026-02-21 22:21:04,484 [INFO] __main__: ✓ 1977d94efd712b1a → data/raw/2025-06-17_comps.pdf
+2026-02-21 22:21:05,280 [INFO] src.email_scanner: Message 19778859530872c9 has direct PDF attachment: Comps - 16.06.2025.pdf
+2026-02-21 22:21:05,736 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-16_comps.pdf (114525 bytes)
+2026-02-21 22:21:05,737 [INFO] __main__: ✓ 19778859530872c9 → data/raw/2025-06-16_comps.pdf
+2026-02-21 22:21:06,535 [INFO] src.email_scanner: Message 197693bbc87be1f7 has direct PDF attachment: Comps - 13.06.2025.pdf
+2026-02-21 22:21:06,993 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-13_comps.pdf (114605 bytes)
+2026-02-21 22:21:06,993 [INFO] __main__: ✓ 197693bbc87be1f7 → data/raw/2025-06-13_comps.pdf
+2026-02-21 22:21:07,856 [INFO] src.email_scanner: Message 19763ef14d3986b7 has direct PDF attachment: Comps - 12.06.2025.pdf
+2026-02-21 22:21:08,292 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-12_comps.pdf (114442 bytes)
+2026-02-21 22:21:08,292 [INFO] __main__: ✓ 19763ef14d3986b7 → data/raw/2025-06-12_comps.pdf
+2026-02-21 22:21:09,079 [INFO] src.email_scanner: Message 1975eb73863d5c9a has direct PDF attachment: Comps - 11.06.2025.pdf
+2026-02-21 22:21:09,500 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-11_comps.pdf (114616 bytes)
+2026-02-21 22:21:09,500 [INFO] __main__: ✓ 1975eb73863d5c9a → data/raw/2025-06-11_comps.pdf
+2026-02-21 22:21:10,306 [INFO] src.email_scanner: Message 19744f9686df9c46 has direct PDF attachment: Comps - 06.06.2025.pdf
+2026-02-21 22:21:10,811 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-06_comps.pdf (114612 bytes)
+2026-02-21 22:21:10,812 [INFO] __main__: ✓ 19744f9686df9c46 → data/raw/2025-06-06_comps.pdf
+2026-02-21 22:21:11,624 [INFO] src.email_scanner: Message 1973fd034a474487 has direct PDF attachment: Comps - 05.06.2025.pdf
+2026-02-21 22:21:12,057 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-05_comps.pdf (114608 bytes)
+2026-02-21 22:21:12,057 [INFO] __main__: ✓ 1973fd034a474487 → data/raw/2025-06-05_comps.pdf
+2026-02-21 22:21:12,856 [WARNING] src.email_scanner: No PDF attachment or OneDrive link found in message 1973fcbc186b18cb ('LOSEC Market Insights & Comp Sheet - 05.06.2025')
+2026-02-21 22:21:12,856 [WARNING] __main__: No downloadable attachment in message 1973fcbc186b18cb
+2026-02-21 22:21:14,131 [INFO] src.email_scanner: Message 1973ac9b4617b344 has direct PDF attachment: Comps - 04.06.2025.pdf
+2026-02-21 22:21:14,608 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-04_comps.pdf (114578 bytes)
+2026-02-21 22:21:14,608 [INFO] __main__: ✓ 1973ac9b4617b344 → data/raw/2025-06-04_comps.pdf
+2026-02-21 22:21:15,460 [INFO] src.email_scanner: Message 1973094adadee57e has direct PDF attachment: Comps - 02.06.2025.pdf
+2026-02-21 22:21:15,946 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-06-02_comps.pdf (111075 bytes)
+2026-02-21 22:21:15,946 [INFO] __main__: ✓ 1973094adadee57e → data/raw/2025-06-02_comps.pdf
+2026-02-21 22:21:16,752 [INFO] src.email_scanner: Message 197210ac4763433b has direct PDF attachment: Comps - 30.05.2025.pdf
+2026-02-21 22:21:17,184 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-30_comps.pdf (110942 bytes)
+2026-02-21 22:21:17,184 [INFO] __main__: ✓ 197210ac4763433b → data/raw/2025-05-30_comps.pdf
+2026-02-21 22:21:17,976 [INFO] src.email_scanner: Message 1971bdc9a1603477 has direct PDF attachment: Comps - 29.05.2025.pdf
+2026-02-21 22:21:18,547 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-29_comps.pdf (110684 bytes)
+2026-02-21 22:21:18,547 [INFO] __main__: ✓ 1971bdc9a1603477 → data/raw/2025-05-29_comps.pdf
+2026-02-21 22:21:19,421 [INFO] src.email_scanner: Message 19717192e7810d34 has direct PDF attachment: Comps - 28.05.2025.pdf
+2026-02-21 22:21:19,889 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-28_comps.pdf (110688 bytes)
+2026-02-21 22:21:19,890 [INFO] __main__: ✓ 19717192e7810d34 → data/raw/2025-05-28_comps.pdf
+2026-02-21 22:21:20,716 [INFO] src.email_scanner: Message 1970c6bd852786fe has direct PDF attachment: Comps - 26.05.2025.pdf
+2026-02-21 22:21:21,262 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-26_comps.pdf (110633 bytes)
+2026-02-21 22:21:21,262 [INFO] __main__: ✓ 1970c6bd852786fe → data/raw/2025-05-26_comps.pdf
+2026-02-21 22:21:22,044 [INFO] src.email_scanner: Message 196fcdcb93d083c9 has direct PDF attachment: Comps - 23.05.2025.pdf
+2026-02-21 22:21:22,388 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-23_comps.pdf (110715 bytes)
+2026-02-21 22:21:22,388 [INFO] __main__: ✓ 196fcdcb93d083c9 → data/raw/2025-05-23_comps.pdf
+2026-02-21 22:21:23,296 [INFO] src.email_scanner: Message 196f7f0ec663ee51 has direct PDF attachment: Comps - 22.05.2025.pdf
+2026-02-21 22:21:23,746 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-22_comps.pdf (110728 bytes)
+2026-02-21 22:21:23,746 [INFO] __main__: ✓ 196f7f0ec663ee51 → data/raw/2025-05-22_comps.pdf
+2026-02-21 22:21:24,536 [INFO] src.email_scanner: Message 196f29e711481e4e has direct PDF attachment: Comps - 21.05.2025.pdf
+2026-02-21 22:21:25,124 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-21_comps.pdf (110656 bytes)
+2026-02-21 22:21:25,124 [INFO] __main__: ✓ 196f29e711481e4e → data/raw/2025-05-21_comps.pdf
+2026-02-21 22:21:25,963 [INFO] src.email_scanner: Message 196ed680d917ee90 has direct PDF attachment: Comps - 20.05.2025.pdf
+2026-02-21 22:21:26,452 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-20_comps.pdf (110463 bytes)
+2026-02-21 22:21:26,453 [INFO] __main__: ✓ 196ed680d917ee90 → data/raw/2025-05-20_comps.pdf
+2026-02-21 22:21:27,287 [INFO] src.email_scanner: Message 196e852fefef78eb has direct PDF attachment: Comps - 19.05.2025.pdf
+2026-02-21 22:21:27,727 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-19_comps.pdf (110600 bytes)
+2026-02-21 22:21:27,727 [INFO] __main__: ✓ 196e852fefef78eb → data/raw/2025-05-19_comps.pdf
+2026-02-21 22:21:28,563 [INFO] src.email_scanner: Message 196d8d5f239a8bb1 has direct PDF attachment: Comps - 16.05.2025.pdf
+2026-02-21 22:21:29,059 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-16_comps.pdf (110676 bytes)
+2026-02-21 22:21:29,059 [INFO] __main__: ✓ 196d8d5f239a8bb1 → data/raw/2025-05-16_comps.pdf
+2026-02-21 22:21:29,894 [INFO] src.email_scanner: Message 196d3ac97562aa8a has direct PDF attachment: Comps - 15.05.2025.pdf
+2026-02-21 22:21:30,343 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-15_comps.pdf (110665 bytes)
+2026-02-21 22:21:30,343 [INFO] __main__: ✓ 196d3ac97562aa8a → data/raw/2025-05-15_comps.pdf
+2026-02-21 22:21:31,174 [INFO] src.email_scanner: Message 196ce78b81b0a7f2 has direct PDF attachment: Comps - 14.05.2025.pdf
+2026-02-21 22:21:31,659 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-14_comps.pdf (110629 bytes)
+2026-02-21 22:21:31,659 [INFO] __main__: ✓ 196ce78b81b0a7f2 → data/raw/2025-05-14_comps.pdf
+2026-02-21 22:21:32,637 [INFO] src.email_scanner: Message 196b4ee0ea0e3539 has direct PDF attachment: Comps - 09.05.2025.pdf
+2026-02-21 22:21:33,075 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-09_comps.pdf (110577 bytes)
+2026-02-21 22:21:33,075 [INFO] __main__: ✓ 196b4ee0ea0e3539 → data/raw/2025-05-09_comps.pdf
+2026-02-21 22:21:33,907 [INFO] src.email_scanner: Message 196afa2610eaf8be has direct PDF attachment: Comps - 08.05.2025.pdf
+2026-02-21 22:21:34,353 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-08_comps.pdf (110556 bytes)
+2026-02-21 22:21:34,353 [INFO] __main__: ✓ 196afa2610eaf8be → data/raw/2025-05-08_comps.pdf
+2026-02-21 22:21:35,194 [INFO] src.email_scanner: Message 196a555b9faca221 has direct PDF attachment: Comps - 06.05.2025.pdf
+2026-02-21 22:21:35,671 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-06_comps.pdf (110391 bytes)
+2026-02-21 22:21:35,671 [INFO] __main__: ✓ 196a555b9faca221 → data/raw/2025-05-06_comps.pdf
+2026-02-21 22:21:36,499 [INFO] src.email_scanner: Message 196a0153126d5452 has direct PDF attachment: Comps - 05.05.2025.pdf
+2026-02-21 22:21:36,947 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-05_comps.pdf (110572 bytes)
+2026-02-21 22:21:36,947 [INFO] __main__: ✓ 196a0153126d5452 → data/raw/2025-05-05_comps.pdf
+2026-02-21 22:21:37,807 [INFO] src.email_scanner: Message 19690d62c3463757 has direct PDF attachment: Comps - 02.05.2025.pdf
+2026-02-21 22:21:38,301 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-05-02_comps.pdf (110553 bytes)
+2026-02-21 22:21:38,301 [INFO] __main__: ✓ 19690d62c3463757 → data/raw/2025-05-02_comps.pdf
+2026-02-21 22:21:39,126 [INFO] src.email_scanner: Message 1968665e9f69c80d has direct PDF attachment: Comps - 30.04.2025.pdf
+2026-02-21 22:21:39,632 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-30_comps.pdf (110609 bytes)
+2026-02-21 22:21:39,632 [INFO] __main__: ✓ 1968665e9f69c80d → data/raw/2025-04-30_comps.pdf
+2026-02-21 22:21:40,457 [INFO] src.email_scanner: Message 19681543efdb02d2 has direct PDF attachment: Comps - 29.04.2025.pdf
+2026-02-21 22:21:40,943 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-29_comps.pdf (110591 bytes)
+2026-02-21 22:21:40,943 [INFO] __main__: ✓ 19681543efdb02d2 → data/raw/2025-04-29_comps.pdf
+2026-02-21 22:21:41,790 [INFO] src.email_scanner: Message 1967c4473fbb474a has direct PDF attachment: Comps - 28.04.2025.pdf
+2026-02-21 22:21:42,327 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-28_comps.pdf (110629 bytes)
+2026-02-21 22:21:42,327 [INFO] __main__: ✓ 1967c4473fbb474a → data/raw/2025-04-28_comps.pdf
+2026-02-21 22:21:43,127 [INFO] src.email_scanner: Message 1966ca6fefb020b6 has direct PDF attachment: Comps - 25.04.2025.pdf
+2026-02-21 22:21:43,608 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-25_comps.pdf (110603 bytes)
+2026-02-21 22:21:43,608 [INFO] __main__: ✓ 1966ca6fefb020b6 → data/raw/2025-04-25_comps.pdf
+2026-02-21 22:21:44,516 [INFO] src.email_scanner: Message 19667674620cd919 has direct PDF attachment: Comps - 24.04.2025.pdf
+2026-02-21 22:21:45,111 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-24_comps.pdf (110347 bytes)
+2026-02-21 22:21:45,111 [INFO] __main__: ✓ 19667674620cd919 → data/raw/2025-04-24_comps.pdf
+2026-02-21 22:21:45,902 [INFO] src.email_scanner: Message 19662513ee5ea4d5 has direct PDF attachment: Comps - 23.04.2025.pdf
+2026-02-21 22:21:46,446 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-23_comps.pdf (110543 bytes)
+2026-02-21 22:21:46,446 [INFO] __main__: ✓ 19662513ee5ea4d5 → data/raw/2025-04-23_comps.pdf
+2026-02-21 22:21:47,281 [INFO] src.email_scanner: Message 1965d29a0ae502bc has direct PDF attachment: Comps - 22.04.2025.pdf
+2026-02-21 22:21:47,694 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-22_comps.pdf (106458 bytes)
+2026-02-21 22:21:47,694 [INFO] __main__: ✓ 1965d29a0ae502bc → data/raw/2025-04-22_comps.pdf
+2026-02-21 22:21:48,495 [INFO] src.email_scanner: Message 196580e0fca8661f has direct PDF attachment: Comps - 21.04.2025.pdf
+2026-02-21 22:21:49,234 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-21_comps.pdf (505343 bytes)
+2026-02-21 22:21:49,235 [INFO] __main__: ✓ 196580e0fca8661f → data/raw/2025-04-21_comps.pdf
+2026-02-21 22:21:50,049 [INFO] src.email_scanner: Message 1964366045eefbb2 has direct PDF attachment: Comps - 17.04.2025.pdf
+2026-02-21 22:21:50,568 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-17_comps.pdf (510310 bytes)
+2026-02-21 22:21:50,568 [INFO] __main__: ✓ 1964366045eefbb2 → data/raw/2025-04-17_comps.pdf
+2026-02-21 22:21:51,343 [INFO] src.email_scanner: Message 1963e31b264e05a6 has direct PDF attachment: Comps - 16.04.2025.pdf
+2026-02-21 22:21:52,612 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-16_comps.pdf (510264 bytes)
+2026-02-21 22:21:52,612 [INFO] __main__: ✓ 1963e31b264e05a6 → data/raw/2025-04-16_comps.pdf
+2026-02-21 22:21:53,436 [INFO] src.email_scanner: Message 19624d3e4011fe46 has direct PDF attachment: Comps - 11.04.2025.pdf
+2026-02-21 22:21:54,172 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-11_comps.pdf (505330 bytes)
+2026-02-21 22:21:54,172 [INFO] __main__: ✓ 19624d3e4011fe46 → data/raw/2025-04-11_comps.pdf
+2026-02-21 22:21:54,959 [INFO] src.email_scanner: Message 1961f6b84dd1bb62 has direct PDF attachment: Comps - 10.04.2025.pdf
+2026-02-21 22:21:55,642 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-10_comps.pdf (505368 bytes)
+2026-02-21 22:21:55,642 [INFO] __main__: ✓ 1961f6b84dd1bb62 → data/raw/2025-04-10_comps.pdf
+2026-02-21 22:21:56,436 [INFO] src.email_scanner: Message 1961a480b28cbb39 has direct PDF attachment: Comps - 09.04.2025.pdf
+2026-02-21 22:21:57,088 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-09_comps.pdf (505323 bytes)
+2026-02-21 22:21:57,088 [INFO] __main__: ✓ 1961a480b28cbb39 → data/raw/2025-04-09_comps.pdf
+2026-02-21 22:21:57,930 [INFO] src.email_scanner: Message 19615233e2e50bca has direct PDF attachment: Comps - 08.04.2025.pdf
+2026-02-21 22:21:58,602 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-08_comps.pdf (505276 bytes)
+2026-02-21 22:21:58,602 [INFO] __main__: ✓ 19615233e2e50bca → data/raw/2025-04-08_comps.pdf
+2026-02-21 22:21:59,391 [INFO] src.email_scanner: Message 196100a58789c1cd has direct PDF attachment: Comps - 07.04.2025.pdf
+2026-02-21 22:21:59,995 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-07_comps.pdf (505311 bytes)
+2026-02-21 22:21:59,995 [INFO] __main__: ✓ 196100a58789c1cd → data/raw/2025-04-07_comps.pdf
+2026-02-21 22:22:00,788 [INFO] src.email_scanner: Message 19600f8202546441 has direct PDF attachment: Comps - 04.04.2025.pdf
+2026-02-21 22:22:01,330 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-04_comps.pdf (505274 bytes)
+2026-02-21 22:22:01,330 [INFO] __main__: ✓ 19600f8202546441 → data/raw/2025-04-04_comps.pdf
+2026-02-21 22:22:02,437 [INFO] src.email_scanner: Message 195fb720a5c90871 has direct PDF attachment: Comps - 03.04.2025.pdf
+2026-02-21 22:22:03,130 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-03_comps.pdf (505287 bytes)
+2026-02-21 22:22:03,130 [INFO] __main__: ✓ 195fb720a5c90871 → data/raw/2025-04-03_comps.pdf
+2026-02-21 22:22:03,916 [INFO] src.email_scanner: Message 195f63a0125a600f has direct PDF attachment: Comps - 02.04.2025.pdf
+2026-02-21 22:22:04,542 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-02_comps.pdf (505287 bytes)
+2026-02-21 22:22:04,542 [INFO] __main__: ✓ 195f63a0125a600f → data/raw/2025-04-02_comps.pdf
+2026-02-21 22:22:05,330 [INFO] src.email_scanner: Message 195f11b197747624 has direct PDF attachment: Comps - 01.04.2025.pdf
+2026-02-21 22:22:05,819 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-04-01_comps.pdf (505446 bytes)
+2026-02-21 22:22:05,819 [INFO] __main__: ✓ 195f11b197747624 → data/raw/2025-04-01_comps.pdf
+2026-02-21 22:22:06,634 [INFO] src.email_scanner: Message 195dc9d042802b96 has direct PDF attachment: Comps - 28.03.2025.pdf
+2026-02-21 22:22:07,359 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-28_comps.pdf (505482 bytes)
+2026-02-21 22:22:07,359 [INFO] __main__: ✓ 195dc9d042802b96 → data/raw/2025-03-28_comps.pdf
+2026-02-21 22:22:08,139 [INFO] src.email_scanner: Message 195d75d92307c3bd has direct PDF attachment: Comps - 27.03.2025.pdf
+2026-02-21 22:22:08,850 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-27_comps.pdf (338664 bytes)
+2026-02-21 22:22:08,850 [INFO] __main__: ✓ 195d75d92307c3bd → data/raw/2025-03-27_comps.pdf
+2026-02-21 22:22:09,643 [INFO] src.email_scanner: Message 195d239aa34800ef has direct PDF attachment: Comps - 26.03.2025.pdf
+2026-02-21 22:22:10,253 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-26_comps.pdf (338676 bytes)
+2026-02-21 22:22:10,253 [INFO] __main__: ✓ 195d239aa34800ef → data/raw/2025-03-26_comps.pdf
+2026-02-21 22:22:11,040 [INFO] src.email_scanner: Message 195cd0e944c1e070 has direct PDF attachment: Comps - 25.03.2025.pdf
+2026-02-21 22:22:11,469 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-25_comps.pdf (338670 bytes)
+2026-02-21 22:22:11,469 [INFO] __main__: ✓ 195cd0e944c1e070 → data/raw/2025-03-25_comps.pdf
+2026-02-21 22:22:12,241 [INFO] src.email_scanner: Message 195c7e5294fca351 has direct PDF attachment: Comps - 24.03.2025.pdf
+2026-02-21 22:22:12,743 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-24_comps.pdf (338677 bytes)
+2026-02-21 22:22:12,743 [INFO] __main__: ✓ 195c7e5294fca351 → data/raw/2025-03-24_comps.pdf
+2026-02-21 22:22:13,597 [INFO] src.email_scanner: Message 195b8a15e33afab1 has direct PDF attachment: Comps - 21.03.2025.pdf
+2026-02-21 22:22:14,240 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-21_comps.pdf (338673 bytes)
+2026-02-21 22:22:14,240 [INFO] __main__: ✓ 195b8a15e33afab1 → data/raw/2025-03-21_comps.pdf
+2026-02-21 22:22:15,017 [INFO] src.email_scanner: Message 195b343ae8536258 has direct PDF attachment: Comps - 20.03.2025.pdf
+2026-02-21 22:22:15,669 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-20_comps.pdf (338676 bytes)
+2026-02-21 22:22:15,669 [INFO] __main__: ✓ 195b343ae8536258 → data/raw/2025-03-20_comps.pdf
+2026-02-21 22:22:16,459 [INFO] src.email_scanner: Message 195ae114030f0266 has direct PDF attachment: Comps - 19.03.2025.pdf
+2026-02-21 22:22:17,045 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-19_comps.pdf (338677 bytes)
+2026-02-21 22:22:17,045 [INFO] __main__: ✓ 195ae114030f0266 → data/raw/2025-03-19_comps.pdf
+2026-02-21 22:22:17,841 [INFO] src.email_scanner: Message 195a908d5e10b63e has direct PDF attachment: Comps - 18.03.2025.pdf
+2026-02-21 22:22:18,608 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-18_comps.pdf (338665 bytes)
+2026-02-21 22:22:18,608 [INFO] __main__: ✓ 195a908d5e10b63e → data/raw/2025-03-18_comps.pdf
+2026-02-21 22:22:19,380 [INFO] src.email_scanner: Message 195a3e5943f6ce05 has direct PDF attachment: Comps - 17.03.2025.pdf
+2026-02-21 22:22:20,116 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-17_comps.pdf (338674 bytes)
+2026-02-21 22:22:20,116 [INFO] __main__: ✓ 195a3e5943f6ce05 → data/raw/2025-03-17_comps.pdf
+2026-02-21 22:22:20,911 [INFO] src.email_scanner: Message 1959475dcf7ab524 has direct PDF attachment: Comps - 14.03.2025.pdf
+2026-02-21 22:22:21,528 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-14_comps.pdf (338697 bytes)
+2026-02-21 22:22:21,528 [INFO] __main__: ✓ 1959475dcf7ab524 → data/raw/2025-03-14_comps.pdf
+2026-02-21 22:22:22,292 [INFO] src.email_scanner: Message 1958a04059af100e has direct PDF attachment: Comps - 12.03.2025.pdf
+2026-02-21 22:22:22,923 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-12_comps.pdf (338708 bytes)
+2026-02-21 22:22:22,923 [INFO] __main__: ✓ 1958a04059af100e → data/raw/2025-03-12_comps.pdf
+2026-02-21 22:22:23,714 [INFO] src.email_scanner: Message 19584f7b930ef60b has direct PDF attachment: Comps - 11.03.2025.pdf
+2026-02-21 22:22:24,308 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-11_comps.pdf (338718 bytes)
+2026-02-21 22:22:24,308 [INFO] __main__: ✓ 19584f7b930ef60b → data/raw/2025-03-11_comps.pdf
+2026-02-21 22:22:25,116 [INFO] src.email_scanner: Message 1957fc65c07d07d8 has direct PDF attachment: Comps - 10.03.2025.pdf
+2026-02-21 22:22:25,715 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-10_comps.pdf (338700 bytes)
+2026-02-21 22:22:25,715 [INFO] __main__: ✓ 1957fc65c07d07d8 → data/raw/2025-03-10_comps.pdf
+2026-02-21 22:22:26,502 [INFO] src.email_scanner: Message 1957078344e98da4 has direct PDF attachment: Comps - 07.03.2025.pdf
+2026-02-21 22:22:27,065 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-07_comps.pdf (338720 bytes)
+2026-02-21 22:22:27,065 [INFO] __main__: ✓ 1957078344e98da4 → data/raw/2025-03-07_comps.pdf
+2026-02-21 22:22:27,837 [INFO] src.email_scanner: Message 1956b45608886dbb has direct PDF attachment: Comps - 06.03.2025.pdf
+2026-02-21 22:22:29,055 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-06_comps.pdf (338717 bytes)
+2026-02-21 22:22:29,055 [INFO] __main__: ✓ 1956b45608886dbb → data/raw/2025-03-06_comps.pdf
+2026-02-21 22:22:29,901 [INFO] src.email_scanner: Message 19566192440473ea has direct PDF attachment: Comps 05.03.2025.pdf
+2026-02-21 22:22:30,477 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-05_comps.pdf (334629 bytes)
+2026-02-21 22:22:30,477 [INFO] __main__: ✓ 19566192440473ea → data/raw/2025-03-05_comps.pdf
+2026-02-21 22:22:31,282 [INFO] src.email_scanner: Message 1956105818ceb043 has direct PDF attachment: Comps - 04.03.2025.pdf
+2026-02-21 22:22:31,913 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-04_comps.pdf (339270 bytes)
+2026-02-21 22:22:31,913 [INFO] __main__: ✓ 1956105818ceb043 → data/raw/2025-03-04_comps.pdf
+2026-02-21 22:22:32,698 [INFO] src.email_scanner: Message 1955bc995a6b5fab has direct PDF attachment: Comps - 03.03.2025.pdf
+2026-02-21 22:22:33,331 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-03-03_comps.pdf (339203 bytes)
+2026-02-21 22:22:33,332 [INFO] __main__: ✓ 1955bc995a6b5fab → data/raw/2025-03-03_comps.pdf
+2026-02-21 22:22:34,119 [INFO] src.email_scanner: Message 1954c54a76514b91 has direct PDF attachment: Comps - 28.02.2025.pdf
+2026-02-21 22:22:34,905 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-28_comps.pdf (339198 bytes)
+2026-02-21 22:22:34,905 [INFO] __main__: ✓ 1954c54a76514b91 → data/raw/2025-02-28_comps.pdf
+2026-02-21 22:22:35,681 [INFO] src.email_scanner: Message 1954754e6628e83b has direct PDF attachment: Comps - 27.02.2025.pdf
+2026-02-21 22:22:36,313 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-27_comps.pdf (339189 bytes)
+2026-02-21 22:22:36,313 [INFO] __main__: ✓ 1954754e6628e83b → data/raw/2025-02-27_comps.pdf
+2026-02-21 22:22:37,111 [INFO] src.email_scanner: Message 1953ce775efb720c has direct PDF attachment: Comps - 25.02.2025.pdf
+2026-02-21 22:22:37,577 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-25_comps.pdf (339173 bytes)
+2026-02-21 22:22:37,577 [INFO] __main__: ✓ 1953ce775efb720c → data/raw/2025-02-25_comps.pdf
+2026-02-21 22:22:38,364 [INFO] src.email_scanner: Message 19537d0afe215126 has direct PDF attachment: Comps - 24.02.2025.pdf
+2026-02-21 22:22:38,814 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-24_comps.pdf (339184 bytes)
+2026-02-21 22:22:38,814 [INFO] __main__: ✓ 19537d0afe215126 → data/raw/2025-02-24_comps.pdf
+2026-02-21 22:22:39,570 [INFO] src.email_scanner: Message 195286374a8d06ea has direct PDF attachment: Comps - 21.02.2025.pdf
+2026-02-21 22:22:40,153 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-21_comps.pdf (339253 bytes)
+2026-02-21 22:22:40,153 [INFO] __main__: ✓ 195286374a8d06ea → data/raw/2025-02-21_comps.pdf
+2026-02-21 22:22:40,941 [INFO] src.email_scanner: Message 19523316d4a680a9 has direct PDF attachment: Comps - 20.02.2025.pdf
+2026-02-21 22:22:41,363 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-20_comps.pdf (339318 bytes)
+2026-02-21 22:22:41,363 [INFO] __main__: ✓ 19523316d4a680a9 → data/raw/2025-02-20_comps.pdf
+2026-02-21 22:22:42,155 [INFO] src.email_scanner: Message 1951deedac6d1dff has direct PDF attachment: Comps - 19.02.2025.pdf
+2026-02-21 22:22:42,755 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-19_comps.pdf (339874 bytes)
+2026-02-21 22:22:42,755 [INFO] __main__: ✓ 1951deedac6d1dff → data/raw/2025-02-19_comps.pdf
+2026-02-21 22:22:43,553 [INFO] src.email_scanner: Message 19518e0d4c0651ac has direct PDF attachment: Comps - 18.02.2025.pdf
+2026-02-21 22:22:44,126 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-18_comps.pdf (339868 bytes)
+2026-02-21 22:22:44,126 [INFO] __main__: ✓ 19518e0d4c0651ac → data/raw/2025-02-18_comps.pdf
+2026-02-21 22:22:45,034 [INFO] src.email_scanner: Message 19513be308263ea8 has direct PDF attachment: Comps 17.02.2025.pdf
+2026-02-21 22:22:46,132 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-17_comps.pdf (335829 bytes)
+2026-02-21 22:22:46,132 [INFO] __main__: ✓ 19513be308263ea8 → data/raw/2025-02-17_comps.pdf
+2026-02-21 22:22:46,947 [INFO] src.email_scanner: Message 195043c10aa18012 has direct PDF attachment: Comps - 14.02.2025.pdf
+2026-02-21 22:22:48,153 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-14_comps.pdf (339415 bytes)
+2026-02-21 22:22:48,153 [INFO] __main__: ✓ 195043c10aa18012 → data/raw/2025-02-14_comps.pdf
+2026-02-21 22:22:48,951 [INFO] src.email_scanner: Message 194ff10bdbc695e9 has direct PDF attachment: Comps - 13.02.2025.pdf
+2026-02-21 22:22:49,395 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-13_comps.pdf (339370 bytes)
+2026-02-21 22:22:49,395 [INFO] __main__: ✓ 194ff10bdbc695e9 → data/raw/2025-02-13_comps.pdf
+2026-02-21 22:22:50,203 [INFO] src.email_scanner: Message 194f4c48feabbe7f has direct PDF attachment: Comps - 11.02.2025.pdf
+2026-02-21 22:22:50,829 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-11_comps.pdf (339368 bytes)
+2026-02-21 22:22:50,829 [INFO] __main__: ✓ 194f4c48feabbe7f → data/raw/2025-02-11_comps.pdf
+2026-02-21 22:22:51,668 [INFO] src.email_scanner: Message 194efa17b513e836 has direct PDF attachment: Comps - 10.02.2025.pdf
+2026-02-21 22:22:52,186 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-10_comps.pdf (339442 bytes)
+2026-02-21 22:22:52,186 [INFO] __main__: ✓ 194efa17b513e836 → data/raw/2025-02-10_comps.pdf
+2026-02-21 22:22:52,983 [INFO] src.email_scanner: Message 194e02ee1e1dbe66 has direct PDF attachment: Comps - 07.02.2025.pdf
+2026-02-21 22:22:53,582 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-07_comps.pdf (339425 bytes)
+2026-02-21 22:22:53,582 [INFO] __main__: ✓ 194e02ee1e1dbe66 → data/raw/2025-02-07_comps.pdf
+2026-02-21 22:22:54,375 [INFO] src.email_scanner: Message 194db03c91f447a6 has direct PDF attachment: Comps - 06.02.2025.pdf
+2026-02-21 22:22:55,094 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-06_comps.pdf (339481 bytes)
+2026-02-21 22:22:55,094 [INFO] __main__: ✓ 194db03c91f447a6 → data/raw/2025-02-06_comps.pdf
+2026-02-21 22:22:55,895 [INFO] src.email_scanner: Message 194d969395b4503e has direct PDF attachment: Comps - 05.02.2025.pdf
+2026-02-21 22:22:55,895 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2025-02-06_comps.pdf
+2026-02-21 22:22:55,895 [INFO] __main__: ✓ 194d969395b4503e → data/raw/2025-02-06_comps.pdf
+2026-02-21 22:22:56,810 [INFO] src.email_scanner: Message 194d447bff1659e3 has direct PDF attachment: Comps - 03.02.2025.pdf
+2026-02-21 22:22:57,569 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-05_comps.pdf (339480 bytes)
+2026-02-21 22:22:57,569 [INFO] __main__: ✓ 194d447bff1659e3 → data/raw/2025-02-05_comps.pdf
+2026-02-21 22:22:58,433 [INFO] src.email_scanner: Message 194c9f0938cb956d has direct PDF attachment: Comps - 31.01.2025.pdf
+2026-02-21 22:22:59,170 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-02-03_comps.pdf (339995 bytes)
+2026-02-21 22:22:59,170 [INFO] __main__: ✓ 194c9f0938cb956d → data/raw/2025-02-03_comps.pdf
+2026-02-21 22:22:59,990 [INFO] src.email_scanner: Message 194ba82613b6a657 has direct PDF attachment: Comps - 30.01.2025.pdf
+2026-02-21 22:23:00,508 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-31_comps.pdf (339935 bytes)
+2026-02-21 22:23:00,508 [INFO] __main__: ✓ 194ba82613b6a657 → data/raw/2025-01-31_comps.pdf
+2026-02-21 22:23:01,307 [INFO] src.email_scanner: Message 194b5739c934f096 has direct PDF attachment: Comps - 29.01.2025.pdf
+2026-02-21 22:23:02,066 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-30_comps.pdf (339911 bytes)
+2026-02-21 22:23:02,066 [INFO] __main__: ✓ 194b5739c934f096 → data/raw/2025-01-30_comps.pdf
+2026-02-21 22:23:02,886 [INFO] src.email_scanner: Message 194b0478b823f37e has direct PDF attachment: Comps - 28.01.2025.pdf
+2026-02-21 22:23:03,410 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-29_comps.pdf (339932 bytes)
+2026-02-21 22:23:03,410 [INFO] __main__: ✓ 194b0478b823f37e → data/raw/2025-01-29_comps.pdf
+2026-02-21 22:23:04,285 [INFO] src.email_scanner: Message 194ab04bebd6cfa7 has direct PDF attachment: Comps - 27.01.2025.pdf
+2026-02-21 22:23:04,957 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-28_comps.pdf (340088 bytes)
+2026-02-21 22:23:04,957 [INFO] __main__: ✓ 194ab04bebd6cfa7 → data/raw/2025-01-28_comps.pdf
+2026-02-21 22:23:05,780 [INFO] src.email_scanner: Message 194a60982590694d has direct PDF attachment: Comps - 24.01.2025.pdf
+2026-02-21 22:23:06,211 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-27_comps.pdf (340107 bytes)
+2026-02-21 22:23:06,211 [INFO] __main__: ✓ 194a60982590694d → data/raw/2025-01-27_comps.pdf
+2026-02-21 22:23:07,035 [INFO] src.email_scanner: Message 194967335fbbdcae has direct PDF attachment: Comps - 23.01.2025.pdf
+2026-02-21 22:23:07,737 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-24_comps.pdf (340132 bytes)
+2026-02-21 22:23:07,737 [INFO] __main__: ✓ 194967335fbbdcae → data/raw/2025-01-24_comps.pdf
+2026-02-21 22:23:08,556 [INFO] src.email_scanner: Message 194916d04bb0b717 has direct PDF attachment: Comps - 22.01.2025.pdf
+2026-02-21 22:23:09,076 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-23_comps.pdf (340081 bytes)
+2026-02-21 22:23:09,076 [INFO] __main__: ✓ 194916d04bb0b717 → data/raw/2025-01-23_comps.pdf
+2026-02-21 22:23:09,883 [INFO] src.email_scanner: Message 1948c0b4157d1c5c has direct PDF attachment: Comps - 21.01.2025.pdf
+2026-02-21 22:23:10,367 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-22_comps.pdf (340071 bytes)
+2026-02-21 22:23:10,367 [INFO] __main__: ✓ 1948c0b4157d1c5c → data/raw/2025-01-22_comps.pdf
+2026-02-21 22:23:11,248 [INFO] src.email_scanner: Message 194870b05efa6ba0 has direct PDF attachment: Comps 20.01.2025.pdf
+2026-02-21 22:23:12,020 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-21_comps.pdf (340095 bytes)
+2026-02-21 22:23:12,020 [INFO] __main__: ✓ 194870b05efa6ba0 → data/raw/2025-01-21_comps.pdf
+2026-02-21 22:23:12,816 [INFO] src.email_scanner: Message 19481e0d0d440280 has direct PDF attachment: Comps - 17.01.2025.pdf
+2026-02-21 22:23:13,519 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-20_comps.pdf (340118 bytes)
+2026-02-21 22:23:13,519 [INFO] __main__: ✓ 19481e0d0d440280 → data/raw/2025-01-20_comps.pdf
+2026-02-21 22:23:14,709 [INFO] src.email_scanner: Message 194726ae2e807ceb has direct PDF attachment: Comps - 16.01.2025.pdf
+2026-02-21 22:23:15,362 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-17_comps.pdf (340154 bytes)
+2026-02-21 22:23:15,362 [INFO] __main__: ✓ 194726ae2e807ceb → data/raw/2025-01-17_comps.pdf
+2026-02-21 22:23:16,165 [INFO] src.email_scanner: Message 1946d4459ace72fd has direct PDF attachment: Comps - 15.01.2025.pdf
+2026-02-21 22:23:16,680 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-16_comps.pdf (340079 bytes)
+2026-02-21 22:23:16,680 [INFO] __main__: ✓ 1946d4459ace72fd → data/raw/2025-01-16_comps.pdf
+2026-02-21 22:23:17,492 [INFO] src.email_scanner: Message 19468203f7381b9b has direct PDF attachment: Comps - 10.01.2025.pdf
+2026-02-21 22:23:18,018 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-15_comps.pdf (392038 bytes)
+2026-02-21 22:23:18,019 [INFO] __main__: ✓ 19468203f7381b9b → data/raw/2025-01-15_comps.pdf
+2026-02-21 22:23:18,828 [INFO] src.email_scanner: Message 1944e4efdfc1cb03 has direct PDF attachment: Comps - 09.01.2025.pdf
+2026-02-21 22:23:19,465 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-10_comps.pdf (340132 bytes)
+2026-02-21 22:23:19,465 [INFO] __main__: ✓ 1944e4efdfc1cb03 → data/raw/2025-01-10_comps.pdf
+2026-02-21 22:23:20,280 [INFO] src.email_scanner: Message 1944934e8115b3e0 has direct PDF attachment: Comps - 08.01.2025.pdf
+2026-02-21 22:23:20,907 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-09_comps.pdf (340145 bytes)
+2026-02-21 22:23:20,907 [INFO] __main__: ✓ 1944934e8115b3e0 → data/raw/2025-01-09_comps.pdf
+2026-02-21 22:23:21,724 [INFO] src.email_scanner: Message 1944412d37bc2c8a has direct PDF attachment: Comps - 07.01.2025.pdf
+2026-02-21 22:23:22,426 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-08_comps.pdf (340116 bytes)
+2026-02-21 22:23:22,426 [INFO] __main__: ✓ 1944412d37bc2c8a → data/raw/2025-01-08_comps.pdf
+2026-02-21 22:23:23,224 [INFO] src.email_scanner: Message 1943ee804620abec has direct PDF attachment: Comps - 06.01.2025.pdf
+2026-02-21 22:23:23,781 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-07_comps.pdf (340152 bytes)
+2026-02-21 22:23:23,781 [INFO] __main__: ✓ 1943ee804620abec → data/raw/2025-01-07_comps.pdf
+2026-02-21 22:23:24,595 [INFO] src.email_scanner: Message 1942a500033515c1 has direct PDF attachment: Comps - 02.01.2025.pdf
+2026-02-21 22:23:25,058 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-03_comps.pdf (340146 bytes)
+2026-02-21 22:23:25,058 [INFO] __main__: ✓ 1942a500033515c1 → data/raw/2025-01-03_comps.pdf
+2026-02-21 22:23:25,856 [INFO] src.email_scanner: Message 194253f7f656f8a7 has direct PDF attachment: Comps - 31.12.2024.pdf
+2026-02-21 22:23:26,674 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2025-01-02_comps.pdf (340090 bytes)
+2026-02-21 22:23:26,674 [INFO] __main__: ✓ 194253f7f656f8a7 → data/raw/2025-01-02_comps.pdf
+2026-02-21 22:23:27,501 [INFO] src.email_scanner: Message 1941ad9826c0659d has direct PDF attachment: Comps - 30.12.2024.pdf
+2026-02-21 22:23:28,011 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-31_comps.pdf (339578 bytes)
+2026-02-21 22:23:28,011 [INFO] __main__: ✓ 1941ad9826c0659d → data/raw/2024-12-31_comps.pdf
+2026-02-21 22:23:28,861 [INFO] src.email_scanner: Message 19415bd9e72628fe has direct PDF attachment: Comps - 27.12.2024.pdf
+2026-02-21 22:23:29,422 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-30_comps.pdf (339527 bytes)
+2026-02-21 22:23:29,422 [INFO] __main__: ✓ 19415bd9e72628fe → data/raw/2024-12-30_comps.pdf
+2026-02-21 22:23:30,224 [INFO] src.email_scanner: Message 1940635c434776f6 has direct PDF attachment: Comps - 26.12.2024.pdf
+2026-02-21 22:23:30,805 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-27_comps.pdf (339576 bytes)
+2026-02-21 22:23:30,805 [INFO] __main__: ✓ 1940635c434776f6 → data/raw/2024-12-27_comps.pdf
+2026-02-21 22:23:31,666 [INFO] src.email_scanner: Message 193f1cd1bafdc24d has direct PDF attachment: Comps - 20.12.2024.pdf
+2026-02-21 22:23:32,415 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-23_comps.pdf (339656 bytes)
+2026-02-21 22:23:32,415 [INFO] __main__: ✓ 193f1cd1bafdc24d → data/raw/2024-12-23_comps.pdf
+2026-02-21 22:23:33,228 [INFO] src.email_scanner: Message 193e24f113466196 has direct PDF attachment: Comps - 19.12.2024.pdf
+2026-02-21 22:23:33,879 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-20_comps.pdf (339544 bytes)
+2026-02-21 22:23:33,880 [INFO] __main__: ✓ 193e24f113466196 → data/raw/2024-12-20_comps.pdf
+2026-02-21 22:23:34,688 [INFO] src.email_scanner: Message 193dd24073891693 has direct PDF attachment: Comps - 18.12.2024.pdf
+2026-02-21 22:23:35,374 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-19_comps.pdf (339601 bytes)
+2026-02-21 22:23:35,374 [INFO] __main__: ✓ 193dd24073891693 → data/raw/2024-12-19_comps.pdf
+2026-02-21 22:23:36,180 [INFO] src.email_scanner: Message 193d7f474dcaf264 has direct PDF attachment: Comps - 17.12.2024.pdf
+2026-02-21 22:23:36,853 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-18_comps.pdf (339642 bytes)
+2026-02-21 22:23:36,853 [INFO] __main__: ✓ 193d7f474dcaf264 → data/raw/2024-12-18_comps.pdf
+2026-02-21 22:23:37,656 [INFO] src.email_scanner: Message 193d2bc467d398ea has direct PDF attachment: Comps - 16.12.2024.pdf
+2026-02-21 22:23:38,307 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-17_comps.pdf (339642 bytes)
+2026-02-21 22:23:38,307 [INFO] __main__: ✓ 193d2bc467d398ea → data/raw/2024-12-17_comps.pdf
+2026-02-21 22:23:39,104 [INFO] src.email_scanner: Message 193cdb525f6e5844 has direct PDF attachment: Comps - 13.12.2024.pdf
+2026-02-21 22:23:39,726 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-16_comps.pdf (339560 bytes)
+2026-02-21 22:23:39,726 [INFO] __main__: ✓ 193cdb525f6e5844 → data/raw/2024-12-16_comps.pdf
+2026-02-21 22:23:40,543 [INFO] src.email_scanner: Message 193be2d9a96fbb38 has direct PDF attachment: Comps - 12.12.2024.pdf
+2026-02-21 22:23:41,006 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-13_comps.pdf (339602 bytes)
+2026-02-21 22:23:41,006 [INFO] __main__: ✓ 193be2d9a96fbb38 → data/raw/2024-12-13_comps.pdf
+2026-02-21 22:23:41,808 [INFO] src.email_scanner: Message 193b90bb56a73d39 has direct PDF attachment: Comps - 11.12.2024.pdf
+2026-02-21 22:23:42,499 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-12_comps.pdf (339560 bytes)
+2026-02-21 22:23:42,499 [INFO] __main__: ✓ 193b90bb56a73d39 → data/raw/2024-12-12_comps.pdf
+2026-02-21 22:23:43,281 [INFO] src.email_scanner: Message 193b3c8f6fd41b09 has direct PDF attachment: Comps -10.12.2024.pdf
+2026-02-21 22:23:43,931 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-11_comps.pdf (339579 bytes)
+2026-02-21 22:23:43,931 [INFO] __main__: ✓ 193b3c8f6fd41b09 → data/raw/2024-12-11_comps.pdf
+2026-02-21 22:23:44,713 [INFO] src.email_scanner: Message 193aeba85e9fb6eb has direct PDF attachment: Comps -09.12.2024.pdf
+2026-02-21 22:23:45,374 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-10_comps.pdf (339599 bytes)
+2026-02-21 22:23:45,374 [INFO] __main__: ✓ 193aeba85e9fb6eb → data/raw/2024-12-10_comps.pdf
+2026-02-21 22:23:46,153 [INFO] src.email_scanner: Message 193a9e329ea503e8 has direct PDF attachment: Comps -06.12.2024.pdf
+2026-02-21 22:23:46,756 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-09_comps.pdf (497070 bytes)
+2026-02-21 22:23:46,757 [INFO] __main__: ✓ 193a9e329ea503e8 → data/raw/2024-12-09_comps.pdf
+2026-02-21 22:23:47,600 [INFO] src.email_scanner: Message 1939a4cbfe14293b has direct PDF attachment: Comps -05.12.2024.pdf
+2026-02-21 22:23:48,070 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-06_comps.pdf (339592 bytes)
+2026-02-21 22:23:48,070 [INFO] __main__: ✓ 1939a4cbfe14293b → data/raw/2024-12-06_comps.pdf
+2026-02-21 22:23:48,861 [INFO] src.email_scanner: Message 19394ece21a41c7c has direct PDF attachment: Comps -04.12.2024.pdf
+2026-02-21 22:23:49,501 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-05_comps.pdf (339557 bytes)
+2026-02-21 22:23:49,501 [INFO] __main__: ✓ 19394ece21a41c7c → data/raw/2024-12-05_comps.pdf
+2026-02-21 22:23:50,289 [INFO] src.email_scanner: Message 1938fe1729e39c50 has direct PDF attachment: Comps -03.12.2024.pdf
+2026-02-21 22:23:51,028 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-04_comps.pdf (338763 bytes)
+2026-02-21 22:23:51,028 [INFO] __main__: ✓ 1938fe1729e39c50 → data/raw/2024-12-04_comps.pdf
+2026-02-21 22:23:51,823 [INFO] src.email_scanner: Message 1938adfaf47e833c has direct PDF attachment: Comps -02.12.2024.pdf
+2026-02-21 22:23:52,545 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-03_comps.pdf (338836 bytes)
+2026-02-21 22:23:52,546 [INFO] __main__: ✓ 1938adfaf47e833c → data/raw/2024-12-03_comps.pdf
+2026-02-21 22:23:53,332 [INFO] src.email_scanner: Message 19385901be165470 has direct PDF attachment: Comps - 29.11.2024.pdf
+2026-02-21 22:23:54,004 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-12-02_comps.pdf (338897 bytes)
+2026-02-21 22:23:54,004 [INFO] __main__: ✓ 19385901be165470 → data/raw/2024-12-02_comps.pdf
+2026-02-21 22:23:54,811 [INFO] src.email_scanner: Message 193761ba1e4fce6b has direct PDF attachment: Comps -28.11.2024.pdf
+2026-02-21 22:23:55,396 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-29_comps.pdf (338824 bytes)
+2026-02-21 22:23:55,396 [INFO] __main__: ✓ 193761ba1e4fce6b → data/raw/2024-11-29_comps.pdf
+2026-02-21 22:23:56,173 [INFO] src.email_scanner: Message 19371087cfb94fbc has direct PDF attachment: Comps -27.11.2024.pdf
+2026-02-21 22:23:56,759 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-28_comps.pdf (338872 bytes)
+2026-02-21 22:23:56,759 [INFO] __main__: ✓ 19371087cfb94fbc → data/raw/2024-11-28_comps.pdf
+2026-02-21 22:23:57,564 [INFO] src.email_scanner: Message 1936bd6a3018f48c has direct PDF attachment: Comps -26.11.2024.pdf
+2026-02-21 22:23:58,171 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-27_comps.pdf (338846 bytes)
+2026-02-21 22:23:58,171 [INFO] __main__: ✓ 1936bd6a3018f48c → data/raw/2024-11-27_comps.pdf
+2026-02-21 22:23:58,991 [INFO] src.email_scanner: Message 19366a587ae3f93d has direct PDF attachment: Comps 25.11.2024.pdf
+2026-02-21 22:23:59,498 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-26_comps.pdf (334715 bytes)
+2026-02-21 22:23:59,498 [INFO] __main__: ✓ 19366a587ae3f93d → data/raw/2024-11-26_comps.pdf
+2026-02-21 22:24:00,309 [INFO] src.email_scanner: Message 1936172f2c3a00ff has direct PDF attachment: Comps -22.11.2024.pdf
+2026-02-21 22:24:00,815 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-25_comps.pdf (339481 bytes)
+2026-02-21 22:24:00,815 [INFO] __main__: ✓ 1936172f2c3a00ff → data/raw/2024-11-25_comps.pdf
+2026-02-21 22:24:01,608 [INFO] src.email_scanner: Message 19352115a6203a8e has direct PDF attachment: Comps - 21.11.2024.pdf
+2026-02-21 22:24:02,118 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-22_comps.pdf (339554 bytes)
+2026-02-21 22:24:02,118 [INFO] __main__: ✓ 19352115a6203a8e → data/raw/2024-11-22_comps.pdf
+2026-02-21 22:24:02,963 [INFO] src.email_scanner: Message 1934ce24c7c7d005 has direct PDF attachment: Comps -20.11.2024.pdf
+2026-02-21 22:24:03,618 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-21_comps.pdf (339777 bytes)
+2026-02-21 22:24:03,618 [INFO] __main__: ✓ 1934ce24c7c7d005 → data/raw/2024-11-21_comps.pdf
+2026-02-21 22:24:04,503 [INFO] src.email_scanner: Message 19347cb0f1eb4ef6 has direct PDF attachment: Comps -19.11.2024.pdf
+2026-02-21 22:24:05,109 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-20_comps.pdf (339770 bytes)
+2026-02-21 22:24:05,109 [INFO] __main__: ✓ 19347cb0f1eb4ef6 → data/raw/2024-11-20_comps.pdf
+2026-02-21 22:24:05,912 [INFO] src.email_scanner: Message 19342aa59ea6f60e has direct PDF attachment: Comps -18.11.2024.pdf
+2026-02-21 22:24:06,382 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-19_comps.pdf (339740 bytes)
+2026-02-21 22:24:06,382 [INFO] __main__: ✓ 19342aa59ea6f60e → data/raw/2024-11-19_comps.pdf
+2026-02-21 22:24:07,188 [INFO] src.email_scanner: Message 1933d9c421996aac has direct PDF attachment: Comps -14.11.2024.pdf
+2026-02-21 22:24:07,636 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-18_comps.pdf (339818 bytes)
+2026-02-21 22:24:07,636 [INFO] __main__: ✓ 1933d9c421996aac → data/raw/2024-11-18_comps.pdf
+2026-02-21 22:24:08,415 [INFO] src.email_scanner: Message 19323aad8ee243aa has direct PDF attachment: Comps -12.11.2024.pdf
+2026-02-21 22:24:08,943 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-13_comps.pdf (233181 bytes)
+2026-02-21 22:24:08,943 [INFO] __main__: ✓ 19323aad8ee243aa → data/raw/2024-11-13_comps.pdf
+2026-02-21 22:24:09,736 [INFO] src.email_scanner: Message 1931e9b052bb17d3 has direct PDF attachment: Comps -11.11.2024.pdf
+2026-02-21 22:24:10,153 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-12_comps.pdf (233212 bytes)
+2026-02-21 22:24:10,153 [INFO] __main__: ✓ 1931e9b052bb17d3 → data/raw/2024-11-12_comps.pdf
+2026-02-21 22:24:10,995 [INFO] src.email_scanner: Message 1931979dcbb779a4 has direct PDF attachment: Comps - 08.11.2024.pdf
+2026-02-21 22:24:11,611 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-11_comps.pdf (235140 bytes)
+2026-02-21 22:24:11,611 [INFO] __main__: ✓ 1931979dcbb779a4 → data/raw/2024-11-11_comps.pdf
+2026-02-21 22:24:12,462 [INFO] src.email_scanner: Message 1930a023cfc280c3 has direct PDF attachment: Comps -07.11.2024.pdf
+2026-02-21 22:24:12,928 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-08_comps.pdf (235067 bytes)
+2026-02-21 22:24:12,928 [INFO] __main__: ✓ 1930a023cfc280c3 → data/raw/2024-11-08_comps.pdf
+2026-02-21 22:24:13,730 [INFO] src.email_scanner: Message 192ffae5575954c9 has direct PDF attachment: Comps -05.11.2024.pdf
+2026-02-21 22:24:14,332 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-11-06_comps.pdf (234924 bytes)
+2026-02-21 22:24:14,332 [INFO] __main__: ✓ 192ffae5575954c9 → data/raw/2024-11-06_comps.pdf
+2026-02-21 22:24:15,155 [INFO] src.email_scanner: Message 192dba6dbb35e8ad has direct PDF attachment: Comps 29.10.2024.pdf
+2026-02-21 22:24:15,972 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-30_comps.pdf (798399 bytes)
+2026-02-21 22:24:15,972 [INFO] __main__: ✓ 192dba6dbb35e8ad → data/raw/2024-10-30_comps.pdf
+2026-02-21 22:24:16,770 [INFO] src.email_scanner: Message 192d12fc0e9a47aa has direct PDF attachment: Comps -25.10.2024.pdf
+2026-02-21 22:24:17,300 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-28_comps.pdf (235086 bytes)
+2026-02-21 22:24:17,300 [INFO] __main__: ✓ 192d12fc0e9a47aa → data/raw/2024-10-28_comps.pdf
+2026-02-21 22:24:18,101 [INFO] src.email_scanner: Message 192bcb84720fac4d has direct PDF attachment: Comps -23.10.2024.pdf
+2026-02-21 22:24:18,532 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-24_comps.pdf (235140 bytes)
+2026-02-21 22:24:18,532 [INFO] __main__: ✓ 192bcb84720fac4d → data/raw/2024-10-24_comps.pdf
+2026-02-21 22:24:19,322 [INFO] src.email_scanner: Message 192b76d99e308806 has direct PDF attachment: Comps -22.10.2024.pdf
+2026-02-21 22:24:19,727 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-23_comps.pdf (235076 bytes)
+2026-02-21 22:24:19,727 [INFO] __main__: ✓ 192b76d99e308806 → data/raw/2024-10-23_comps.pdf
+2026-02-21 22:24:20,503 [INFO] src.email_scanner: Message 192b24be750955cc has direct PDF attachment: Comps -21.10.2024.pdf
+2026-02-21 22:24:21,136 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-22_comps.pdf (237279 bytes)
+2026-02-21 22:24:21,136 [INFO] __main__: ✓ 192b24be750955cc → data/raw/2024-10-22_comps.pdf
+2026-02-21 22:24:21,969 [INFO] src.email_scanner: Message 192ad49f25cc8801 has direct PDF attachment: Comps -18.10.2024.pdf
+2026-02-21 22:24:22,460 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-21_comps.pdf (237268 bytes)
+2026-02-21 22:24:22,460 [INFO] __main__: ✓ 192ad49f25cc8801 → data/raw/2024-10-21_comps.pdf
+2026-02-21 22:24:23,294 [INFO] src.email_scanner: Message 1929dcd6233752d2 has direct PDF attachment: Comps -16.10.2024.pdf
+2026-02-21 22:24:23,752 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-18_comps.pdf (237303 bytes)
+2026-02-21 22:24:23,752 [INFO] __main__: ✓ 1929dcd6233752d2 → data/raw/2024-10-18_comps.pdf
+2026-02-21 22:24:24,880 [INFO] src.email_scanner: Message 192934a24d0a0c9a has direct PDF attachment: Comps -15.10.2024.pdf
+2026-02-21 22:24:25,423 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-16_comps.pdf (237306 bytes)
+2026-02-21 22:24:25,423 [INFO] __main__: ✓ 192934a24d0a0c9a → data/raw/2024-10-16_comps.pdf
+2026-02-21 22:24:26,218 [INFO] src.email_scanner: Message 1928e4f1961ecd58 has direct PDF attachment: Comps -14.10.2024.pdf
+2026-02-21 22:24:26,760 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-15_comps.pdf (227639 bytes)
+2026-02-21 22:24:26,760 [INFO] __main__: ✓ 1928e4f1961ecd58 → data/raw/2024-10-15_comps.pdf
+2026-02-21 22:24:27,560 [INFO] src.email_scanner: Message 1928925d835dfa75 has direct PDF attachment: Comps 11.10.2024.pdf
+2026-02-21 22:24:27,997 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-14_comps.pdf (233217 bytes)
+2026-02-21 22:24:27,997 [INFO] __main__: ✓ 1928925d835dfa75 → data/raw/2024-10-14_comps.pdf
+2026-02-21 22:24:28,819 [INFO] src.email_scanner: Message 19279a28e0fbe18d has direct PDF attachment: Comps -10.10.2024.pdf
+2026-02-21 22:24:29,312 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-11_comps.pdf (241756 bytes)
+2026-02-21 22:24:29,312 [INFO] __main__: ✓ 19279a28e0fbe18d → data/raw/2024-10-11_comps.pdf
+2026-02-21 22:24:30,115 [INFO] src.email_scanner: Message 192747b5d2644ab0 has direct PDF attachment: Comps -09.10.2024.pdf
+2026-02-21 22:24:30,644 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-10_comps.pdf (241088 bytes)
+2026-02-21 22:24:30,644 [INFO] __main__: ✓ 192747b5d2644ab0 → data/raw/2024-10-10_comps.pdf
+2026-02-21 22:24:31,448 [INFO] src.email_scanner: Message 1926f65e052caa9a has direct PDF attachment: Comps -08.10.2024.pdf
+2026-02-21 22:24:32,030 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-09_comps.pdf (241025 bytes)
+2026-02-21 22:24:32,030 [INFO] __main__: ✓ 1926f65e052caa9a → data/raw/2024-10-09_comps.pdf
+2026-02-21 22:24:32,828 [INFO] src.email_scanner: Message 1926a2fbf2a21f3a has direct PDF attachment: Comps -07.10.2024.pdf
+2026-02-21 22:24:33,615 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-08_comps.pdf (240606 bytes)
+2026-02-21 22:24:33,615 [INFO] __main__: ✓ 1926a2fbf2a21f3a → data/raw/2024-10-08_comps.pdf
+2026-02-21 22:24:34,429 [INFO] src.email_scanner: Message 19265120eaeefe1f has direct PDF attachment: Comps -04.10.2024.pdf
+2026-02-21 22:24:35,056 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-07_comps.pdf (347249 bytes)
+2026-02-21 22:24:35,057 [INFO] __main__: ✓ 19265120eaeefe1f → data/raw/2024-10-07_comps.pdf
+2026-02-21 22:24:35,879 [INFO] src.email_scanner: Message 192558d7f9c6dd6f has direct PDF attachment: Comps -03.10.2024.pdf
+2026-02-21 22:24:36,559 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-04_comps.pdf (347250 bytes)
+2026-02-21 22:24:36,559 [INFO] __main__: ✓ 192558d7f9c6dd6f → data/raw/2024-10-04_comps.pdf
+2026-02-21 22:24:37,469 [INFO] src.email_scanner: Message 19250737c49092c4 has direct PDF attachment: Comps -02.10.2024.pdf
+2026-02-21 22:24:38,086 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-03_comps.pdf (347233 bytes)
+2026-02-21 22:24:38,086 [INFO] __main__: ✓ 19250737c49092c4 → data/raw/2024-10-03_comps.pdf
+2026-02-21 22:24:38,898 [INFO] src.email_scanner: Message 1924b6c86d922a3f has direct PDF attachment: Comps -01.10.2024.pdf
+2026-02-21 22:24:39,430 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-02_comps.pdf (347277 bytes)
+2026-02-21 22:24:39,430 [INFO] __main__: ✓ 1924b6c86d922a3f → data/raw/2024-10-02_comps.pdf
+2026-02-21 22:24:40,233 [INFO] src.email_scanner: Message 1924617d91429604 has direct PDF attachment: comps 30.09.2024.pdf
+2026-02-21 22:24:40,685 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-10-01_comps.pdf (236443 bytes)
+2026-02-21 22:24:40,685 [INFO] __main__: ✓ 1924617d91429604 → data/raw/2024-10-01_comps.pdf
+2026-02-21 22:24:41,522 [INFO] src.email_scanner: Message 19240fba6f6bda09 has direct PDF attachment: Comps -27.09.2024.pdf
+2026-02-21 22:24:42,100 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-30_comps.pdf (347403 bytes)
+2026-02-21 22:24:42,100 [INFO] __main__: ✓ 19240fba6f6bda09 → data/raw/2024-09-30_comps.pdf
+2026-02-21 22:24:42,998 [INFO] src.email_scanner: Message 19231863d3c9693b has direct PDF attachment: Comps -26.09.2024.pdf
+2026-02-21 22:24:43,515 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-27_comps.pdf (240690 bytes)
+2026-02-21 22:24:43,515 [INFO] __main__: ✓ 19231863d3c9693b → data/raw/2024-09-27_comps.pdf
+2026-02-21 22:24:44,305 [INFO] src.email_scanner: Message 1922c53c18e313cb has direct PDF attachment: Comps -25.09.2024.pdf
+2026-02-21 22:24:44,737 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-26_comps.pdf (240614 bytes)
+2026-02-21 22:24:44,737 [INFO] __main__: ✓ 1922c53c18e313cb → data/raw/2024-09-26_comps.pdf
+2026-02-21 22:24:45,523 [INFO] src.email_scanner: Message 19227401d2fde15c has direct PDF attachment: Comps -24.09.2024.pdf
+2026-02-21 22:24:45,996 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-25_comps.pdf (240644 bytes)
+2026-02-21 22:24:45,996 [INFO] __main__: ✓ 19227401d2fde15c → data/raw/2024-09-25_comps.pdf
+2026-02-21 22:24:46,852 [INFO] src.email_scanner: Message 19222344211d925d has direct PDF attachment: Comps-23.09.2024.pdf
+2026-02-21 22:24:47,448 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-24_comps.pdf (240600 bytes)
+2026-02-21 22:24:47,448 [INFO] __main__: ✓ 19222344211d925d → data/raw/2024-09-24_comps.pdf
+2026-02-21 22:24:48,251 [INFO] src.email_scanner: Message 1921cf157d0b297a has direct PDF attachment: Comps -20.09.2024.pdf
+2026-02-21 22:24:48,833 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-23_comps.pdf (240528 bytes)
+2026-02-21 22:24:48,834 [INFO] __main__: ✓ 1921cf157d0b297a → data/raw/2024-09-23_comps.pdf
+2026-02-21 22:24:49,610 [INFO] src.email_scanner: Message 1920d998315ccf5f has direct PDF attachment: Comps -19.09.2024.pdf
+2026-02-21 22:24:50,076 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-20_comps.pdf (240621 bytes)
+2026-02-21 22:24:50,076 [INFO] __main__: ✓ 1920d998315ccf5f → data/raw/2024-09-20_comps.pdf
+2026-02-21 22:24:50,863 [INFO] src.email_scanner: Message 192085aad77c2fd4 has direct PDF attachment: Comps -18.09.2024.pdf
+2026-02-21 22:24:51,372 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-19_comps.pdf (347266 bytes)
+2026-02-21 22:24:51,372 [INFO] __main__: ✓ 192085aad77c2fd4 → data/raw/2024-09-19_comps.pdf
+2026-02-21 22:24:52,629 [INFO] src.email_scanner: Message 19203450615270a8 has direct PDF attachment: Comps -13.09.2024.pdf
+2026-02-21 22:24:53,320 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-18_comps.pdf (347321 bytes)
+2026-02-21 22:24:53,320 [INFO] __main__: ✓ 19203450615270a8 → data/raw/2024-09-18_comps.pdf
+2026-02-21 22:24:54,138 [INFO] src.email_scanner: Message 191e97c4c0c4b80c has direct PDF attachment: Comps - 12.09.2024.pdf
+2026-02-21 22:24:54,628 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-13_comps.pdf (347209 bytes)
+2026-02-21 22:24:54,629 [INFO] __main__: ✓ 191e97c4c0c4b80c → data/raw/2024-09-13_comps.pdf
+2026-02-21 22:24:55,429 [INFO] src.email_scanner: Message 191e4420aa669e17 has direct PDF attachment: Comps - 11.09.2024.pdf
+2026-02-21 22:24:56,063 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-12_comps.pdf (347247 bytes)
+2026-02-21 22:24:56,063 [INFO] __main__: ✓ 191e4420aa669e17 → data/raw/2024-09-12_comps.pdf
+2026-02-21 22:24:56,886 [INFO] src.email_scanner: Message 191df2ec8e94c574 has direct PDF attachment: Comps -10.09.2024.pdf
+2026-02-21 22:24:57,363 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-11_comps.pdf (347228 bytes)
+2026-02-21 22:24:57,363 [INFO] __main__: ✓ 191df2ec8e94c574 → data/raw/2024-09-11_comps.pdf
+2026-02-21 22:24:58,136 [INFO] src.email_scanner: Message 191d9f000407a26e has direct PDF attachment: Comps -09.09.2024.pdf
+2026-02-21 22:24:58,575 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-10_comps.pdf (241133 bytes)
+2026-02-21 22:24:58,575 [INFO] __main__: ✓ 191d9f000407a26e → data/raw/2024-09-10_comps.pdf
+2026-02-21 22:24:59,353 [INFO] src.email_scanner: Message 191d4d2b39da4a73 has direct PDF attachment: Comps - 06.09.2024.pdf
+2026-02-21 22:24:59,836 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-09_comps.pdf (347772 bytes)
+2026-02-21 22:24:59,836 [INFO] __main__: ✓ 191d4d2b39da4a73 → data/raw/2024-09-09_comps.pdf
+2026-02-21 22:25:00,637 [INFO] src.email_scanner: Message 191c559f47e115eb has direct PDF attachment: Comps -05.09.2024.pdf
+2026-02-21 22:25:01,242 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-06_comps.pdf (347825 bytes)
+2026-02-21 22:25:01,243 [INFO] __main__: ✓ 191c559f47e115eb → data/raw/2024-09-06_comps.pdf
+2026-02-21 22:25:02,021 [INFO] src.email_scanner: Message 191c04091dfecb35 has direct PDF attachment: Earnings Database -04.09.2024.pdf
+2026-02-21 22:25:02,527 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-05_comps.pdf (347811 bytes)
+2026-02-21 22:25:02,527 [INFO] __main__: ✓ 191c04091dfecb35 → data/raw/2024-09-05_comps.pdf
+2026-02-21 22:25:03,306 [INFO] src.email_scanner: Message 191bb0f95ccab0c0 has direct PDF attachment: Comps - 03.09.2024.pdf
+2026-02-21 22:25:04,168 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-04_comps.pdf (347349 bytes)
+2026-02-21 22:25:04,168 [INFO] __main__: ✓ 191bb0f95ccab0c0 → data/raw/2024-09-04_comps.pdf
+2026-02-21 22:25:04,961 [INFO] src.email_scanner: Message 191b5f9d6d0ff4d0 has direct PDF attachment: Comps -02.09.2024.pdf
+2026-02-21 22:25:05,490 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-03_comps.pdf (347331 bytes)
+2026-02-21 22:25:05,490 [INFO] __main__: ✓ 191b5f9d6d0ff4d0 → data/raw/2024-09-03_comps.pdf
+2026-02-21 22:25:06,345 [INFO] src.email_scanner: Message 191b0c9ca46e8be7 has direct PDF attachment: Comps - 30.08.2024.pdf
+2026-02-21 22:25:15,517 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-09-02_comps.pdf (347416 bytes)
+2026-02-21 22:25:15,518 [INFO] __main__: ✓ 191b0c9ca46e8be7 → data/raw/2024-09-02_comps.pdf
+2026-02-21 22:25:16,380 [INFO] src.email_scanner: Message 191a16231227afc4 has direct PDF attachment: Comps-29.08.2024.pdf
+2026-02-21 22:25:16,902 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-30_comps.pdf (347373 bytes)
+2026-02-21 22:25:16,903 [INFO] __main__: ✓ 191a16231227afc4 → data/raw/2024-08-30_comps.pdf
+2026-02-21 22:25:17,692 [INFO] src.email_scanner: Message 1919c3ca0e58607b has direct PDF attachment: Comps-28.08.2024.pdf
+2026-02-21 22:25:18,143 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-29_comps.pdf (347372 bytes)
+2026-02-21 22:25:18,143 [INFO] __main__: ✓ 1919c3ca0e58607b → data/raw/2024-08-29_comps.pdf
+2026-02-21 22:25:19,044 [INFO] src.email_scanner: Message 1919713eb90b1082 has direct PDF attachment: Comps 27.08.2024.pdf
+2026-02-21 22:25:19,510 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-28_comps.pdf (394614 bytes)
+2026-02-21 22:25:19,510 [INFO] __main__: ✓ 1919713eb90b1082 → data/raw/2024-08-28_comps.pdf
+2026-02-21 22:25:20,295 [INFO] src.email_scanner: Message 19191df971713860 has direct PDF attachment: comps 26.08.2024.pdf
+2026-02-21 22:25:21,236 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-27_comps.pdf (1330623 bytes)
+2026-02-21 22:25:21,236 [INFO] __main__: ✓ 19191df971713860 → data/raw/2024-08-27_comps.pdf
+2026-02-21 22:25:22,217 [INFO] src.email_scanner: Message 1918cd0eb7eb5223 has direct PDF attachment: comps 23.08.2024.pdf
+2026-02-21 22:25:23,097 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-26_comps.pdf (1330688 bytes)
+2026-02-21 22:25:23,098 [INFO] __main__: ✓ 1918cd0eb7eb5223 → data/raw/2024-08-26_comps.pdf
+2026-02-21 22:25:23,956 [INFO] src.email_scanner: Message 1917d583fb0ccb43 has direct PDF attachment: Comps 22.08.2024.pdf
+2026-02-21 22:25:25,105 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-23_comps.pdf (1330650 bytes)
+2026-02-21 22:25:25,105 [INFO] __main__: ✓ 1917d583fb0ccb43 → data/raw/2024-08-23_comps.pdf
+2026-02-21 22:25:25,916 [INFO] src.email_scanner: Message 191782adfb45f8d4 has direct PDF attachment: Comps -21.08.2024.pdf
+2026-02-21 22:25:26,416 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-22_comps.pdf (399283 bytes)
+2026-02-21 22:25:26,416 [INFO] __main__: ✓ 191782adfb45f8d4 → data/raw/2024-08-22_comps.pdf
+2026-02-21 22:25:27,276 [INFO] src.email_scanner: Message 19172fa24f3a5dba has direct PDF attachment: Comps -20.08.2024.pdf
+2026-02-21 22:25:27,916 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-21_comps.pdf (291469 bytes)
+2026-02-21 22:25:27,916 [INFO] __main__: ✓ 19172fa24f3a5dba → data/raw/2024-08-21_comps.pdf
+2026-02-21 22:25:28,740 [INFO] src.email_scanner: Message 1916de139beaa5c6 has direct PDF attachment: Comps-16.08.2024.pdf
+2026-02-21 22:25:29,185 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-20_comps.pdf (291584 bytes)
+2026-02-21 22:25:29,185 [INFO] __main__: ✓ 1916de139beaa5c6 → data/raw/2024-08-20_comps.pdf
+2026-02-21 22:25:30,102 [INFO] src.email_scanner: Message 1915947260f3cc77 has direct PDF attachment: Comps -15.08.2024.pdf
+2026-02-21 22:25:30,891 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-16_comps.pdf (293090 bytes)
+2026-02-21 22:25:30,891 [INFO] __main__: ✓ 1915947260f3cc77 → data/raw/2024-08-16_comps.pdf
+2026-02-21 22:25:31,675 [INFO] src.email_scanner: Message 191541a5d18f0663 has direct PDF attachment: Comps -14.08.2024.pdf
+2026-02-21 22:25:32,408 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-15_comps.pdf (290750 bytes)
+2026-02-21 22:25:32,408 [INFO] __main__: ✓ 191541a5d18f0663 → data/raw/2024-08-15_comps.pdf
+2026-02-21 22:25:33,188 [INFO] src.email_scanner: Message 1914eeb64042768b has direct PDF attachment: Comps -13.08.2024.pdf
+2026-02-21 22:25:33,695 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-14_comps.pdf (290743 bytes)
+2026-02-21 22:25:33,695 [INFO] __main__: ✓ 1914eeb64042768b → data/raw/2024-08-14_comps.pdf
+2026-02-21 22:25:34,551 [INFO] src.email_scanner: Message 19149b4b48be3208 has direct PDF attachment: Comps -12.08.2024.pdf
+2026-02-21 22:25:35,021 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-13_comps.pdf (290755 bytes)
+2026-02-21 22:25:35,021 [INFO] __main__: ✓ 19149b4b48be3208 → data/raw/2024-08-13_comps.pdf
+2026-02-21 22:25:35,818 [INFO] src.email_scanner: Message 191448a930fc4824 has direct PDF attachment: Comps -09.08.2024.pdf
+2026-02-21 22:25:36,316 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-12_comps.pdf (290737 bytes)
+2026-02-21 22:25:36,316 [INFO] __main__: ✓ 191448a930fc4824 → data/raw/2024-08-12_comps.pdf
+2026-02-21 22:25:37,270 [INFO] src.email_scanner: Message 191352fd4539459a has direct PDF attachment: Comps -08.08.2024.pdf
+2026-02-21 22:25:37,722 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-09_comps.pdf (290726 bytes)
+2026-02-21 22:25:37,722 [INFO] __main__: ✓ 191352fd4539459a → data/raw/2024-08-09_comps.pdf
+2026-02-21 22:25:38,502 [INFO] src.email_scanner: Message 1913004fd5431fa6 has direct PDF attachment: Comps -07.08.2024.pdf
+2026-02-21 22:25:38,984 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-08_comps.pdf (290727 bytes)
+2026-02-21 22:25:38,984 [INFO] __main__: ✓ 1913004fd5431fa6 → data/raw/2024-08-08_comps.pdf
+2026-02-21 22:25:39,829 [INFO] src.email_scanner: Message 1912ad85cc6c3dd5 has direct PDF attachment: Comps - 06.08.2024.pdf
+2026-02-21 22:25:40,381 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-07_comps.pdf (290689 bytes)
+2026-02-21 22:25:40,381 [INFO] __main__: ✓ 1912ad85cc6c3dd5 → data/raw/2024-08-07_comps.pdf
+2026-02-21 22:25:41,170 [INFO] src.email_scanner: Message 19125b6bce523f64 has direct PDF attachment: Comps -05.08.2024.pdf
+2026-02-21 22:25:41,784 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-06_comps.pdf (292144 bytes)
+2026-02-21 22:25:41,785 [INFO] __main__: ✓ 19125b6bce523f64 → data/raw/2024-08-06_comps.pdf
+2026-02-21 22:25:42,697 [INFO] src.email_scanner: Message 1912093f6e9fd68e has direct PDF attachment: Comps 02.08.2024.pdf
+2026-02-21 22:25:43,169 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-05_comps.pdf (290676 bytes)
+2026-02-21 22:25:43,169 [INFO] __main__: ✓ 1912093f6e9fd68e → data/raw/2024-08-05_comps.pdf
+2026-02-21 22:25:44,289 [INFO] src.email_scanner: Message 19111191e0d74a55 has direct PDF attachment: Comps -01.08.2024.pdf
+2026-02-21 22:25:44,870 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-02_comps.pdf (290746 bytes)
+2026-02-21 22:25:44,870 [INFO] __main__: ✓ 19111191e0d74a55 → data/raw/2024-08-02_comps.pdf
+2026-02-21 22:25:45,668 [INFO] src.email_scanner: Message 1910bfe6b418bd62 has direct PDF attachment: Comps -31.07.2024.pdf
+2026-02-21 22:25:46,380 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-08-01_comps.pdf (290713 bytes)
+2026-02-21 22:25:46,380 [INFO] __main__: ✓ 1910bfe6b418bd62 → data/raw/2024-08-01_comps.pdf
+2026-02-21 22:25:47,168 [INFO] src.email_scanner: Message 19106f32e4337ba3 has direct PDF attachment: Comps -30.07.2024.pdf
+2026-02-21 22:25:47,633 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-31_comps.pdf (290608 bytes)
+2026-02-21 22:25:47,633 [INFO] __main__: ✓ 19106f32e4337ba3 → data/raw/2024-07-31_comps.pdf
+2026-02-21 22:25:48,406 [INFO] src.email_scanner: Message 19101ab7cf8dbb28 has direct PDF attachment: Comps-29.07.2024.pdf
+2026-02-21 22:25:48,850 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-30_comps.pdf (290608 bytes)
+2026-02-21 22:25:48,850 [INFO] __main__: ✓ 19101ab7cf8dbb28 → data/raw/2024-07-30_comps.pdf
+2026-02-21 22:25:49,627 [INFO] src.email_scanner: Message 190fcb7af586e4e6 has direct PDF attachment: Comps -26.07.2024.pdf
+2026-02-21 22:25:50,068 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-29_comps.pdf (290561 bytes)
+2026-02-21 22:25:50,068 [INFO] __main__: ✓ 190fcb7af586e4e6 → data/raw/2024-07-29_comps.pdf
+2026-02-21 22:25:50,886 [INFO] src.email_scanner: Message 190ed2e07b69352c has direct PDF attachment: Comps -25.07.2024.pdf
+2026-02-21 22:25:51,358 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-26_comps.pdf (291992 bytes)
+2026-02-21 22:25:51,358 [INFO] __main__: ✓ 190ed2e07b69352c → data/raw/2024-07-26_comps.pdf
+2026-02-21 22:25:52,220 [INFO] src.email_scanner: Message 190e7e805b9fbcd6 has direct PDF attachment: Comps -24.07.2024.pdf
+2026-02-21 22:25:52,660 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-25_comps.pdf (387368 bytes)
+2026-02-21 22:25:52,660 [INFO] __main__: ✓ 190e7e805b9fbcd6 → data/raw/2024-07-25_comps.pdf
+2026-02-21 22:25:53,458 [INFO] src.email_scanner: Message 190e2d9caf6ecd9d has direct PDF attachment: Comps 23.07.2024.pdf
+2026-02-21 22:25:54,072 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-24_comps.pdf (387348 bytes)
+2026-02-21 22:25:54,072 [INFO] __main__: ✓ 190e2d9caf6ecd9d → data/raw/2024-07-24_comps.pdf
+2026-02-21 22:25:54,985 [INFO] src.email_scanner: Message 190dda760a588e5a has direct PDF attachment: Comps -22.07.2024.pdf
+2026-02-21 22:25:55,601 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-23_comps.pdf (372736 bytes)
+2026-02-21 22:25:55,601 [INFO] __main__: ✓ 190dda760a588e5a → data/raw/2024-07-23_comps.pdf
+2026-02-21 22:25:56,385 [INFO] src.email_scanner: Message 190d8883e91cdd97 has direct PDF attachment: Comps -19.07.2024.pdf
+2026-02-21 22:25:57,060 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-22_comps.pdf (372984 bytes)
+2026-02-21 22:25:57,060 [INFO] __main__: ✓ 190d8883e91cdd97 → data/raw/2024-07-22_comps.pdf
+2026-02-21 22:25:57,956 [INFO] src.email_scanner: Message 190c900b3c75e9b8 has direct PDF attachment: Comps -18.07.2024.pdf
+2026-02-21 22:25:58,529 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-19_comps.pdf (368616 bytes)
+2026-02-21 22:25:58,529 [INFO] __main__: ✓ 190c900b3c75e9b8 → data/raw/2024-07-19_comps.pdf
+2026-02-21 22:25:59,295 [INFO] src.email_scanner: Message 190c3d803872d8e4 has direct PDF attachment: Comps -17.07.2024.pdf
+2026-02-21 22:25:59,929 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-18_comps.pdf (368564 bytes)
+2026-02-21 22:25:59,930 [INFO] __main__: ✓ 190c3d803872d8e4 → data/raw/2024-07-18_comps.pdf
+2026-02-21 22:26:00,822 [INFO] src.email_scanner: Message 190bea9d2dd0e3d9 has direct PDF attachment: Comps -16.07.2024.pdf
+2026-02-21 22:26:01,253 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-17_comps.pdf (368544 bytes)
+2026-02-21 22:26:01,254 [INFO] __main__: ✓ 190bea9d2dd0e3d9 → data/raw/2024-07-17_comps.pdf
+2026-02-21 22:26:02,034 [INFO] src.email_scanner: Message 190b9a9b1d33f7f5 has direct PDF attachment: Comps -15.07.2024.pdf
+2026-02-21 22:26:02,506 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-16_comps.pdf (370592 bytes)
+2026-02-21 22:26:02,506 [INFO] __main__: ✓ 190b9a9b1d33f7f5 → data/raw/2024-07-16_comps.pdf
+2026-02-21 22:26:03,382 [INFO] src.email_scanner: Message 190b460b41f4ac9e has direct PDF attachment: Comps -12.07.2024.pdf
+2026-02-21 22:26:03,836 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-15_comps.pdf (367788 bytes)
+2026-02-21 22:26:03,836 [INFO] __main__: ✓ 190b460b41f4ac9e → data/raw/2024-07-15_comps.pdf
+2026-02-21 22:26:04,712 [INFO] src.email_scanner: Message 190a4f5f0187bee5 has direct PDF attachment: Comps -11.07.2024.pdf
+2026-02-21 22:26:05,164 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-12_comps.pdf (367816 bytes)
+2026-02-21 22:26:05,164 [INFO] __main__: ✓ 190a4f5f0187bee5 → data/raw/2024-07-12_comps.pdf
+2026-02-21 22:26:05,942 [INFO] src.email_scanner: Message 1909aa7a67cb6d26 has direct PDF attachment: Comps - 09.07.2024.pdf
+2026-02-21 22:26:06,512 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-10_comps.pdf (367956 bytes)
+2026-02-21 22:26:06,512 [INFO] __main__: ✓ 1909aa7a67cb6d26 → data/raw/2024-07-10_comps.pdf
+2026-02-21 22:26:07,278 [INFO] src.email_scanner: Message 190957afbb816052 has direct PDF attachment: Comps 08.07.2024.pdf
+2026-02-21 22:26:07,734 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-09_comps.pdf (367952 bytes)
+2026-02-21 22:26:07,734 [INFO] __main__: ✓ 190957afbb816052 → data/raw/2024-07-09_comps.pdf
+2026-02-21 22:26:08,552 [INFO] src.email_scanner: Message 1909072c4443ae29 has direct PDF attachment: Comps - 05.07.2024.pdf
+2026-02-21 22:26:09,035 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-08_comps.pdf (370148 bytes)
+2026-02-21 22:26:09,038 [INFO] __main__: ✓ 1909072c4443ae29 → data/raw/2024-07-08_comps.pdf
+2026-02-21 22:26:09,828 [INFO] src.email_scanner: Message 19080f9189ea2e38 has direct PDF attachment: Comps - 04.07.2024.pdf
+2026-02-21 22:26:10,250 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-05_comps.pdf (368092 bytes)
+2026-02-21 22:26:10,250 [INFO] __main__: ✓ 19080f9189ea2e38 → data/raw/2024-07-05_comps.pdf
+2026-02-21 22:26:11,023 [INFO] src.email_scanner: Message 1907bdd251181970 has direct PDF attachment: Comp 03.07.2024.pdf
+2026-02-21 22:26:11,592 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-04_comps.pdf (368428 bytes)
+2026-02-21 22:26:11,592 [INFO] __main__: ✓ 1907bdd251181970 → data/raw/2024-07-04_comps.pdf
+2026-02-21 22:26:12,393 [INFO] src.email_scanner: Message 190769c92fa377a2 has direct PDF attachment: Comp Sheet 2-7-2024.pdf
+2026-02-21 22:26:13,053 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-03_comps.pdf (814165 bytes)
+2026-02-21 22:26:13,054 [INFO] __main__: ✓ 190769c92fa377a2 → data/raw/2024-07-03_comps.pdf
+2026-02-21 22:26:13,830 [INFO] src.email_scanner: Message 19071883e75538cd has direct PDF attachment: Comp Sheet. 1-07-2024 (1).pdf
+2026-02-21 22:26:14,540 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-02_comps.pdf (814201 bytes)
+2026-02-21 22:26:14,540 [INFO] __main__: ✓ 19071883e75538cd → data/raw/2024-07-02_comps.pdf
+2026-02-21 22:26:15,309 [WARNING] src.email_scanner: No PDF attachment or OneDrive link found in message 1907179ccbebd359 ('Comp Sheet')
+2026-02-21 22:26:15,309 [WARNING] __main__: No downloadable attachment in message 1907179ccbebd359
+2026-02-21 22:26:16,091 [INFO] src.email_scanner: Message 1906c610b02de063 has direct PDF attachment: Comp Sheet 28-06-2024.pdf
+2026-02-21 22:26:16,783 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-07-01_comps.pdf (815659 bytes)
+2026-02-21 22:26:16,784 [INFO] __main__: ✓ 1906c610b02de063 → data/raw/2024-07-01_comps.pdf
+2026-02-21 22:26:17,558 [INFO] src.email_scanner: Message 1905cf5791a9e590 has direct PDF attachment: Comp Sheet 27-06-2024.pdf
+2026-02-21 22:26:18,209 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-28_comps.pdf (815163 bytes)
+2026-02-21 22:26:18,209 [INFO] __main__: ✓ 1905cf5791a9e590 → data/raw/2024-06-28_comps.pdf
+2026-02-21 22:26:19,048 [INFO] src.email_scanner: Message 19057ce7681e4ecb has direct PDF attachment: Comp Sheet 26-06-2024.pdf
+2026-02-21 22:26:19,703 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-27_comps.pdf (815474 bytes)
+2026-02-21 22:26:19,704 [INFO] __main__: ✓ 19057ce7681e4ecb → data/raw/2024-06-27_comps.pdf
+2026-02-21 22:26:20,585 [INFO] src.email_scanner: Message 1905283d4dc267e0 has direct PDF attachment: Comp Sheet 25-06-2024.pdf
+2026-02-21 22:26:21,306 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-26_comps.pdf (815647 bytes)
+2026-02-21 22:26:21,306 [INFO] __main__: ✓ 1905283d4dc267e0 → data/raw/2024-06-26_comps.pdf
+2026-02-21 22:26:22,087 [INFO] src.email_scanner: Message 1904d73aeedb0472 has direct PDF attachment: Comp Sheet 24-06-2024.pdf
+2026-02-21 22:26:22,885 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-25_comps.pdf (814242 bytes)
+2026-02-21 22:26:22,885 [INFO] __main__: ✓ 1904d73aeedb0472 → data/raw/2024-06-25_comps.pdf
+2026-02-21 22:26:23,698 [INFO] src.email_scanner: Message 190485111ba8ffe4 has direct PDF attachment: Comp Sheet 20-06-2024 (1).pdf
+2026-02-21 22:26:24,450 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-24_comps.pdf (814237 bytes)
+2026-02-21 22:26:24,450 [INFO] __main__: ✓ 190485111ba8ffe4 → data/raw/2024-06-24_comps.pdf
+2026-02-21 22:26:25,295 [INFO] src.email_scanner: Message 19033be656f0c76d has direct PDF attachment: Comp Sheet 19-06-2024 (1).pdf
+2026-02-21 22:26:25,930 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-20_comps.pdf (815820 bytes)
+2026-02-21 22:26:25,931 [INFO] __main__: ✓ 19033be656f0c76d → data/raw/2024-06-20_comps.pdf
+2026-02-21 22:26:26,717 [INFO] src.email_scanner: Message 1902e86dbbc0ddd0 has direct PDF attachment: Comp Sheet 18-06-2024.pdf
+2026-02-21 22:26:27,521 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-19_comps.pdf (815636 bytes)
+2026-02-21 22:26:27,521 [INFO] __main__: ✓ 1902e86dbbc0ddd0 → data/raw/2024-06-19_comps.pdf
+2026-02-21 22:26:28,293 [INFO] src.email_scanner: Message 1902964c9a73d474 has direct PDF attachment: Comp Sheet 14-06-2024.pdf
+2026-02-21 22:26:28,840 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-18_comps.pdf (814280 bytes)
+2026-02-21 22:26:28,840 [INFO] __main__: ✓ 1902964c9a73d474 → data/raw/2024-06-18_comps.pdf
+2026-02-21 22:26:29,701 [INFO] src.email_scanner: Message 19014b6558874f62 has direct PDF attachment: Comp Sheet 13-06-2024.pdf
+2026-02-21 22:26:30,391 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-14_comps.pdf (815784 bytes)
+2026-02-21 22:26:30,391 [INFO] __main__: ✓ 19014b6558874f62 → data/raw/2024-06-14_comps.pdf
+2026-02-21 22:26:31,233 [INFO] src.email_scanner: Message 1900fc92c77b15df has direct PDF attachment: Comp Sheet 12-06-2024.pdf
+2026-02-21 22:26:32,007 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-13_comps.pdf (814284 bytes)
+2026-02-21 22:26:32,007 [INFO] __main__: ✓ 1900fc92c77b15df → data/raw/2024-06-13_comps.pdf
+2026-02-21 22:26:32,773 [INFO] src.email_scanner: Message 1900a64d30ecdd56 has direct PDF attachment: Comp Sheet 11-06-2024.pdf
+2026-02-21 22:26:33,674 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-12_comps.pdf (814238 bytes)
+2026-02-21 22:26:33,674 [INFO] __main__: ✓ 1900a64d30ecdd56 → data/raw/2024-06-12_comps.pdf
+2026-02-21 22:26:34,437 [INFO] src.email_scanner: Message 1900592531451c15 has direct PDF attachment: Comp Sheet 10-06-2024 Final.pdf
+2026-02-21 22:26:35,249 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-11_comps.pdf (814295 bytes)
+2026-02-21 22:26:35,249 [INFO] __main__: ✓ 1900592531451c15 → data/raw/2024-06-11_comps.pdf
+2026-02-21 22:26:36,150 [INFO] src.email_scanner: Message 190002b3ab623acd has direct PDF attachment: Comp Sheet 7-6-2024.pdf
+2026-02-21 22:26:36,972 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-10_comps.pdf (814817 bytes)
+2026-02-21 22:26:36,972 [INFO] __main__: ✓ 190002b3ab623acd → data/raw/2024-06-10_comps.pdf
+2026-02-21 22:26:37,729 [INFO] src.email_scanner: Message 18ff0b12dc146c12 has direct PDF attachment: Comp Sheet 6-6-2024.pdf
+2026-02-21 22:26:38,478 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-07_comps.pdf (815207 bytes)
+2026-02-21 22:26:38,478 [INFO] __main__: ✓ 18ff0b12dc146c12 → data/raw/2024-06-07_comps.pdf
+2026-02-21 22:26:39,324 [INFO] src.email_scanner: Message 18feb8724e5cd29a has direct PDF attachment: Comp Sheet 5-6-2024.pdf
+2026-02-21 22:26:39,899 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-06_comps.pdf (815264 bytes)
+2026-02-21 22:26:39,900 [INFO] __main__: ✓ 18feb8724e5cd29a → data/raw/2024-06-06_comps.pdf
+2026-02-21 22:26:40,661 [INFO] src.email_scanner: Message 18fe663648d7511d has direct PDF attachment: Comp Sheet 4-6-2024.pdf
+2026-02-21 22:26:41,506 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-05_comps.pdf (813903 bytes)
+2026-02-21 22:26:41,506 [INFO] __main__: ✓ 18fe663648d7511d → data/raw/2024-06-05_comps.pdf
+2026-02-21 22:26:42,396 [INFO] src.email_scanner: Message 18fe14acf9e41b29 has direct PDF attachment: Comp Sheet 3-6-2024.pdf
+2026-02-21 22:26:43,122 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-04_comps.pdf (815520 bytes)
+2026-02-21 22:26:43,122 [INFO] __main__: ✓ 18fe14acf9e41b29 → data/raw/2024-06-04_comps.pdf
+2026-02-21 22:26:43,890 [INFO] src.email_scanner: Message 18fdc4e3caf80f59 has direct PDF attachment: Comp Sheet 31-05-2024.pdf
+2026-02-21 22:26:44,566 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-06-03_comps.pdf (815910 bytes)
+2026-02-21 22:26:44,566 [INFO] __main__: ✓ 18fdc4e3caf80f59 → data/raw/2024-06-03_comps.pdf
+2026-02-21 22:26:45,468 [INFO] src.email_scanner: Message 18fccb9bb866ade8 has direct PDF attachment: Comp Sheet 30-05-2024.pdf
+2026-02-21 22:26:46,349 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-31_comps.pdf (815984 bytes)
+2026-02-21 22:26:46,349 [INFO] __main__: ✓ 18fccb9bb866ade8 → data/raw/2024-05-31_comps.pdf
+2026-02-21 22:26:47,126 [INFO] src.email_scanner: Message 18fc7a56fe65a883 has direct PDF attachment: Comp Sheet 29-05-2024 R.pdf
+2026-02-21 22:26:47,697 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-30_comps.pdf (575018 bytes)
+2026-02-21 22:26:47,697 [INFO] __main__: ✓ 18fc7a56fe65a883 → data/raw/2024-05-30_comps.pdf
+2026-02-21 22:26:48,457 [INFO] src.email_scanner: Message 18fc78b3f424d2e3 has direct PDF attachment: Comp Sheet 29-05-2024 R.pdf
+2026-02-21 22:26:48,457 [INFO] src.pdf_downloader: Skipping duplicate (attachment): data/raw/2024-05-30_comps.pdf
+2026-02-21 22:26:48,457 [INFO] __main__: ✓ 18fc78b3f424d2e3 → data/raw/2024-05-30_comps.pdf
+2026-02-21 22:26:49,223 [INFO] src.email_scanner: Message 18fc2861bf8dece1 has direct PDF attachment: Comp Sheet 28-05-2024.pdf
+2026-02-21 22:26:49,890 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-29_comps.pdf (831055 bytes)
+2026-02-21 22:26:49,890 [INFO] __main__: ✓ 18fc2861bf8dece1 → data/raw/2024-05-29_comps.pdf
+2026-02-21 22:26:50,646 [INFO] src.email_scanner: Message 18fbd45a77fdcc4f has direct PDF attachment: Comp Sheet 27-05-2024.pdf
+2026-02-21 22:26:51,307 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-28_comps.pdf (830502 bytes)
+2026-02-21 22:26:51,307 [INFO] __main__: ✓ 18fbd45a77fdcc4f → data/raw/2024-05-28_comps.pdf
+2026-02-21 22:26:52,123 [INFO] src.email_scanner: Message 18fb8314fe786451 has direct PDF attachment: Comp Sheet 22-05-2024.pdf
+2026-02-21 22:26:52,742 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-27_comps.pdf (829710 bytes)
+2026-02-21 22:26:52,743 [INFO] __main__: ✓ 18fb8314fe786451 → data/raw/2024-05-27_comps.pdf
+2026-02-21 22:26:53,661 [INFO] src.email_scanner: Message 18f9e743ec644f8c has direct PDF attachment: Comp Sheet 21-05-2024.pdf
+2026-02-21 22:26:54,294 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-22_comps.pdf (829651 bytes)
+2026-02-21 22:26:54,295 [INFO] __main__: ✓ 18f9e743ec644f8c → data/raw/2024-05-22_comps.pdf
+2026-02-21 22:26:55,355 [INFO] src.email_scanner: Message 18f9934c87a28de1 has direct PDF attachment: Comp Sheet 20-05-2024.pdf
+2026-02-21 22:26:56,016 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-21_comps.pdf (829740 bytes)
+2026-02-21 22:26:56,016 [INFO] __main__: ✓ 18f9934c87a28de1 → data/raw/2024-05-21_comps.pdf
+2026-02-21 22:26:56,782 [WARNING] src.email_scanner: No PDF attachment or OneDrive link found in message 18f9932715bcd1ab ('Comp Sheet')
+2026-02-21 22:26:56,782 [WARNING] __main__: No downloadable attachment in message 18f9932715bcd1ab
+2026-02-21 22:26:57,558 [INFO] src.email_scanner: Message 18f940228945fe97 has direct PDF attachment: Comp Sheet 17-05-2024.pdf
+2026-02-21 22:26:58,428 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-20_comps.pdf (830524 bytes)
+2026-02-21 22:26:58,428 [INFO] __main__: ✓ 18f940228945fe97 → data/raw/2024-05-20_comps.pdf
+2026-02-21 22:26:59,223 [INFO] src.email_scanner: Message 18f8495a258c3102 has direct PDF attachment: Comp Sheet 16-05-2024.pdf
+2026-02-21 22:26:59,882 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-17_comps.pdf (831024 bytes)
+2026-02-21 22:26:59,882 [INFO] __main__: ✓ 18f8495a258c3102 → data/raw/2024-05-17_comps.pdf
+2026-02-21 22:27:00,663 [INFO] src.email_scanner: Message 18f7f71eda4923fb has direct PDF attachment: Comp Sheet 15-05-2024.pdf
+2026-02-21 22:27:01,682 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-16_comps.pdf (831128 bytes)
+2026-02-21 22:27:01,682 [INFO] __main__: ✓ 18f7f71eda4923fb → data/raw/2024-05-16_comps.pdf
+2026-02-21 22:27:02,460 [INFO] src.email_scanner: Message 18f7a58d2a53ccc8 has direct PDF attachment: Comp Sheet 14-5-2024.pdf
+2026-02-21 22:27:03,102 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-15_comps.pdf (829781 bytes)
+2026-02-21 22:27:03,102 [INFO] __main__: ✓ 18f7a58d2a53ccc8 → data/raw/2024-05-15_comps.pdf
+2026-02-21 22:27:04,001 [INFO] src.email_scanner: Message 18f75367af3077c8 has direct PDF attachment: Comp Sheet 13-05-2024.pdf
+2026-02-21 22:27:04,724 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-14_comps.pdf (831222 bytes)
+2026-02-21 22:27:04,724 [INFO] __main__: ✓ 18f75367af3077c8 → data/raw/2024-05-14_comps.pdf
+2026-02-21 22:27:05,615 [INFO] src.email_scanner: Message 18f4bda70046d4b7 has direct PDF attachment: Comp Sheet 3-5-2024.pdf
+2026-02-21 22:27:06,502 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-06_comps.pdf (845437 bytes)
+2026-02-21 22:27:06,502 [INFO] __main__: ✓ 18f4bda70046d4b7 → data/raw/2024-05-06_comps.pdf
+2026-02-21 22:27:07,277 [INFO] src.email_scanner: Message 18f3cc6ce2281999 has direct PDF attachment: Comp Sheet 2-5-2024.pdf
+2026-02-21 22:27:08,037 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-03_comps.pdf (843888 bytes)
+2026-02-21 22:27:08,037 [INFO] __main__: ✓ 18f3cc6ce2281999 → data/raw/2024-05-03_comps.pdf
+2026-02-21 22:27:08,812 [INFO] src.email_scanner: Message 18f3750078527d8c has direct PDF attachment: Comp Sheet 30-04-2024.pdf
+2026-02-21 22:27:09,628 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-05-02_comps.pdf (845347 bytes)
+2026-02-21 22:27:09,628 [INFO] __main__: ✓ 18f3750078527d8c → data/raw/2024-05-02_comps.pdf
+2026-02-21 22:27:10,417 [INFO] src.email_scanner: Message 18f2ceb8bee3a6c1 has direct PDF attachment: Comp Sheet 29-04-2024.pdf
+2026-02-21 22:27:11,117 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-30_comps.pdf (845211 bytes)
+2026-02-21 22:27:11,117 [INFO] __main__: ✓ 18f2ceb8bee3a6c1 → data/raw/2024-04-30_comps.pdf
+2026-02-21 22:27:11,895 [INFO] src.email_scanner: Message 18f27d4483246b43 has direct PDF attachment: Comp Sheet -26-04-2024.pdf
+2026-02-21 22:27:12,891 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-29_comps.pdf (845045 bytes)
+2026-02-21 22:27:12,891 [INFO] __main__: ✓ 18f27d4483246b43 → data/raw/2024-04-29_comps.pdf
+2026-02-21 22:27:13,715 [INFO] src.email_scanner: Message 18f1871741e83a89 has direct PDF attachment: Comp Sheet 25-04-2024.pdf
+2026-02-21 22:27:14,466 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-26_comps.pdf (844940 bytes)
+2026-02-21 22:27:14,466 [INFO] __main__: ✓ 18f1871741e83a89 → data/raw/2024-04-26_comps.pdf
+2026-02-21 22:27:15,368 [INFO] src.email_scanner: Message 18f133fb94819f35 has direct PDF attachment: Comp Sheet 24-04-2024 (1).pdf
+2026-02-21 22:27:16,016 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-25_comps.pdf (843597 bytes)
+2026-02-21 22:27:16,017 [INFO] __main__: ✓ 18f133fb94819f35 → data/raw/2024-04-25_comps.pdf
+2026-02-21 22:27:16,815 [INFO] src.email_scanner: Message 18f0e2dcfc44cf8e has direct PDF attachment: Comp Sheet 22-04-2024.pdf
+2026-02-21 22:27:17,431 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-24_comps.pdf (843557 bytes)
+2026-02-21 22:27:17,431 [INFO] __main__: ✓ 18f0e2dcfc44cf8e → data/raw/2024-04-24_comps.pdf
+2026-02-21 22:27:18,338 [INFO] src.email_scanner: Message 18f03d09fc958748 has direct PDF attachment: Comp Sheet 19-04-2024.pdf
+2026-02-21 22:27:19,062 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-22_comps.pdf (845059 bytes)
+2026-02-21 22:27:19,062 [INFO] __main__: ✓ 18f03d09fc958748 → data/raw/2024-04-22_comps.pdf
+2026-02-21 22:27:19,859 [INFO] src.email_scanner: Message 18ef46800dfa7861 has direct PDF attachment: Comp Sheet 18-04-2024.pdf
+2026-02-21 22:27:20,557 [INFO] src.pdf_downloader: Saved Gmail attachment → data/raw/2024-04-19_comps.pdf (844993 bytes)
+2026-02-21 22:27:20,557 [INFO] __main__: ✓ 18ef46800dfa7861 → data/raw/2024-04-19_comps.pdf
+2026-02-21 22:27:20,558 [INFO] __main__: Backlog complete. downloaded=413 skipped=0 failed=4 total=417
+2026-02-21 22:28:04,534 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-02-21 22:28:04,535 [INFO] __main__: Resuming from checkpoint: 416 emails already processed.
+2026-02-21 22:28:04,535 [INFO] __main__: Starting backlog processor. Already processed: 416. dry_run=False
+2026-02-21 22:28:06,188 [INFO] src.email_scanner: Message 19c758e70cb5e7df has 2 OneDrive link(s): https://lolcgroup-my.sharepoint.com/:b:/g/personal/dimagis_lolcsecurities_com/IQBbrfA5PO0xQZjUy6DVyf_vAeF9BKcUSFdFFF-ukiMiV44>
+2026-02-21 22:28:06,188 [INFO] __main__: Found 2 OneDrive URLs, will search for Comps file...
+2026-02-21 22:28:06,188 [INFO] src.pdf_downloader: Trying OneDrive URL 1/2...
+2026-02-21 22:28:06,192 [INFO] src.pdf_downloader: Attempting browser-based download (may require login)...
+2026-02-21 22:28:06,210 [INFO] src.browser_downloader: Launching browser for SharePoint download...
+2026-02-21 22:28:07,977 [INFO] src.browser_downloader: Navigating to SharePoint URL...
+2026-02-21 22:28:10,687 [INFO] src.browser_downloader: Detected filename from page: Comps - 19 February 2026 1.pdf
+2026-02-21 22:28:41,278 [INFO] src.pdf_downloader: Successfully downloaded via browser: Comps - 19 February 2026 1.pdf
+2026-02-21 22:28:41,278 [INFO] src.pdf_downloader: Saved OneDrive download → data/raw/2026-02-19_comps.pdf (130001 bytes)
+2026-02-21 22:28:41,278 [INFO] __main__: ✓ 19c758e70cb5e7df → data/raw/2026-02-19_comps.pdf
+2026-02-21 22:28:43,981 [INFO] __main__: Backlog complete. downloaded=1 skipped=416 failed=0 total=417

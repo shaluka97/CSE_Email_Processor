@@ -28,10 +28,10 @@ coverage.xml
 credentials.json
 token.json
 
-# Data — store PDFs locally, not in git
-data/raw/*.pdf
-data/checkpoints/*.json
-logs/*.log
+## Data — store PDFs locally, not in git
+#data/raw/*.pdf
+#data/checkpoints/*.json
+#logs/*.log
 
 # macOS
 .DS_Store
