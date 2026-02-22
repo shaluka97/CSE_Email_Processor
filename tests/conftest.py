@@ -168,3 +168,123 @@ def tmp_checkpoint_file(tmp_path: Path) -> Path:
     cp_dir = tmp_path / "data" / "checkpoints"
     cp_dir.mkdir(parents=True)
     return cp_dir / "backlog_checkpoint.json"
+
+
+# ─── Week 2: PDF Extraction Fixtures ─────────────────────────────────────────
+
+@pytest.fixture
+def sample_stock_data() -> dict[str, Any]:
+    """Sample stock data as extracted by LLM."""
+    return {
+        "trading_date": "2026-02-20",
+        "stocks": [
+            {
+                "code": "COMB.N0000",
+                "company_name": "COMMERCIAL BANK OF CEYLON PLC",
+                "sector": "Banks",
+                "closing_price": 230.50,
+                "price_change_pct": -1.07,
+                "turnover": 51010412,
+                "earnings_4qt": 71353.77,
+                "eps": 43.59,
+                "pe": 5.29,
+                "navps": 193.80,
+                "pbv": 1.19,
+                "roe_pct": 22.49,
+                "dps": 9.20,
+                "dy_pct": 3.99,
+            },
+            {
+                "code": "HDFC.N0000",
+                "company_name": "HDFC BANK",
+                "sector": "Banks",
+                "closing_price": 55.00,
+                "price_change_pct": -0.72,
+                "turnover": 3262565,
+                "earnings_4qt": -247.00,
+                "eps": -3.82,
+                "pe": -14.41,
+                "navps": 120.72,
+                "pbv": 0.46,
+                "roe_pct": -3.16,
+                "dps": None,
+                "dy_pct": None,
+            },
+            {
+                "code": "ACL.N0000",
+                "company_name": "ACL CABLES PLC",
+                "sector": "Capital Goods",
+                "closing_price": 103.00,
+                "price_change_pct": -0.24,
+                "turnover": 22565960,
+                "earnings_4qt": 6265.21,
+                "eps": 8.72,
+                "pe": 11.82,
+                "navps": 49.36,
+                "pbv": 2.09,
+                "roe_pct": 17.66,
+                "dps": 1.50,
+                "dy_pct": 1.46,
+            },
+        ],
+    }
+
+
+@pytest.fixture
+def sample_comp_sheet_text() -> str:
+    """Sample comp sheet text as extracted from PDF."""
+    return """--- Page 1 ---
+Comps Sheet - 20 February 2026
+
+Code	Company Name	Closing Price	Price Change	Turnover	Latest 4QT Earnings	Latest 4QT EPS	PE	NAVPS	PBV	RoE	TTM DPS	DY
+		(LKR)	(%)	(LKR)	(LKR Mn.)	(LKR)	(X)	(LKR)	(X)	(%)	(LKR)	(%)
+
+Banks									5.49	0.95		2.86%
+ABL.N0000	AMANA BANK PLC	29.70	-1.00%	3,136,920	2,262.58	4.10	7.24	44.83	0.66	9.16%	1.30	4.38%
+HDFC.N0000	HDFC BANK	55.00	-0.72%	3,262,565	(247.00)	-3.82	-14.41	120.72	0.46	-3.16%	-	-
+
+Capital Goods									22.93	1.32		2.86%
+ACL.N0000	ACL CABLES PLC	103.00	-0.24%	22,565,960	6,265.21	8.72	11.82	49.36	2.09	17.66%	1.50	1.46%
+"""
+
+
+@pytest.fixture
+def sample_llm_response() -> str:
+    """Sample JSON response from LLM."""
+    return json.dumps({
+        "trading_date": "2026-02-20",
+        "stocks": [
+            {
+                "code": "ABL.N0000",
+                "company_name": "AMANA BANK PLC",
+                "sector": "Banks",
+                "closing_price": 29.70,
+                "price_change_pct": -1.00,
+                "turnover": 3136920,
+                "earnings_4qt": 2262.58,
+                "eps": 4.10,
+                "pe": 7.24,
+                "navps": 44.83,
+                "pbv": 0.66,
+                "roe_pct": 9.16,
+                "dps": 1.30,
+                "dy_pct": 4.38,
+            },
+            {
+                "code": "HDFC.N0000",
+                "company_name": "HDFC BANK",
+                "sector": "Banks",
+                "closing_price": 55.00,
+                "price_change_pct": -0.72,
+                "turnover": 3262565,
+                "earnings_4qt": -247.00,
+                "eps": -3.82,
+                "pe": -14.41,
+                "navps": 120.72,
+                "pbv": 0.46,
+                "roe_pct": -3.16,
+                "dps": None,
+                "dy_pct": None,
+            },
+        ],
+    })

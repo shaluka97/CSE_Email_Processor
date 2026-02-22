@@ -106,7 +106,7 @@ class LLMConfig:
         default_factory=lambda: os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     )
     ollama_model: str = field(
-        default_factory=lambda: os.getenv("OLLAMA_MODEL", "llama3.2")
+        default_factory=lambda: os.getenv("OLLAMA_MODEL", "qwen3:8b")
     )
     anthropic_api_key: str = field(
         default_factory=lambda: os.getenv("ANTHROPIC_API_KEY", "")

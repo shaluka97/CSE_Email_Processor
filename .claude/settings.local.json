@@ -3,7 +3,9 @@
     "allow": [
       "Bash(pip install:*)",
       "Bash(playwright install:*)",
-      "Bash(python -m src.backlog_processor:*)"
+      "Bash(python -m src.backlog_processor:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -c:*)"
     ]
   }
 }

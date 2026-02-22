@@ -1,0 +1,18 @@
+Extract stock data from this CSE comp sheet as a JSON array.
+
+RULES:
+- (247.00) means -247.00 (negative)
+- "-" means null
+- Sector headers (Banks, Capital Goods, etc.) appear before their stocks
+- Stock codes follow pattern: XXXX.N0000 or XXXX.X0000
+
+COLUMNS IN ORDER:
+Code, Company Name, Closing Price, Price Change %, Turnover, Earnings (4QT), EPS, PE, NAVPS, PBV, ROE %, DPS, DY %
+
+OUTPUT FORMAT - Return ONLY valid JSON with ALL fields:
+{"stocks": [{"code": "XXX.N0000", "company_name": "Name", "sector": "Sector", "closing_price": 0.0, "price_change_pct": 0.0, "turnover": 0.0, "earnings_4qt": 0.0, "eps": 0.0, "pe": 0.0, "navps": 0.0, "pbv": 0.0, "roe_pct": 0.0, "dps": 0.0, "dy_pct": 0.0}]}
+
+INPUT:
+{text}
+
+JSON:
