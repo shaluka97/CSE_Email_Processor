@@ -111,6 +111,18 @@ class LLMConfig:
     anthropic_api_key: str = field(
         default_factory=lambda: os.getenv("ANTHROPIC_API_KEY", "")
     )
+    groq_api_key: str = field(
+        default_factory=lambda: os.getenv("GROQ_API_KEY", "")
+    )
+    groq_model: str = field(
+        default_factory=lambda: os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+    )
+    together_api_key: str = field(
+        default_factory=lambda: os.getenv("TOGETHER_API_KEY", "")
+    )
+    together_model: str = field(
+        default_factory=lambda: os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo")
+    )
 
 
 @dataclass

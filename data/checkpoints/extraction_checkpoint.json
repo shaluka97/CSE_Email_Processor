@@ -1,0 +1,2042 @@
+{
+  "processed": {
+    "2026-02-20_comps.pdf": {
+      "output_file": "data/output/2026-02-20_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T22:29:15.828797"
+    },
+    "2026-02-19_comps.pdf": {
+      "output_file": "data/output/2026-02-19_stocks.json",
+      "stock_count": 308,
+      "processed_at": "2026-02-22T22:31:42.162589"
+    },
+    "2026-02-18_comps.pdf": {
+      "output_file": "data/output/2026-02-18_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T22:34:02.031589"
+    },
+    "2026-02-17_comps.pdf": {
+      "output_file": "data/output/2026-02-17_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T22:36:26.727302"
+    },
+    "2026-02-16_comps.pdf": {
+      "output_file": "data/output/2026-02-16_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T22:38:37.993476"
+    },
+    "2026-02-13_comps.pdf": {
+      "output_file": "data/output/2026-02-13_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T22:40:53.579208"
+    },
+    "2026-02-12_comps.pdf": {
+      "output_file": "data/output/2026-02-12_stocks.json",
+      "stock_count": 308,
+      "processed_at": "2026-02-22T22:57:46.581832"
+    },
+    "2026-02-11_comps.pdf": {
+      "output_file": "data/output/2026-02-11_stocks.json",
+      "stock_count": 308,
+      "processed_at": "2026-02-22T23:00:12.237802"
+    },
+    "2026-02-10_comps.pdf": {
+      "output_file": "data/output/2026-02-10_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T23:02:31.608630"
+    },
+    "2026-02-09_comps.pdf": {
+      "output_file": "data/output/2026-02-09_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:05:10.640641"
+    },
+    "2026-02-06_comps.pdf": {
+      "output_file": "data/output/2026-02-06_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:07:22.225822"
+    },
+    "2026-02-05_comps.pdf": {
+      "output_file": "data/output/2026-02-05_stocks.json",
+      "stock_count": 312,
+      "processed_at": "2026-02-22T23:09:58.685927"
+    },
+    "2026-02-03_comps.pdf": {
+      "output_file": "data/output/2026-02-03_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:12:14.497937"
+    },
+    "2026-02-02_comps.pdf": {
+      "output_file": "data/output/2026-02-02_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-22T23:21:10.537529"
+    },
+    "2026-01-30_comps.pdf": {
+      "output_file": "data/output/2026-01-30_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:23:42.391672"
+    },
+    "2026-01-29_comps.pdf": {
+      "output_file": "data/output/2026-01-29_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T23:26:02.270396"
+    },
+    "2026-01-28_comps.pdf": {
+      "output_file": "data/output/2026-01-28_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-22T23:28:05.547472"
+    },
+    "2026-01-27_comps.pdf": {
+      "output_file": "data/output/2026-01-27_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T23:30:38.471859"
+    },
+    "2026-01-26_comps.pdf": {
+      "output_file": "data/output/2026-01-26_stocks.json",
+      "stock_count": 313,
+      "processed_at": "2026-02-22T23:33:51.565052"
+    },
+    "2026-01-23_comps.pdf": {
+      "output_file": "data/output/2026-01-23_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:36:14.311338"
+    },
+    "2026-01-22_comps.pdf": {
+      "output_file": "data/output/2026-01-22_stocks.json",
+      "stock_count": 363,
+      "processed_at": "2026-02-22T23:38:31.226025"
+    },
+    "2026-01-20_comps.pdf": {
+      "output_file": "data/output/2026-01-20_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-22T23:41:02.159870"
+    },
+    "2026-01-19_comps.pdf": {
+      "output_file": "data/output/2026-01-19_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-22T23:43:23.376237"
+    },
+    "2026-01-16_comps.pdf": {
+      "output_file": "data/output/2026-01-16_stocks.json",
+      "stock_count": 306,
+      "processed_at": "2026-02-22T23:45:48.983769"
+    },
+    "2026-01-14_comps.pdf": {
+      "output_file": "data/output/2026-01-14_stocks.json",
+      "stock_count": 369,
+      "processed_at": "2026-02-22T23:48:27.957057"
+    },
+    "2026-01-13_comps.pdf": {
+      "output_file": "data/output/2026-01-13_stocks.json",
+      "stock_count": 319,
+      "processed_at": "2026-02-22T23:51:33.287550"
+    },
+    "2026-01-12_comps.pdf": {
+      "output_file": "data/output/2026-01-12_stocks.json",
+      "stock_count": 306,
+      "processed_at": "2026-02-22T23:54:11.147437"
+    },
+    "2026-01-09_comps.pdf": {
+      "output_file": "data/output/2026-01-09_stocks.json",
+      "stock_count": 287,
+      "processed_at": "2026-02-22T23:57:10.552864"
+    },
+    "2026-01-08_comps.pdf": {
+      "output_file": "data/output/2026-01-08_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-22T23:59:31.551885"
+    },
+    "2026-01-07_comps.pdf": {
+      "output_file": "data/output/2026-01-07_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-23T00:01:54.620117"
+    },
+    "2026-01-06_comps.pdf": {
+      "output_file": "data/output/2026-01-06_stocks.json",
+      "stock_count": 337,
+      "processed_at": "2026-02-23T00:04:19.199305"
+    },
+    "2026-01-02_comps.pdf": {
+      "output_file": "data/output/2026-01-02_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T00:07:07.335069"
+    },
+    "2025-12-31_comps.pdf": {
+      "output_file": "data/output/2025-12-31_stocks.json",
+      "stock_count": 287,
+      "processed_at": "2026-02-23T00:09:47.696979"
+    },
+    "2025-12-30_comps.pdf": {
+      "output_file": "data/output/2025-12-30_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:12:06.245836"
+    },
+    "2025-12-29_comps.pdf": {
+      "output_file": "data/output/2025-12-29_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T00:14:32.771037"
+    },
+    "2025-12-26_comps.pdf": {
+      "output_file": "data/output/2025-12-26_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-23T00:17:26.454296"
+    },
+    "2025-12-24_comps.pdf": {
+      "output_file": "data/output/2025-12-24_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T00:20:07.019293"
+    },
+    "2025-12-23_comps.pdf": {
+      "output_file": "data/output/2025-12-23_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-23T00:23:03.716675"
+    },
+    "2025-12-22_comps.pdf": {
+      "output_file": "data/output/2025-12-22_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T00:25:33.978443"
+    },
+    "2025-12-19_comps.pdf": {
+      "output_file": "data/output/2025-12-19_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T00:28:31.436974"
+    },
+    "2025-12-18_comps.pdf": {
+      "output_file": "data/output/2025-12-18_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:31:12.721039"
+    },
+    "2025-12-17_comps.pdf": {
+      "output_file": "data/output/2025-12-17_stocks.json",
+      "stock_count": 314,
+      "processed_at": "2026-02-23T00:33:48.472016"
+    },
+    "2025-12-12_comps.pdf": {
+      "output_file": "data/output/2025-12-12_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:36:27.080732"
+    },
+    "2025-12-11_comps.pdf": {
+      "output_file": "data/output/2025-12-11_stocks.json",
+      "stock_count": 359,
+      "processed_at": "2026-02-23T00:39:09.906571"
+    },
+    "2025-12-10_comps.pdf": {
+      "output_file": "data/output/2025-12-10_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:41:44.217790"
+    },
+    "2025-12-09_comps.pdf": {
+      "output_file": "data/output/2025-12-09_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:44:14.743440"
+    },
+    "2025-12-08_comps.pdf": {
+      "output_file": "data/output/2025-12-08_stocks.json",
+      "stock_count": 336,
+      "processed_at": "2026-02-23T00:46:51.630157"
+    },
+    "2025-12-05_comps.pdf": {
+      "output_file": "data/output/2025-12-05_stocks.json",
+      "stock_count": 286,
+      "processed_at": "2026-02-23T00:49:25.013243"
+    },
+    "2025-12-03_comps.pdf": {
+      "output_file": "data/output/2025-12-03_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T00:51:59.542158"
+    },
+    "2025-12-01_comps.pdf": {
+      "output_file": "data/output/2025-12-01_stocks.json",
+      "stock_count": 311,
+      "processed_at": "2026-02-23T00:54:29.561664"
+    },
+    "2025-11-28_comps.pdf": {
+      "output_file": "data/output/2025-11-28_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T00:56:51.071275"
+    },
+    "2025-11-26_comps.pdf": {
+      "output_file": "data/output/2025-11-26_stocks.json",
+      "stock_count": 285,
+      "processed_at": "2026-02-23T00:59:18.931544"
+    },
+    "2025-11-25_comps.pdf": {
+      "output_file": "data/output/2025-11-25_stocks.json",
+      "stock_count": 360,
+      "processed_at": "2026-02-23T01:01:41.892258"
+    },
+    "2025-11-24_comps.pdf": {
+      "output_file": "data/output/2025-11-24_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T01:04:02.990656"
+    },
+    "2025-11-21_comps.pdf": {
+      "output_file": "data/output/2025-11-21_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T01:06:25.528863"
+    },
+    "2025-11-20_comps.pdf": {
+      "output_file": "data/output/2025-11-20_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:08:59.548043"
+    },
+    "2025-11-19_comps.pdf": {
+      "output_file": "data/output/2025-11-19_stocks.json",
+      "stock_count": 362,
+      "processed_at": "2026-02-23T01:11:28.439176"
+    },
+    "2025-11-18_comps.pdf": {
+      "output_file": "data/output/2025-11-18_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T01:14:04.596222"
+    },
+    "2025-11-17_comps.pdf": {
+      "output_file": "data/output/2025-11-17_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:16:41.874577"
+    },
+    "2025-11-14_comps.pdf": {
+      "output_file": "data/output/2025-11-14_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:18:57.692562"
+    },
+    "2025-11-12_comps.pdf": {
+      "output_file": "data/output/2025-11-12_stocks.json",
+      "stock_count": 347,
+      "processed_at": "2026-02-23T01:21:16.012726"
+    },
+    "2025-11-11_comps.pdf": {
+      "output_file": "data/output/2025-11-11_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:23:24.211499"
+    },
+    "2025-11-10_comps.pdf": {
+      "output_file": "data/output/2025-11-10_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:25:34.150502"
+    },
+    "2025-11-07_comps.pdf": {
+      "output_file": "data/output/2025-11-07_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T01:27:40.829201"
+    },
+    "2025-11-06_comps.pdf": {
+      "output_file": "data/output/2025-11-06_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:30:01.217482"
+    },
+    "2025-11-04_comps.pdf": {
+      "output_file": "data/output/2025-11-04_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:32:38.291600"
+    },
+    "2025-11-03_comps.pdf": {
+      "output_file": "data/output/2025-11-03_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:35:14.457098"
+    },
+    "2025-10-31_comps.pdf": {
+      "output_file": "data/output/2025-10-31_stocks.json",
+      "stock_count": 364,
+      "processed_at": "2026-02-23T01:37:32.595342"
+    },
+    "2025-10-30_comps.pdf": {
+      "output_file": "data/output/2025-10-30_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:39:56.468263"
+    },
+    "2025-10-29_comps.pdf": {
+      "output_file": "data/output/2025-10-29_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:42:26.880553"
+    },
+    "2025-10-28_comps.pdf": {
+      "output_file": "data/output/2025-10-28_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T01:44:35.913528"
+    },
+    "2025-10-27_comps.pdf": {
+      "output_file": "data/output/2025-10-27_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T01:46:47.501084"
+    },
+    "2025-10-24_comps.pdf": {
+      "output_file": "data/output/2025-10-24_stocks.json",
+      "stock_count": 284,
+      "processed_at": "2026-02-23T01:49:02.045816"
+    },
+    "2025-10-23_comps.pdf": {
+      "output_file": "data/output/2025-10-23_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:51:05.956410"
+    },
+    "2025-10-22_comps.pdf": {
+      "output_file": "data/output/2025-10-22_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:53:10.581750"
+    },
+    "2025-10-21_comps.pdf": {
+      "output_file": "data/output/2025-10-21_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T01:55:22.156981"
+    },
+    "2025-10-17_comps.pdf": {
+      "output_file": "data/output/2025-10-17_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T01:57:29.753932"
+    },
+    "2025-10-16_comps.pdf": {
+      "output_file": "data/output/2025-10-16_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T01:59:32.836601"
+    },
+    "2025-10-15_comps.pdf": {
+      "output_file": "data/output/2025-10-15_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T02:01:38.788561"
+    },
+    "2025-10-14_comps.pdf": {
+      "output_file": "data/output/2025-10-14_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T02:03:41.251046"
+    },
+    "2025-10-13_comps.pdf": {
+      "output_file": "data/output/2025-10-13_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T02:05:45.984858"
+    },
+    "2025-10-10_comps.pdf": {
+      "output_file": "data/output/2025-10-10_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T02:07:51.936923"
+    },
+    "2025-10-09_comps.pdf": {
+      "output_file": "data/output/2025-10-09_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T02:10:23.998362"
+    },
+    "2025-10-08_comps.pdf": {
+      "output_file": "data/output/2025-10-08_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T02:12:32.915604"
+    },
+    "2025-10-07_comps.pdf": {
+      "output_file": "data/output/2025-10-07_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T02:14:42.444298"
+    },
+    "2025-10-03_comps.pdf": {
+      "output_file": "data/output/2025-10-03_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T02:16:47.075845"
+    },
+    "2025-10-02_comps.pdf": {
+      "output_file": "data/output/2025-10-02_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T02:19:08.493020"
+    },
+    "2025-10-01_comps.pdf": {
+      "output_file": "data/output/2025-10-01_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T02:21:17.512888"
+    },
+    "2025-09-30_comps.pdf": {
+      "output_file": "data/output/2025-09-30_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:23:24.794434"
+    },
+    "2025-09-29_comps.pdf": {
+      "output_file": "data/output/2025-09-29_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:25:45.076722"
+    },
+    "2025-09-26_comps.pdf": {
+      "output_file": "data/output/2025-09-26_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:28:00.418708"
+    },
+    "2025-09-25_comps.pdf": {
+      "output_file": "data/output/2025-09-25_stocks.json",
+      "stock_count": 285,
+      "processed_at": "2026-02-23T02:30:37.228917"
+    },
+    "2025-09-23_comps.pdf": {
+      "output_file": "data/output/2025-09-23_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T02:33:14.410131"
+    },
+    "2025-09-22_comps.pdf": {
+      "output_file": "data/output/2025-09-22_stocks.json",
+      "stock_count": 369,
+      "processed_at": "2026-02-23T02:35:51.635777"
+    },
+    "2025-09-19_comps.pdf": {
+      "output_file": "data/output/2025-09-19_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T02:38:34.417832"
+    },
+    "2025-09-18_comps.pdf": {
+      "output_file": "data/output/2025-09-18_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:40:51.012200"
+    },
+    "2025-09-16_comps.pdf": {
+      "output_file": "data/output/2025-09-16_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:43:34.847303"
+    },
+    "2025-09-15_comps.pdf": {
+      "output_file": "data/output/2025-09-15_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:45:55.952827"
+    },
+    "2025-09-11_comps.pdf": {
+      "output_file": "data/output/2025-09-11_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T02:48:04.273204"
+    },
+    "2025-09-10_comps.pdf": {
+      "output_file": "data/output/2025-09-10_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T02:50:16.056505"
+    },
+    "2025-09-08_comps.pdf": {
+      "output_file": "data/output/2025-09-08_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T02:52:53.027978"
+    },
+    "2025-09-04_comps.pdf": {
+      "output_file": "data/output/2025-09-04_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T02:55:21.718157"
+    },
+    "2025-09-03_comps.pdf": {
+      "output_file": "data/output/2025-09-03_stocks.json",
+      "stock_count": 363,
+      "processed_at": "2026-02-23T02:58:02.083336"
+    },
+    "2025-09-02_comps.pdf": {
+      "output_file": "data/output/2025-09-02_stocks.json",
+      "stock_count": 315,
+      "processed_at": "2026-02-23T03:00:24.741648"
+    },
+    "2025-09-01_comps.pdf": {
+      "output_file": "data/output/2025-09-01_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:03:13.065228"
+    },
+    "2025-08-29_comps.pdf": {
+      "output_file": "data/output/2025-08-29_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:05:43.691821"
+    },
+    "2025-08-28_comps.pdf": {
+      "output_file": "data/output/2025-08-28_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:07:57.937464"
+    },
+    "2025-08-27_comps.pdf": {
+      "output_file": "data/output/2025-08-27_stocks.json",
+      "stock_count": 306,
+      "processed_at": "2026-02-23T03:10:17.609891"
+    },
+    "2025-08-26_comps.pdf": {
+      "output_file": "data/output/2025-08-26_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:12:45.171817"
+    },
+    "2025-08-22_comps.pdf": {
+      "output_file": "data/output/2025-08-22_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:15:05.570928"
+    },
+    "2025-08-21_comps.pdf": {
+      "output_file": "data/output/2025-08-21_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T03:17:25.750357"
+    },
+    "2025-08-20_comps.pdf": {
+      "output_file": "data/output/2025-08-20_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:19:50.229152"
+    },
+    "2025-08-19_comps.pdf": {
+      "output_file": "data/output/2025-08-19_stocks.json",
+      "stock_count": 341,
+      "processed_at": "2026-02-23T03:22:20.969380"
+    },
+    "2025-08-15_comps.pdf": {
+      "output_file": "data/output/2025-08-15_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T03:24:38.075292"
+    },
+    "2025-08-14_comps.pdf": {
+      "output_file": "data/output/2025-08-14_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:26:56.731782"
+    },
+    "2025-08-13_comps.pdf": {
+      "output_file": "data/output/2025-08-13_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T03:29:21.627980"
+    },
+    "2025-08-12_comps.pdf": {
+      "output_file": "data/output/2025-08-12_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T03:31:35.675324"
+    },
+    "2025-08-11_comps.pdf": {
+      "output_file": "data/output/2025-08-11_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T03:33:47.813435"
+    },
+    "2025-08-07_comps.pdf": {
+      "output_file": "data/output/2025-08-07_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T03:36:15.167326"
+    },
+    "2025-08-06_comps.pdf": {
+      "output_file": "data/output/2025-08-06_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:38:36.829619"
+    },
+    "2025-08-05_comps.pdf": {
+      "output_file": "data/output/2025-08-05_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:40:49.645308"
+    },
+    "2025-08-04_comps.pdf": {
+      "output_file": "data/output/2025-08-04_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:43:21.598976"
+    },
+    "2025-08-01_comps.pdf": {
+      "output_file": "data/output/2025-08-01_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:45:33.912106"
+    },
+    "2025-07-31_comps.pdf": {
+      "output_file": "data/output/2025-07-31_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:47:55.732801"
+    },
+    "2025-07-30_comps.pdf": {
+      "output_file": "data/output/2025-07-30_stocks.json",
+      "stock_count": 360,
+      "processed_at": "2026-02-23T03:50:33.837428"
+    },
+    "2025-07-29_comps.pdf": {
+      "output_file": "data/output/2025-07-29_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T03:53:01.189656"
+    },
+    "2025-07-28_comps.pdf": {
+      "output_file": "data/output/2025-07-28_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T03:55:39.803983"
+    },
+    "2025-07-25_comps.pdf": {
+      "output_file": "data/output/2025-07-25_stocks.json",
+      "stock_count": 307,
+      "processed_at": "2026-02-23T03:58:02.798279"
+    },
+    "2025-07-24_comps.pdf": {
+      "output_file": "data/output/2025-07-24_stocks.json",
+      "stock_count": 364,
+      "processed_at": "2026-02-23T04:00:24.170642"
+    },
+    "2025-07-23_comps.pdf": {
+      "output_file": "data/output/2025-07-23_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T04:02:57.264091"
+    },
+    "2025-07-22_comps.pdf": {
+      "output_file": "data/output/2025-07-22_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T04:05:33.110520"
+    },
+    "2025-07-21_comps.pdf": {
+      "output_file": "data/output/2025-07-21_stocks.json",
+      "stock_count": 306,
+      "processed_at": "2026-02-23T04:08:11.220725"
+    },
+    "2025-07-18_comps.pdf": {
+      "output_file": "data/output/2025-07-18_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T04:10:49.433830"
+    },
+    "2025-07-17_comps.pdf": {
+      "output_file": "data/output/2025-07-17_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T04:13:22.310097"
+    },
+    "2025-07-16_comps.pdf": {
+      "output_file": "data/output/2025-07-16_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T04:16:49.263913"
+    },
+    "2025-07-15_comps.pdf": {
+      "output_file": "data/output/2025-07-15_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T04:22:40.497307"
+    },
+    "2025-07-14_comps.pdf": {
+      "output_file": "data/output/2025-07-14_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T04:26:12.865578"
+    },
+    "2025-07-11_comps.pdf": {
+      "output_file": "data/output/2025-07-11_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T04:28:01.947763"
+    },
+    "2025-07-09_comps.pdf": {
+      "output_file": "data/output/2025-07-09_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T04:29:52.248813"
+    },
+    "2025-07-08_comps.pdf": {
+      "output_file": "data/output/2025-07-08_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T04:31:39.016500"
+    },
+    "2025-07-07_comps.pdf": {
+      "output_file": "data/output/2025-07-07_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T04:33:27.959964"
+    },
+    "2025-07-04_comps.pdf": {
+      "output_file": "data/output/2025-07-04_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T04:35:19.277381"
+    },
+    "2025-07-03_comps.pdf": {
+      "output_file": "data/output/2025-07-03_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T04:37:08.092956"
+    },
+    "2025-07-02_comps.pdf": {
+      "output_file": "data/output/2025-07-02_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T04:38:58.580538"
+    },
+    "2025-07-01_comps.pdf": {
+      "output_file": "data/output/2025-07-01_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:40:47.241405"
+    },
+    "2025-06-30_comps.pdf": {
+      "output_file": "data/output/2025-06-30_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:42:46.143575"
+    },
+    "2025-06-27_comps.pdf": {
+      "output_file": "data/output/2025-06-27_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-23T04:44:45.547545"
+    },
+    "2025-06-26_comps.pdf": {
+      "output_file": "data/output/2025-06-26_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:46:44.023336"
+    },
+    "2025-06-25_comps.pdf": {
+      "output_file": "data/output/2025-06-25_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T04:48:44.240508"
+    },
+    "2025-06-24_comps.pdf": {
+      "output_file": "data/output/2025-06-24_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:50:42.506885"
+    },
+    "2025-06-23_comps.pdf": {
+      "output_file": "data/output/2025-06-23_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:52:48.149453"
+    },
+    "2025-06-20_comps.pdf": {
+      "output_file": "data/output/2025-06-20_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:54:55.437433"
+    },
+    "2025-06-19_comps.pdf": {
+      "output_file": "data/output/2025-06-19_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T04:56:57.905632"
+    },
+    "2025-06-17_comps.pdf": {
+      "output_file": "data/output/2025-06-17_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T04:59:00.075183"
+    },
+    "2025-06-16_comps.pdf": {
+      "output_file": "data/output/2025-06-16_stocks.json",
+      "stock_count": 283,
+      "processed_at": "2026-02-23T05:01:07.349407"
+    },
+    "2025-06-13_comps.pdf": {
+      "output_file": "data/output/2025-06-13_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T05:03:08.691628"
+    },
+    "2025-06-12_comps.pdf": {
+      "output_file": "data/output/2025-06-12_stocks.json",
+      "stock_count": 360,
+      "processed_at": "2026-02-23T05:05:11.502382"
+    },
+    "2025-06-11_comps.pdf": {
+      "output_file": "data/output/2025-06-11_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T05:07:17.809871"
+    },
+    "2025-06-06_comps.pdf": {
+      "output_file": "data/output/2025-06-06_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T05:09:26.041658"
+    },
+    "2025-06-05_comps.pdf": {
+      "output_file": "data/output/2025-06-05_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T05:12:02.098945"
+    },
+    "2025-06-04_comps.pdf": {
+      "output_file": "data/output/2025-06-04_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T05:14:10.293227"
+    },
+    "2025-06-02_comps.pdf": {
+      "output_file": "data/output/2025-06-02_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T05:16:19.630164"
+    },
+    "2025-05-30_comps.pdf": {
+      "output_file": "data/output/2025-05-30_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T05:18:29.987706"
+    },
+    "2025-05-29_comps.pdf": {
+      "output_file": "data/output/2025-05-29_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-23T05:20:45.151392"
+    },
+    "2025-05-28_comps.pdf": {
+      "output_file": "data/output/2025-05-28_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-23T05:22:58.483652"
+    },
+    "2025-05-26_comps.pdf": {
+      "output_file": "data/output/2025-05-26_stocks.json",
+      "stock_count": 305,
+      "processed_at": "2026-02-23T05:25:38.534545"
+    },
+    "2025-05-23_comps.pdf": {
+      "output_file": "data/output/2025-05-23_stocks.json",
+      "stock_count": 312,
+      "processed_at": "2026-02-23T05:28:19.920316"
+    },
+    "2025-05-22_comps.pdf": {
+      "output_file": "data/output/2025-05-22_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T05:31:35.385597"
+    },
+    "2025-05-20_comps.pdf": {
+      "output_file": "data/output/2025-05-20_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T05:37:27.744533"
+    },
+    "2025-05-19_comps.pdf": {
+      "output_file": "data/output/2025-05-19_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T05:39:47.415709"
+    },
+    "2025-05-16_comps.pdf": {
+      "output_file": "data/output/2025-05-16_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T05:42:26.237552"
+    },
+    "2025-05-15_comps.pdf": {
+      "output_file": "data/output/2025-05-15_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T05:44:57.587875"
+    },
+    "2025-05-14_comps.pdf": {
+      "output_file": "data/output/2025-05-14_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T05:48:48.082810"
+    },
+    "2025-05-09_comps.pdf": {
+      "output_file": "data/output/2025-05-09_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T05:52:58.247855"
+    },
+    "2025-05-08_comps.pdf": {
+      "output_file": "data/output/2025-05-08_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T05:57:21.414088"
+    },
+    "2025-05-06_comps.pdf": {
+      "output_file": "data/output/2025-05-06_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T06:00:16.332020"
+    },
+    "2025-05-05_comps.pdf": {
+      "output_file": "data/output/2025-05-05_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T06:03:27.699974"
+    },
+    "2025-05-02_comps.pdf": {
+      "output_file": "data/output/2025-05-02_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T06:06:47.688455"
+    },
+    "2025-04-30_comps.pdf": {
+      "output_file": "data/output/2025-04-30_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:09:37.362289"
+    },
+    "2025-04-29_comps.pdf": {
+      "output_file": "data/output/2025-04-29_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:12:55.560262"
+    },
+    "2025-04-28_comps.pdf": {
+      "output_file": "data/output/2025-04-28_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T06:15:37.404025"
+    },
+    "2025-04-25_comps.pdf": {
+      "output_file": "data/output/2025-04-25_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:18:20.830484"
+    },
+    "2025-04-24_comps.pdf": {
+      "output_file": "data/output/2025-04-24_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T06:20:59.448026"
+    },
+    "2025-04-23_comps.pdf": {
+      "output_file": "data/output/2025-04-23_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T06:23:49.740076"
+    },
+    "2025-04-22_comps.pdf": {
+      "output_file": "data/output/2025-04-22_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:27:06.864694"
+    },
+    "2025-04-17_comps.pdf": {
+      "output_file": "data/output/2025-04-17_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:32:31.889291"
+    },
+    "2025-04-16_comps.pdf": {
+      "output_file": "data/output/2025-04-16_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:35:09.169334"
+    },
+    "2025-04-10_comps.pdf": {
+      "output_file": "data/output/2025-04-10_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:42:25.159656"
+    },
+    "2025-04-08_comps.pdf": {
+      "output_file": "data/output/2025-04-08_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:49:47.364076"
+    },
+    "2025-04-07_comps.pdf": {
+      "output_file": "data/output/2025-04-07_stocks.json",
+      "stock_count": 310,
+      "processed_at": "2026-02-23T06:53:16.267617"
+    },
+    "2025-04-03_comps.pdf": {
+      "output_file": "data/output/2025-04-03_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T06:59:22.627486"
+    },
+    "2025-04-02_comps.pdf": {
+      "output_file": "data/output/2025-04-02_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:02:15.798905"
+    },
+    "2025-03-27_comps.pdf": {
+      "output_file": "data/output/2025-03-27_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:10:58.139119"
+    },
+    "2025-03-26_comps.pdf": {
+      "output_file": "data/output/2025-03-26_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:12:40.128603"
+    },
+    "2025-03-25_comps.pdf": {
+      "output_file": "data/output/2025-03-25_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:14:36.769187"
+    },
+    "2025-03-24_comps.pdf": {
+      "output_file": "data/output/2025-03-24_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:16:17.727650"
+    },
+    "2025-03-21_comps.pdf": {
+      "output_file": "data/output/2025-03-21_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:18:09.146806"
+    },
+    "2025-03-20_comps.pdf": {
+      "output_file": "data/output/2025-03-20_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:19:49.692382"
+    },
+    "2025-03-19_comps.pdf": {
+      "output_file": "data/output/2025-03-19_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:21:49.104346"
+    },
+    "2025-03-18_comps.pdf": {
+      "output_file": "data/output/2025-03-18_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:23:47.671127"
+    },
+    "2025-03-17_comps.pdf": {
+      "output_file": "data/output/2025-03-17_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:25:39.491042"
+    },
+    "2025-03-14_comps.pdf": {
+      "output_file": "data/output/2025-03-14_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:27:45.656863"
+    },
+    "2025-03-12_comps.pdf": {
+      "output_file": "data/output/2025-03-12_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:29:54.159030"
+    },
+    "2025-03-11_comps.pdf": {
+      "output_file": "data/output/2025-03-11_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:32:02.060749"
+    },
+    "2025-03-10_comps.pdf": {
+      "output_file": "data/output/2025-03-10_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:34:07.200110"
+    },
+    "2025-03-07_comps.pdf": {
+      "output_file": "data/output/2025-03-07_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:36:12.124645"
+    },
+    "2025-03-06_comps.pdf": {
+      "output_file": "data/output/2025-03-06_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T07:38:11.722287"
+    },
+    "2025-03-05_comps.pdf": {
+      "output_file": "data/output/2025-03-05_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:40:14.300234"
+    },
+    "2025-03-04_comps.pdf": {
+      "output_file": "data/output/2025-03-04_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:42:11.663335"
+    },
+    "2025-03-03_comps.pdf": {
+      "output_file": "data/output/2025-03-03_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:44:35.023878"
+    },
+    "2025-02-28_comps.pdf": {
+      "output_file": "data/output/2025-02-28_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:46:56.012089"
+    },
+    "2025-02-27_comps.pdf": {
+      "output_file": "data/output/2025-02-27_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:48:54.589937"
+    },
+    "2025-02-25_comps.pdf": {
+      "output_file": "data/output/2025-02-25_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:50:51.433095"
+    },
+    "2025-02-24_comps.pdf": {
+      "output_file": "data/output/2025-02-24_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:52:45.915974"
+    },
+    "2025-02-21_comps.pdf": {
+      "output_file": "data/output/2025-02-21_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:54:47.163902"
+    },
+    "2025-02-20_comps.pdf": {
+      "output_file": "data/output/2025-02-20_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:56:44.498920"
+    },
+    "2025-02-19_comps.pdf": {
+      "output_file": "data/output/2025-02-19_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T07:58:43.183031"
+    },
+    "2025-02-18_comps.pdf": {
+      "output_file": "data/output/2025-02-18_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:00:46.089439"
+    },
+    "2025-02-17_comps.pdf": {
+      "output_file": "data/output/2025-02-17_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:02:46.181997"
+    },
+    "2025-02-14_comps.pdf": {
+      "output_file": "data/output/2025-02-14_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:04:46.899697"
+    },
+    "2025-02-13_comps.pdf": {
+      "output_file": "data/output/2025-02-13_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:06:59.726165"
+    },
+    "2025-02-11_comps.pdf": {
+      "output_file": "data/output/2025-02-11_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T08:08:49.801101"
+    },
+    "2025-02-10_comps.pdf": {
+      "output_file": "data/output/2025-02-10_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:10:54.944880"
+    },
+    "2025-02-07_comps.pdf": {
+      "output_file": "data/output/2025-02-07_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:13:38.574413"
+    },
+    "2025-02-06_comps.pdf": {
+      "output_file": "data/output/2025-02-06_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:15:38.068416"
+    },
+    "2025-02-03_comps.pdf": {
+      "output_file": "data/output/2025-02-03_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:20:18.960551"
+    },
+    "2025-01-31_comps.pdf": {
+      "output_file": "data/output/2025-01-31_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:22:17.053645"
+    },
+    "2025-01-30_comps.pdf": {
+      "output_file": "data/output/2025-01-30_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:24:11.707531"
+    },
+    "2025-01-29_comps.pdf": {
+      "output_file": "data/output/2025-01-29_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:26:13.157151"
+    },
+    "2025-01-28_comps.pdf": {
+      "output_file": "data/output/2025-01-28_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T08:28:07.745595"
+    },
+    "2025-01-27_comps.pdf": {
+      "output_file": "data/output/2025-01-27_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:30:06.440699"
+    },
+    "2025-01-24_comps.pdf": {
+      "output_file": "data/output/2025-01-24_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:32:02.701767"
+    },
+    "2025-01-23_comps.pdf": {
+      "output_file": "data/output/2025-01-23_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:34:11.165831"
+    },
+    "2025-01-22_comps.pdf": {
+      "output_file": "data/output/2025-01-22_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:36:02.986129"
+    },
+    "2025-01-21_comps.pdf": {
+      "output_file": "data/output/2025-01-21_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:37:53.274151"
+    },
+    "2025-01-20_comps.pdf": {
+      "output_file": "data/output/2025-01-20_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:39:39.655512"
+    },
+    "2025-01-17_comps.pdf": {
+      "output_file": "data/output/2025-01-17_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:42:04.457481"
+    },
+    "2025-01-16_comps.pdf": {
+      "output_file": "data/output/2025-01-16_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:44:30.573919"
+    },
+    "2025-01-15_comps.pdf": {
+      "output_file": "data/output/2025-01-15_stocks.json",
+      "stock_count": 361,
+      "processed_at": "2026-02-23T08:47:45.156054"
+    },
+    "2025-01-10_comps.pdf": {
+      "output_file": "data/output/2025-01-10_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:50:38.422395"
+    },
+    "2025-01-09_comps.pdf": {
+      "output_file": "data/output/2025-01-09_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:54:35.258543"
+    },
+    "2025-01-08_comps.pdf": {
+      "output_file": "data/output/2025-01-08_stocks.json",
+      "stock_count": 296,
+      "processed_at": "2026-02-23T08:57:35.063179"
+    },
+    "2025-01-07_comps.pdf": {
+      "output_file": "data/output/2025-01-07_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T08:59:42.544059"
+    },
+    "2025-01-03_comps.pdf": {
+      "output_file": "data/output/2025-01-03_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:01:28.936796"
+    },
+    "2025-01-02_comps.pdf": {
+      "output_file": "data/output/2025-01-02_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:03:35.247736"
+    },
+    "2024-12-31_comps.pdf": {
+      "output_file": "data/output/2024-12-31_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:05:18.833720"
+    },
+    "2024-12-30_comps.pdf": {
+      "output_file": "data/output/2024-12-30_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:07:00.411874"
+    },
+    "2024-12-27_comps.pdf": {
+      "output_file": "data/output/2024-12-27_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:08:45.068340"
+    },
+    "2024-12-23_comps.pdf": {
+      "output_file": "data/output/2024-12-23_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:11:04.345918"
+    },
+    "2024-12-20_comps.pdf": {
+      "output_file": "data/output/2024-12-20_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:13:22.376049"
+    },
+    "2024-12-19_comps.pdf": {
+      "output_file": "data/output/2024-12-19_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:15:41.443250"
+    },
+    "2024-12-18_comps.pdf": {
+      "output_file": "data/output/2024-12-18_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:17:31.205123"
+    },
+    "2024-12-17_comps.pdf": {
+      "output_file": "data/output/2024-12-17_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:19:25.107271"
+    },
+    "2024-12-16_comps.pdf": {
+      "output_file": "data/output/2024-12-16_stocks.json",
+      "stock_count": 296,
+      "processed_at": "2026-02-23T09:21:18.434492"
+    },
+    "2024-12-13_comps.pdf": {
+      "output_file": "data/output/2024-12-13_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:23:10.045613"
+    },
+    "2024-12-12_comps.pdf": {
+      "output_file": "data/output/2024-12-12_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:24:55.314489"
+    },
+    "2024-12-11_comps.pdf": {
+      "output_file": "data/output/2024-12-11_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:26:50.636210"
+    },
+    "2024-12-10_comps.pdf": {
+      "output_file": "data/output/2024-12-10_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:28:35.071199"
+    },
+    "2024-12-09_comps.pdf": {
+      "output_file": "data/output/2024-12-09_stocks.json",
+      "stock_count": 300,
+      "processed_at": "2026-02-23T09:30:56.287981"
+    },
+    "2024-12-06_comps.pdf": {
+      "output_file": "data/output/2024-12-06_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:32:49.841431"
+    },
+    "2024-12-05_comps.pdf": {
+      "output_file": "data/output/2024-12-05_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:34:35.813884"
+    },
+    "2024-12-04_comps.pdf": {
+      "output_file": "data/output/2024-12-04_stocks.json",
+      "stock_count": 295,
+      "processed_at": "2026-02-23T09:36:41.845814"
+    },
+    "2024-12-03_comps.pdf": {
+      "output_file": "data/output/2024-12-03_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:38:47.719340"
+    },
+    "2024-12-02_comps.pdf": {
+      "output_file": "data/output/2024-12-02_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:40:40.464838"
+    },
+    "2024-11-29_comps.pdf": {
+      "output_file": "data/output/2024-11-29_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:42:33.002518"
+    },
+    "2024-11-28_comps.pdf": {
+      "output_file": "data/output/2024-11-28_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:44:38.232297"
+    },
+    "2024-11-27_comps.pdf": {
+      "output_file": "data/output/2024-11-27_stocks.json",
+      "stock_count": 296,
+      "processed_at": "2026-02-23T09:46:27.597816"
+    },
+    "2024-11-26_comps.pdf": {
+      "output_file": "data/output/2024-11-26_stocks.json",
+      "stock_count": 297,
+      "processed_at": "2026-02-23T09:48:32.529307"
+    },
+    "2024-11-25_comps.pdf": {
+      "output_file": "data/output/2024-11-25_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:50:32.281070"
+    },
+    "2024-11-22_comps.pdf": {
+      "output_file": "data/output/2024-11-22_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T09:52:24.310558"
+    },
+    "2024-11-21_comps.pdf": {
+      "output_file": "data/output/2024-11-21_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T09:54:15.174700"
+    },
+    "2024-11-20_comps.pdf": {
+      "output_file": "data/output/2024-11-20_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T09:56:06.686163"
+    },
+    "2024-11-19_comps.pdf": {
+      "output_file": "data/output/2024-11-19_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T09:57:54.032737"
+    },
+    "2024-11-18_comps.pdf": {
+      "output_file": "data/output/2024-11-18_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T09:59:41.604889"
+    },
+    "2024-11-13_comps.pdf": {
+      "output_file": "data/output/2024-11-13_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T10:01:21.345823"
+    },
+    "2024-11-12_comps.pdf": {
+      "output_file": "data/output/2024-11-12_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T10:02:59.845313"
+    },
+    "2024-11-11_comps.pdf": {
+      "output_file": "data/output/2024-11-11_stocks.json",
+      "stock_count": 308,
+      "processed_at": "2026-02-23T10:05:47.609301"
+    },
+    "2024-11-08_comps.pdf": {
+      "output_file": "data/output/2024-11-08_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T10:07:53.988881"
+    },
+    "2024-11-06_comps.pdf": {
+      "output_file": "data/output/2024-11-06_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T10:10:06.061188"
+    },
+    "2024-10-30_comps.pdf": {
+      "output_file": "data/output/2024-10-30_stocks.json",
+      "stock_count": 287,
+      "processed_at": "2026-02-23T10:12:52.041127"
+    },
+    "2024-10-28_comps.pdf": {
+      "output_file": "data/output/2024-10-28_stocks.json",
+      "stock_count": 364,
+      "processed_at": "2026-02-23T10:15:09.186636"
+    },
+    "2024-10-24_comps.pdf": {
+      "output_file": "data/output/2024-10-24_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T10:17:39.234500"
+    },
+    "2024-10-23_comps.pdf": {
+      "output_file": "data/output/2024-10-23_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T10:20:16.725896"
+    },
+    "2024-10-22_comps.pdf": {
+      "output_file": "data/output/2024-10-22_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T10:24:38.804824"
+    },
+    "2024-10-21_comps.pdf": {
+      "output_file": "data/output/2024-10-21_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T10:28:07.960708"
+    },
+    "2024-10-18_comps.pdf": {
+      "output_file": "data/output/2024-10-18_stocks.json",
+      "stock_count": 332,
+      "processed_at": "2026-02-23T10:31:07.812773"
+    },
+    "2024-10-16_comps.pdf": {
+      "output_file": "data/output/2024-10-16_stocks.json",
+      "stock_count": 328,
+      "processed_at": "2026-02-23T10:34:43.893284"
+    },
+    "2024-10-15_comps.pdf": {
+      "output_file": "data/output/2024-10-15_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T10:37:37.561891"
+    },
+    "2024-10-14_comps.pdf": {
+      "output_file": "data/output/2024-10-14_stocks.json",
+      "stock_count": 354,
+      "processed_at": "2026-02-23T10:41:04.921137"
+    },
+    "2024-10-11_comps.pdf": {
+      "output_file": "data/output/2024-10-11_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T10:44:59.519217"
+    },
+    "2024-10-10_comps.pdf": {
+      "output_file": "data/output/2024-10-10_stocks.json",
+      "stock_count": 427,
+      "processed_at": "2026-02-23T10:48:10.404570"
+    },
+    "2024-10-09_comps.pdf": {
+      "output_file": "data/output/2024-10-09_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T10:51:43.790829"
+    },
+    "2024-10-08_comps.pdf": {
+      "output_file": "data/output/2024-10-08_stocks.json",
+      "stock_count": 364,
+      "processed_at": "2026-02-23T10:55:38.705751"
+    },
+    "2024-10-07_comps.pdf": {
+      "output_file": "data/output/2024-10-07_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T10:59:39.059902"
+    },
+    "2024-10-04_comps.pdf": {
+      "output_file": "data/output/2024-10-04_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T11:03:47.500214"
+    },
+    "2024-10-03_comps.pdf": {
+      "output_file": "data/output/2024-10-03_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:07:10.416920"
+    },
+    "2024-10-02_comps.pdf": {
+      "output_file": "data/output/2024-10-02_stocks.json",
+      "stock_count": 362,
+      "processed_at": "2026-02-23T11:10:11.460149"
+    },
+    "2024-10-01_comps.pdf": {
+      "output_file": "data/output/2024-10-01_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:13:17.312540"
+    },
+    "2024-09-30_comps.pdf": {
+      "output_file": "data/output/2024-09-30_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T11:16:05.959925"
+    },
+    "2024-09-27_comps.pdf": {
+      "output_file": "data/output/2024-09-27_stocks.json",
+      "stock_count": 413,
+      "processed_at": "2026-02-23T11:18:59.384518"
+    },
+    "2024-09-26_comps.pdf": {
+      "output_file": "data/output/2024-09-26_stocks.json",
+      "stock_count": 358,
+      "processed_at": "2026-02-23T11:22:30.984600"
+    },
+    "2024-09-25_comps.pdf": {
+      "output_file": "data/output/2024-09-25_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:25:39.091336"
+    },
+    "2024-09-24_comps.pdf": {
+      "output_file": "data/output/2024-09-24_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:28:57.402558"
+    },
+    "2024-09-23_comps.pdf": {
+      "output_file": "data/output/2024-09-23_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:33:44.332805"
+    },
+    "2024-09-20_comps.pdf": {
+      "output_file": "data/output/2024-09-20_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T11:38:30.983674"
+    },
+    "2024-09-19_comps.pdf": {
+      "output_file": "data/output/2024-09-19_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T11:43:26.416161"
+    },
+    "2024-09-18_comps.pdf": {
+      "output_file": "data/output/2024-09-18_stocks.json",
+      "stock_count": 332,
+      "processed_at": "2026-02-23T11:46:40.135880"
+    },
+    "2024-09-13_comps.pdf": {
+      "output_file": "data/output/2024-09-13_stocks.json",
+      "stock_count": 409,
+      "processed_at": "2026-02-23T11:49:50.616926"
+    },
+    "2024-09-12_comps.pdf": {
+      "output_file": "data/output/2024-09-12_stocks.json",
+      "stock_count": 416,
+      "processed_at": "2026-02-23T11:53:03.539839"
+    },
+    "2024-09-11_comps.pdf": {
+      "output_file": "data/output/2024-09-11_stocks.json",
+      "stock_count": 360,
+      "processed_at": "2026-02-23T11:56:48.587508"
+    },
+    "2024-09-10_comps.pdf": {
+      "output_file": "data/output/2024-09-10_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:00:10.849758"
+    },
+    "2024-09-09_comps.pdf": {
+      "output_file": "data/output/2024-09-09_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T12:03:33.395652"
+    },
+    "2024-09-06_comps.pdf": {
+      "output_file": "data/output/2024-09-06_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T12:07:04.340516"
+    },
+    "2024-09-05_comps.pdf": {
+      "output_file": "data/output/2024-09-05_stocks.json",
+      "stock_count": 368,
+      "processed_at": "2026-02-23T12:10:15.321488"
+    },
+    "2024-09-04_comps.pdf": {
+      "output_file": "data/output/2024-09-04_stocks.json",
+      "stock_count": 424,
+      "processed_at": "2026-02-23T12:13:32.209523"
+    },
+    "2024-09-03_comps.pdf": {
+      "output_file": "data/output/2024-09-03_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T12:16:56.414055"
+    },
+    "2024-09-02_comps.pdf": {
+      "output_file": "data/output/2024-09-02_stocks.json",
+      "stock_count": 360,
+      "processed_at": "2026-02-23T12:19:44.565470"
+    },
+    "2024-08-30_comps.pdf": {
+      "output_file": "data/output/2024-08-30_stocks.json",
+      "stock_count": 366,
+      "processed_at": "2026-02-23T12:22:52.392573"
+    },
+    "2024-08-29_comps.pdf": {
+      "output_file": "data/output/2024-08-29_stocks.json",
+      "stock_count": 303,
+      "processed_at": "2026-02-23T12:25:42.473392"
+    },
+    "2024-08-28_comps.pdf": {
+      "output_file": "data/output/2024-08-28_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:29:14.827486"
+    },
+    "2024-08-27_comps.pdf": {
+      "output_file": "data/output/2024-08-27_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:32:48.983279"
+    },
+    "2024-08-26_comps.pdf": {
+      "output_file": "data/output/2024-08-26_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T12:36:09.257257"
+    },
+    "2024-08-23_comps.pdf": {
+      "output_file": "data/output/2024-08-23_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T12:38:53.580821"
+    },
+    "2024-08-22_comps.pdf": {
+      "output_file": "data/output/2024-08-22_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T12:41:56.133602"
+    },
+    "2024-08-21_comps.pdf": {
+      "output_file": "data/output/2024-08-21_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:45:11.644817"
+    },
+    "2024-08-20_comps.pdf": {
+      "output_file": "data/output/2024-08-20_stocks.json",
+      "stock_count": 306,
+      "processed_at": "2026-02-23T12:47:59.655817"
+    },
+    "2024-08-16_comps.pdf": {
+      "output_file": "data/output/2024-08-16_stocks.json",
+      "stock_count": 369,
+      "processed_at": "2026-02-23T12:50:55.695672"
+    },
+    "2024-08-15_comps.pdf": {
+      "output_file": "data/output/2024-08-15_stocks.json",
+      "stock_count": 364,
+      "processed_at": "2026-02-23T12:54:17.830891"
+    },
+    "2024-08-14_comps.pdf": {
+      "output_file": "data/output/2024-08-14_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:56:56.010119"
+    },
+    "2024-08-13_comps.pdf": {
+      "output_file": "data/output/2024-08-13_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T12:59:43.711209"
+    },
+    "2024-08-12_comps.pdf": {
+      "output_file": "data/output/2024-08-12_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:02:39.164676"
+    },
+    "2024-08-09_comps.pdf": {
+      "output_file": "data/output/2024-08-09_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:05:40.144798"
+    },
+    "2024-08-08_comps.pdf": {
+      "output_file": "data/output/2024-08-08_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:09:22.130497"
+    },
+    "2024-08-07_comps.pdf": {
+      "output_file": "data/output/2024-08-07_stocks.json",
+      "stock_count": 304,
+      "processed_at": "2026-02-23T13:12:09.991751"
+    },
+    "2024-08-06_comps.pdf": {
+      "output_file": "data/output/2024-08-06_stocks.json",
+      "stock_count": 428,
+      "processed_at": "2026-02-23T13:15:42.434297"
+    },
+    "2024-08-05_comps.pdf": {
+      "output_file": "data/output/2024-08-05_stocks.json",
+      "stock_count": 429,
+      "processed_at": "2026-02-23T13:18:47.685402"
+    },
+    "2024-08-02_comps.pdf": {
+      "output_file": "data/output/2024-08-02_stocks.json",
+      "stock_count": 428,
+      "processed_at": "2026-02-23T13:21:58.690521"
+    },
+    "2024-08-01_comps.pdf": {
+      "output_file": "data/output/2024-08-01_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:25:32.173145"
+    },
+    "2024-07-31_comps.pdf": {
+      "output_file": "data/output/2024-07-31_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:29:04.022187"
+    },
+    "2024-07-30_comps.pdf": {
+      "output_file": "data/output/2024-07-30_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:32:28.624274"
+    },
+    "2024-07-29_comps.pdf": {
+      "output_file": "data/output/2024-07-29_stocks.json",
+      "stock_count": 365,
+      "processed_at": "2026-02-23T13:36:08.602883"
+    },
+    "2024-07-26_comps.pdf": {
+      "output_file": "data/output/2024-07-26_stocks.json",
+      "stock_count": 302,
+      "processed_at": "2026-02-23T13:39:47.727395"
+    },
+    "2024-07-25_comps.pdf": {
+      "output_file": "data/output/2024-07-25_stocks.json",
+      "stock_count": 367,
+      "processed_at": "2026-02-23T13:43:29.838370"
+    },
+    "2024-07-24_comps.pdf": {
+      "output_file": "data/output/2024-07-24_stocks.json",
+      "stock_count": 427,
+      "processed_at": "2026-02-23T13:47:42.279808"
+    },
+    "2024-07-23_comps.pdf": {
+      "output_file": "data/output/2024-07-23_stocks.json",
+      "stock_count": 301,
+      "processed_at": "2026-02-23T13:50:39.394431"
+    },
+    "2024-07-22_comps.pdf": {
+      "output_file": "data/output/2024-07-22_stocks.json",
+      "stock_count": 359,
+      "processed_at": "2026-02-23T13:54:03.682924"
+    },
+    "2024-07-19_comps.pdf": {
+      "output_file": "data/output/2024-07-19_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T13:57:03.075001"
+    },
+    "2024-07-18_comps.pdf": {
+      "output_file": "data/output/2024-07-18_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:00:15.990153"
+    },
+    "2024-07-17_comps.pdf": {
+      "output_file": "data/output/2024-07-17_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:02:59.324338"
+    },
+    "2024-07-16_comps.pdf": {
+      "output_file": "data/output/2024-07-16_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:06:19.090269"
+    },
+    "2024-07-15_comps.pdf": {
+      "output_file": "data/output/2024-07-15_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:09:11.624176"
+    },
+    "2024-07-12_comps.pdf": {
+      "output_file": "data/output/2024-07-12_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:11:34.187142"
+    },
+    "2024-07-10_comps.pdf": {
+      "output_file": "data/output/2024-07-10_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:15:06.558921"
+    },
+    "2024-07-09_comps.pdf": {
+      "output_file": "data/output/2024-07-09_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:18:24.743163"
+    },
+    "2024-07-08_comps.pdf": {
+      "output_file": "data/output/2024-07-08_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T14:21:30.661856"
+    },
+    "2025-04-11_comps.pdf": {
+      "output_file": "data/output/2025-04-11_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T14:52:28.065276"
+    },
+    "2025-04-09_comps.pdf": {
+      "output_file": "data/output/2025-04-09_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T14:55:24.643361"
+    },
+    "2025-04-01_comps.pdf": {
+      "output_file": "data/output/2025-04-01_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T15:01:08.798142"
+    },
+    "2025-02-05_comps.pdf": {
+      "output_file": "data/output/2025-02-05_stocks.json",
+      "stock_count": 298,
+      "processed_at": "2026-02-23T15:05:59.246502"
+    },
+    "2024-07-05_comps.pdf": {
+      "output_file": "data/output/2024-07-05_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T15:08:10.477631"
+    },
+    "2024-07-04_comps.pdf": {
+      "output_file": "data/output/2024-07-04_stocks.json",
+      "stock_count": 299,
+      "processed_at": "2026-02-23T15:10:32.099985"
+    },
+    "2024-07-03_comps.pdf": {
+      "output_file": "data/output/2024-07-03_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:12:21.155525"
+    },
+    "2024-07-02_comps.pdf": {
+      "output_file": "data/output/2024-07-02_stocks.json",
+      "stock_count": 137,
+      "processed_at": "2026-02-23T15:14:08.806504"
+    },
+    "2024-07-01_comps.pdf": {
+      "output_file": "data/output/2024-07-01_stocks.json",
+      "stock_count": 188,
+      "processed_at": "2026-02-23T15:16:20.680421"
+    },
+    "2024-06-28_comps.pdf": {
+      "output_file": "data/output/2024-06-28_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:18:21.609684"
+    },
+    "2024-06-27_comps.pdf": {
+      "output_file": "data/output/2024-06-27_stocks.json",
+      "stock_count": 187,
+      "processed_at": "2026-02-23T15:21:19.890418"
+    },
+    "2024-06-26_comps.pdf": {
+      "output_file": "data/output/2024-06-26_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:25:30.974482"
+    },
+    "2024-06-25_comps.pdf": {
+      "output_file": "data/output/2024-06-25_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:29:55.531541"
+    },
+    "2024-06-24_comps.pdf": {
+      "output_file": "data/output/2024-06-24_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:32:25.619437"
+    },
+    "2024-06-20_comps.pdf": {
+      "output_file": "data/output/2024-06-20_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:34:35.535657"
+    },
+    "2024-06-19_comps.pdf": {
+      "output_file": "data/output/2024-06-19_stocks.json",
+      "stock_count": 135,
+      "processed_at": "2026-02-23T15:36:05.546091"
+    },
+    "2024-06-18_comps.pdf": {
+      "output_file": "data/output/2024-06-18_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:37:33.615231"
+    },
+    "2024-06-14_comps.pdf": {
+      "output_file": "data/output/2024-06-14_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:39:05.263264"
+    },
+    "2024-06-13_comps.pdf": {
+      "output_file": "data/output/2024-06-13_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:40:27.758110"
+    },
+    "2024-06-12_comps.pdf": {
+      "output_file": "data/output/2024-06-12_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:41:49.405466"
+    },
+    "2024-06-11_comps.pdf": {
+      "output_file": "data/output/2024-06-11_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T15:43:09.998489"
+    },
+    "2024-06-10_comps.pdf": {
+      "output_file": "data/output/2024-06-10_stocks.json",
+      "stock_count": 131,
+      "processed_at": "2026-02-23T15:44:33.245887"
+    },
+    "2024-06-07_comps.pdf": {
+      "output_file": "data/output/2024-06-07_stocks.json",
+      "stock_count": 188,
+      "processed_at": "2026-02-23T15:45:59.728390"
+    },
+    "2024-06-06_comps.pdf": {
+      "output_file": "data/output/2024-06-06_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:47:46.485638"
+    },
+    "2024-06-05_comps.pdf": {
+      "output_file": "data/output/2024-06-05_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T15:50:14.442940"
+    },
+    "2024-06-04_comps.pdf": {
+      "output_file": "data/output/2024-06-04_stocks.json",
+      "stock_count": 188,
+      "processed_at": "2026-02-23T15:52:48.348831"
+    },
+    "2024-06-03_comps.pdf": {
+      "output_file": "data/output/2024-06-03_stocks.json",
+      "stock_count": 134,
+      "processed_at": "2026-02-23T15:54:11.803059"
+    },
+    "2024-05-31_comps.pdf": {
+      "output_file": "data/output/2024-05-31_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T15:55:33.226322"
+    },
+    "2024-05-30_comps.pdf": {
+      "output_file": "data/output/2024-05-30_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T15:56:56.633972"
+    },
+    "2024-05-29_comps.pdf": {
+      "output_file": "data/output/2024-05-29_stocks.json",
+      "stock_count": 134,
+      "processed_at": "2026-02-23T15:58:21.078936"
+    },
+    "2024-05-28_comps.pdf": {
+      "output_file": "data/output/2024-05-28_stocks.json",
+      "stock_count": 188,
+      "processed_at": "2026-02-23T15:59:44.722155"
+    },
+    "2024-05-27_comps.pdf": {
+      "output_file": "data/output/2024-05-27_stocks.json",
+      "stock_count": 163,
+      "processed_at": "2026-02-23T16:01:09.089060"
+    },
+    "2024-05-22_comps.pdf": {
+      "output_file": "data/output/2024-05-22_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T16:02:28.748704"
+    },
+    "2024-05-21_comps.pdf": {
+      "output_file": "data/output/2024-05-21_stocks.json",
+      "stock_count": 240,
+      "processed_at": "2026-02-23T16:03:59.167702"
+    },
+    "2024-05-20_comps.pdf": {
+      "output_file": "data/output/2024-05-20_stocks.json",
+      "stock_count": 187,
+      "processed_at": "2026-02-23T16:05:15.248448"
+    },
+    "2024-05-17_comps.pdf": {
+      "output_file": "data/output/2024-05-17_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T16:06:32.030695"
+    },
+    "2024-05-16_comps.pdf": {
+      "output_file": "data/output/2024-05-16_stocks.json",
+      "stock_count": 165,
+      "processed_at": "2026-02-23T16:07:59.707815"
+    },
+    "2024-05-15_comps.pdf": {
+      "output_file": "data/output/2024-05-15_stocks.json",
+      "stock_count": 190,
+      "processed_at": "2026-02-23T16:10:11.508798"
+    },
+    "2024-05-14_comps.pdf": {
+      "output_file": "data/output/2024-05-14_stocks.json",
+      "stock_count": 188,
+      "processed_at": "2026-02-23T16:11:36.799296"
+    },
+    "2024-05-06_comps.pdf": {
+      "output_file": "data/output/2024-05-06_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T16:13:03.356079"
+    },
+    "2024-05-03_comps.pdf": {
+      "output_file": "data/output/2024-05-03_stocks.json",
+      "stock_count": 250,
+      "processed_at": "2026-02-23T16:15:16.246715"
+    },
+    "2024-05-02_comps.pdf": {
+      "output_file": "data/output/2024-05-02_stocks.json",
+      "stock_count": 190,
+      "processed_at": "2026-02-23T16:17:31.317418"
+    },
+    "2024-04-30_comps.pdf": {
+      "output_file": "data/output/2024-04-30_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T16:19:03.161754"
+    },
+    "2024-04-29_comps.pdf": {
+      "output_file": "data/output/2024-04-29_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T16:20:46.994027"
+    },
+    "2024-04-26_comps.pdf": {
+      "output_file": "data/output/2024-04-26_stocks.json",
+      "stock_count": 131,
+      "processed_at": "2026-02-23T16:22:25.203335"
+    },
+    "2024-04-25_comps.pdf": {
+      "output_file": "data/output/2024-04-25_stocks.json",
+      "stock_count": 127,
+      "processed_at": "2026-02-23T16:24:00.220344"
+    },
+    "2024-04-24_comps.pdf": {
+      "output_file": "data/output/2024-04-24_stocks.json",
+      "stock_count": 190,
+      "processed_at": "2026-02-23T16:25:33.614489"
+    },
+    "2024-04-22_comps.pdf": {
+      "output_file": "data/output/2024-04-22_stocks.json",
+      "stock_count": 128,
+      "processed_at": "2026-02-23T16:27:15.188520"
+    },
+    "2024-04-19_comps.pdf": {
+      "output_file": "data/output/2024-04-19_stocks.json",
+      "stock_count": 192,
+      "processed_at": "2026-02-23T16:28:43.666216"
+    }
+  },
+  "failed": {
+    "2025-05-21_comps.pdf": {
+      "error": "'list' object has no attribute 'get'",
+      "failed_at": "2026-02-23T14:46:04.659028"
+    },
+    "2025-04-21_comps.pdf": {
+      "error": "'list' object has no attribute 'get'",
+      "failed_at": "2026-02-23T14:49:17.165987"
+    },
+    "2025-04-04_comps.pdf": {
+      "error": "'list' object has no attribute 'get'",
+      "failed_at": "2026-02-23T14:58:20.334102"
+    },
+    "2025-03-28_comps.pdf": {
+      "error": "'list' object has no attribute 'get'",
+      "failed_at": "2026-02-23T15:03:59.179566"
+    }
+  }
+}

@@ -5,7 +5,10 @@
       "Bash(playwright install:*)",
       "Bash(python -m src.backlog_processor:*)",
       "Bash(python -m pytest:*)",
-      "Bash(python -c:*)"
+      "Bash(python -c:*)",
+      "Bash(python3:*)",
+      "Bash(python scripts/batch_extract.py:*)",
+      "Bash(find:*)"
     ]
   }
 }

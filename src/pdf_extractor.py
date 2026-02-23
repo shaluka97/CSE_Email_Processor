@@ -266,11 +266,20 @@ class LLMExtractor:
         ollama_base_url: str | None = None,
         ollama_model: str | None = None,
         anthropic_api_key: str | None = None,
+        groq_api_key: str | None = None,
+        groq_model: str | None = None,
+        together_api_key: str | None = None,
+        together_model: str | None = None,
     ) -> None:
         self.ollama_base_url = ollama_base_url or settings.llm.ollama_base_url
         self.ollama_model = ollama_model or settings.llm.ollama_model
         self.anthropic_api_key = anthropic_api_key or settings.llm.anthropic_api_key
+        self.groq_api_key = groq_api_key or settings.llm.groq_api_key
+        self.groq_model = groq_model or settings.llm.groq_model
+        self.together_api_key = together_api_key or settings.llm.together_api_key
+        self.together_model = together_model or settings.llm.together_model
         self._prompt_template = self._load_prompt_template()
+        self._last_failed_response: str | None = None  # Set when JSON parse fails
 
     def _load_prompt_template(self) -> str:
         """Load extraction prompt from file or use default."""
@@ -390,8 +399,118 @@ JSON:'''
             logger.error(f"Claude extraction failed: {e}")
             return None
 
+    def extract_with_groq(self, text: str) -> dict[str, Any] | None:
+        """Extract data using Groq API (fast inference)."""
+        if not self.groq_api_key:
+            logger.warning("Groq API key not configured")
+            return None
+
+        try:
+            from groq import Groq
+
+            client = Groq(api_key=self.groq_api_key)
+            # Sanitize text to remove control characters
+            text = self._sanitize_text(text)
+            # Use replace instead of format to avoid issues with JSON braces
+            prompt = self._prompt_template.replace("{text}", text)
+
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are a data extraction assistant. Return ONLY valid JSON, no explanations.",
+                    },
+                    {"role": "user", "content": prompt},
+                ],
+                model=self.groq_model,
+                temperature=0,
+                max_tokens=8192,
+            )
+
+            raw_response = chat_completion.choices[0].message.content
+            return self._parse_json_response(raw_response)
+
+        except ImportError:
+            logger.error("groq package not installed - run: pip install groq")
+            return None
+        except Exception as e:
+            logger.error(f"Groq extraction failed: {e}")
+            return None
+
+    def extract_with_together(
+        self, text: str, max_retries: int = 3, retry_delay: float = 2.0, timeout: float = 120.0
+    ) -> dict[str, Any] | None:
+        """Extract data using Together.ai API with rate limit handling.
+
+        Args:
+            text: Text to extract from
+            max_retries: Maximum retry attempts for rate limit errors
+            retry_delay: Initial delay between retries (doubles each attempt)
+            timeout: Request timeout in seconds (default 120s for large chunks)
+        """
+        if not self.together_api_key:
+            logger.warning("Together API key not configured")
+            return None
+
+        import time
+        import httpx
+
+        try:
+            from together import Together
+
+            # Create client with extended timeout for large extractions
+            client = Together(
+                api_key=self.together_api_key,
+                timeout=httpx.Timeout(timeout, connect=30.0),
+            )
+            # Sanitize text to remove control characters
+            text = self._sanitize_text(text)
+            # Use replace instead of format to avoid issues with JSON braces
+            prompt = self._prompt_template.replace("{text}", text)
+
+            # Retry loop for rate limit and timeout handling
+            for attempt in range(max_retries + 1):
+                try:
+                    response = client.chat.completions.create(
+                        model=self.together_model,
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": "You are a data extraction assistant. Return ONLY valid JSON, no explanations.",
+                            },
+                            {"role": "user", "content": prompt},
+                        ],
+                        temperature=0,
+                        max_tokens=8192,
+                    )
+
+                    raw_response = response.choices[0].message.content
+                    return self._parse_json_response(raw_response)
+
+                except Exception as e:
+                    error_str = str(e).lower()
+                    # Check for rate limit or timeout errors
+                    if "rate" in error_str or "limit" in error_str or "429" in error_str or "timeout" in error_str:
+                        if attempt < max_retries:
+                            wait_time = retry_delay * (2 ** attempt)
+                            logger.warning(
+                                f"Rate limit/timeout hit, waiting {wait_time:.1f}s (attempt {attempt + 1}/{max_retries})"
+                            )
+                            time.sleep(wait_time)
+                            continue
+                    raise
+
+        except ImportError:
+            logger.error("together package not installed - run: pip install together")
+            return None
+        except Exception as e:
+            logger.error(f"Together extraction failed: {e}")
+            return None
+
     def _parse_json_response(self, response: str) -> dict[str, Any] | None:
-        """Parse JSON from LLM response, handling markdown code blocks."""
+        """Parse JSON from LLM response, handling markdown code blocks and truncation."""
+        self._last_failed_response = None  # Reset on each call
+
         # Remove markdown code blocks if present
         response = response.strip()
         if response.startswith("```json"):
@@ -401,24 +520,98 @@ JSON:'''
         if response.endswith("```"):
             response = response[:-3]
 
+        response = response.strip()
+
+        # First try direct parse
         try:
-            return json.loads(response.strip())
+            return json.loads(response)
         except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse JSON: {e}")
-            logger.debug(f"Raw response: {response[:500]}...")
+            logger.debug(f"Direct JSON parse failed, attempting repair: {e}")
+
+        # Try json_repair for malformed/truncated responses
+        try:
+            from json_repair import repair_json
+            repaired = repair_json(response, return_objects=True)
+            if repaired:
+                if isinstance(repaired, dict):
+                    return repaired
+                elif isinstance(repaired, list) and repaired:
+                    # LLM returned a bare array instead of {"stocks": [...]}
+                    return {"stocks": repaired}
+        except Exception:
+            pass
+
+        # Last resort: manual truncation repair
+        repaired = self._repair_truncated_json(response)
+        if repaired:
+            try:
+                return json.loads(repaired)
+            except json.JSONDecodeError:
+                pass
+
+        logger.error(f"All JSON repair attempts failed. Raw response (first 500 chars): {response[:500]}")
+        self._last_failed_response = response
+        return None
+
+    def _repair_truncated_json(self, response: str) -> str | None:
+        """Attempt to repair truncated JSON by closing open structures."""
+        if not response:
             return None
+
+        # Find the last complete stock entry by looking for the last "},"
+        # Then close the array and object properly
+        last_complete = response.rfind('},')
+        if last_complete == -1:
+            last_complete = response.rfind('}')
+
+        if last_complete == -1:
+            return None
+
+        # Take everything up to and including the last complete entry
+        repaired = response[:last_complete + 1]
+
+        # Remove trailing comma if present
+        repaired = repaired.rstrip().rstrip(',')
+
+        # Count open brackets/braces and close them
+        open_braces = repaired.count('{') - repaired.count('}')
+        open_brackets = repaired.count('[') - repaired.count(']')
+
+        # Close any open structures
+        repaired += ']' * open_brackets
+        repaired += '}' * open_braces
+
+        return repaired
 
     def extract(self, text: str) -> tuple[dict[str, Any] | None, str]:
         """
         Extract stock data using LLM with fallback.
 
-        Returns tuple of (data, method) where method is "ollama" or "claude".
+        Returns tuple of (data, method) where method is "together", "groq", "ollama", or "claude".
+        Priority: Together.ai -> Groq -> Ollama (local) -> Claude (fallback)
         """
-        # Try Ollama first
+        # Try Together.ai first
+        if self.together_api_key:
+            logger.info("Attempting extraction with Together.ai...")
+            result = self.extract_with_together(text)
+            if result and self._validate_basic_structure(result):
+                result = self._normalize_llm_output(result)
+                logger.info("Together.ai extraction successful")
+                return result, "together"
+
+        # Try Groq
+        if self.groq_api_key:
+            logger.info("Attempting extraction with Groq...")
+            result = self.extract_with_groq(text)
+            if result and self._validate_basic_structure(result):
+                result = self._normalize_llm_output(result)
+                logger.info("Groq extraction successful")
+                return result, "groq"
+
+        # Fall back to Ollama (local)
         logger.info("Attempting extraction with Ollama...")
         result = self.extract_with_ollama(text)
         if result and self._validate_basic_structure(result):
-            # Normalize field names to standard format
             result = self._normalize_llm_output(result)
             logger.info("Ollama extraction successful")
             return result, "ollama"
@@ -427,12 +620,11 @@ JSON:'''
         logger.info("Falling back to Claude API...")
         result = self.extract_with_claude(text)
         if result and self._validate_basic_structure(result):
-            # Normalize field names to standard format
             result = self._normalize_llm_output(result)
             logger.info("Claude extraction successful")
             return result, "claude"
 
-        logger.error("Both Ollama and Claude extraction failed")
+        logger.error("All LLM extraction methods failed")
         return None, "none"
 
     def _validate_basic_structure(self, data: dict[str, Any]) -> bool:
@@ -542,25 +734,50 @@ JSON:'''
             "company": "company_name",
             "name": "company_name",
             "Company": "company_name",
+            "COMPANY NAME": "company_name",
+            "COMPANY_NAME": "company_name",
             # Price variations
             "closingPrice": "closing_price",
+            "closing_price_lkr": "closing_price",
             "marketPrice": "closing_price",
             "market_price": "closing_price",
+            "market_price_lkr": "closing_price",
+            "mkt_price": "closing_price",
+            "MKT_PRICE": "closing_price",
             "price": "closing_price",
             # Price change variations
             "priceChange": "price_change_pct",
             "priceChangePct": "price_change_pct",
             "price_change": "price_change_pct",
+            "price_change_from_prev_close": "price_change_pct",
+            # Turnover variations
+            "Turnover": "turnover",
+            "TURNOVER": "turnover",
             # Earnings variations
             "earnings4qt": "earnings_4qt",
             "latest4QTearnings": "earnings_4qt",
+            "latest_4qt_earnings": "earnings_4qt",
             "earnings": "earnings_4qt",
+            "Earnings": "earnings_4qt",
+            "net_profit": "earnings_4qt",
+            "NP": "earnings_4qt",
             # EPS variations
             "latest4QTEPS": "eps",
+            "latest_4qt_eps": "eps",
+            "latest_eps": "eps",
+            "trailing_eps": "eps",
+            "trailing_12_months_eps": "eps",
             "EPS": "eps",
+            # PE variations
+            "PE": "pe",
+            "PER": "pe",
+            "per": "pe",
             # NAVPS variations
             "navps": "navps",
             "NAVPS": "navps",
+            "BV": "navps",
+            "bv": "navps",
+            "book_value": "navps",
             # PBV variations
             "pbv": "pbv",
             "PBV": "pbv",
@@ -568,14 +785,20 @@ JSON:'''
             "roE": "roe_pct",
             "roe": "roe_pct",
             "ROE": "roe_pct",
+            "RoE": "roe_pct",
             # DPS variations
             "ttmDps": "dps",
-            "DPS": "dps",
             "ttm_dps": "dps",
+            "TTM_DPS": "dps",
+            "latest_dps": "dps",
+            "DPS": "dps",
             # DY variations
             "dy": "dy_pct",
             "DY": "dy_pct",
+            "D/Y": "dy_pct",
+            "d_y": "dy_pct",
             "dyPct": "dy_pct",
+            "dividend_yield": "dy_pct",
         }
 
         normalized_stocks = []

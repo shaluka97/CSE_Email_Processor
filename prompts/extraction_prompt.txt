@@ -1,16 +1,62 @@
 Extract stock data from this CSE comp sheet as a JSON array.
 
+The PDF format varies by date. Detect the format from the column headers:
+
+FORMAT 1 (2024-04 to 2024-06 - Oldest):
+- Headers: COMPANY NAME, Code, QTR, MKT. PRICE, MARKET CAP, ...TRAILING 12 MONTHS EPS, PER, BV, PBV, DPS, DY
+- Company name comes FIRST, Code comes AFTER
+- MKT. PRICE = closing_price, PER = pe, BV = navps, TRAILING EPS = eps
+
+FORMAT 2 (2024-07 - Transition):
+- Headers: Code, Company Name, Revenue, Earnings, Latest EPS, PE, NAVPS, PBV, ROE, Latest DPS, D/Y
+- Code comes FIRST
+
+FORMAT 3 (2024-08 to 2024-11):
+- Headers: Code, Company Name, Market Price, EPS, PE, NAVPS, PBV, ROE, Latest DPS, D/Y
+- Code comes FIRST
+
+FORMAT 4 (2024-12 to 2025-03):
+- Headers: Code, Company Name, Market Price, PE, NAVPS, PBV, ROE, Latest DPS, D/Y
+- EPS shown separately as "(4QT)"
+
+FORMAT 5 (2025-04 to 2025-09):
+- Headers: Code, Company Name, Market Price (LKR), PE, NAVPS, PBV, RoE, DY
+- Currency in LKR
+
+FORMAT 6 (2025-10 to 2025-12):
+- Headers: Code, Company Name, Market Price (LKR), PE, NAVPS, PBV, RoE, TTM DPS, DY
+- TTM DPS = Trailing Twelve Months DPS
+
+FORMAT 7 (2026+ - Latest):
+- Headers: Code, Company Name, Closing Price (LKR), Turnover, PE, NAVPS, PBV, RoE, TTM DPS, DY
+- Has "Turnover" column
+- Uses "Closing Price" instead of "Market Price"
+
 RULES:
-- (247.00) means -247.00 (negative)
-- "-" means null
-- Sector headers (Banks, Capital Goods, etc.) appear before their stocks
-- Stock codes follow pattern: XXXX.N0000 or XXXX.X0000
+- (247.00) or values in parentheses = negative numbers
+- "-" or empty = null
+- Stock codes: XXXX.N0000 or XXXX.X0000
+- Sector headers appear as standalone rows (Banks, Capital Goods, etc.)
+- Extract ALL stocks from the data
 
-COLUMNS IN ORDER:
-Code, Company Name, Closing Price, Price Change %, Turnover, Earnings (4QT), EPS, PE, NAVPS, PBV, ROE %, DPS, DY %
+FIELD MAPPING (use these exact names):
+- code: Stock code (e.g., "ABL.N0000")
+- company_name: Full company name
+- sector: Sector name from headers (Banks, Capital Goods, etc.)
+- closing_price: MKT. PRICE / Market Price / Closing Price
+- price_change_pct: Price Change % (null if not available)
+- turnover: Turnover value (null if not available)
+- earnings_4qt: Latest 4QT Earnings (null if not available)
+- eps: EPS / TRAILING EPS / Latest EPS
+- pe: PE / PER
+- navps: NAVPS / BV
+- pbv: PBV
+- roe_pct: ROE / RoE percentage
+- dps: DPS / TTM DPS / Latest DPS
+- dy_pct: DY / D/Y percentage
 
-OUTPUT FORMAT - Return ONLY valid JSON with ALL fields:
-{"stocks": [{"code": "XXX.N0000", "company_name": "Name", "sector": "Sector", "closing_price": 0.0, "price_change_pct": 0.0, "turnover": 0.0, "earnings_4qt": 0.0, "eps": 0.0, "pe": 0.0, "navps": 0.0, "pbv": 0.0, "roe_pct": 0.0, "dps": 0.0, "dy_pct": 0.0}]}
+OUTPUT FORMAT - Return ONLY valid JSON:
+{"stocks": [{"code": "XXX.N0000", "company_name": "Name", "sector": "Sector", "closing_price": 0.0, "price_change_pct": null, "turnover": null, "earnings_4qt": null, "eps": 0.0, "pe": 0.0, "navps": 0.0, "pbv": 0.0, "roe_pct": 0.0, "dps": 0.0, "dy_pct": 0.0}]}
 
 INPUT:
 {text}
